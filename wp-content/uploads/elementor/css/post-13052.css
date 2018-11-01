@@ -1,0 +1,300 @@
+/* Start custom CSS for page-settings */.single-stand_alone_page.postid-13052{
+    overflow-x: hidden;
+}
+
+.single-stand_alone_page.postid-13052 section .container{
+    padding: 0;
+    max-width: 100%;
+}
+
+.single-stand_alone_page.postid-13052 .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 100%;
+}
+
+.single-stand_alone_page.postid-13052 .container-custom{
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.single-stand_alone_page.postid-13052 .container-custom-b{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.single-stand_alone_page.postid-13052  #footer {
+    margin-top: 20px;
+}
+
+.single-stand_alone_page.postid-13052 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 0;
+}
+
+.single-stand_alone_page.postid-13052 .no-padding{
+    padding: 0;
+}
+
+.single-stand_alone_page.postid-13052 .no-margin{
+    margin: 0;
+}
+
+.single-stand_alone_page.postid-13052 .center{
+    text-align: center;
+}
+
+.single-stand_alone_page.postid-13052 .left{
+    text-align: left;
+}
+
+.single-stand_alone_page.postid-13052 .padding-custom{
+    padding: 5px!important;
+}
+
+/* -------------------------------------------- */
+/* Start of Nav menu */
+
+.postid-13052 .section-page-content{
+    margin-top: 0;
+}
+.postid-13052 #nav-africa .container-fluid{
+    background-color: #ee7d22;
+}
+
+.postid-13052 #nav-africa .navbar-header .collapsed .fa-chevron-down,
+.postid-13052 #nav-africa .navbar-header .fa-chevron-up {
+    display: inline-block;
+    color: #ee7d22;
+    font-size: 25px;
+}
+
+.postid-13052 #nav-africa .navbar-header .collapsed .fa-chevron-up,
+.postid-13052 #nav-africa .navbar-header .fa-chevron-down {
+  display: none;
+}
+
+.postid-13052 #nav-africa i.fa {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.postid-13052 #nav-africa .collapsed ~ .panel-body {
+  padding: 0;
+}
+
+.postid-13052 #nav-africa .navbar{
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.postid-13052 #nav-africa  .navbar-inverse .navbar-nav{
+    width: 100%;
+}
+
+.postid-13052 #nav-africa  .navbar-inverse .navbar-nav>li{
+    width: 16.66%;
+}
+
+.postid-13052 #nav-africa  .navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.postid-13052 #nav-africa .navbar-inverse{
+    background-color: transparent;
+}
+
+.postid-13052 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    border-bottom: #fff 2px solid;
+    background: transparent;
+}
+
+@media screen and (max-width: 1024px){
+    .postid-13052 #nav-africa .container-fluid{
+        background-color: transparent;
+        padding-bottom:10px;
+        border-top: 1px solid #ddd7d1;
+    }
+    
+    .postid-13052 #nav-africa .container-custom{
+        border: 2px solid #ee7d22;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .postid-13052 #nav-africa .navbar-inverse .navbar-toggle {
+        border: none;
+    }
+    
+    .postid-13052 #nav-africa .navbar-inverse .navbar-toggle:focus, 
+    .postid-13052 #nav-africa .navbar-inverse .navbar-toggle:hover{
+        background: transparent;
+        border: none;
+    }
+    
+    .postid-13052 #nav-africa .navbar-header {
+        float: none;
+    }
+    .postid-13052 #nav-africa .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .postid-13052 #nav-africa .navbar-toggle {
+        display: block;
+    }
+    .postid-13052 #nav-africa .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .postid-13052 #nav-africa .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .postid-13052 #nav-africa .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .postid-13052 #nav-africa .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    
+    .postid-13052 #nav-africa .navbar-nav>li {
+        float: none;
+        width: 100%!important;
+        text-align: left!important;
+    }
+    .postid-13052 #nav-africa .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#ee7d22!important;
+        text-align: left!important;
+    }
+    .postid-13052 #nav-africa .collapse.in{
+        display:block !important;
+        border-top: 2px solid #ee7d22;
+    }
+    .postid-13052  #nav-africa .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+    .postid-13052  #nav-africa .navbar-inverse .navbar-nav>.active>a:hover{
+        border-bottom:none;
+        background: transparent;
+    }
+}
+/* -------------------------------------------- */
+/* End of CSS Nav menu */
+
+
+/* -------------------------------------------- */
+/* Start of CSS Banner */
+.postid-13052 .banner-africa{
+    position: relative;    
+}
+
+.postid-13052 .banner-africa .container-fluid{
+    background-image: url('../../2018/05/Africa-image.jpeg');
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+
+/* -------------------------------------------- */
+/* End of CSS Nav menu */
+
+.postid-13052 .content-africa{
+    padding: 40px 0 40px;
+}
+
+.postid-13052 .content-africa .section-title{
+    margin: 0 0 20px;
+    position: relative;
+    padding-bottom: 10px;
+    color: #dbc89e;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.postid-13052 .content-africa .section-title:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #dbc89e;
+}
+
+.postid-13052 .content-africa p{
+    font-size: 14px;
+    color: #837970;
+    line-height: 1.6;
+    font-weight: 300;
+    max-width: 100%;
+}
+
+@media screen and (min-width:1024px){
+   .postid-13052 .content-africa .section-title {
+        margin: 0 0 30px;
+        font-size: 45px;
+    }
+    .postid-13052 .content-africa p{
+        font-size: 22px;
+        color: #837970;
+        line-height: 1.6;
+        font-weight: 300;
+        
+    }
+}
+
+
+.postid-13052 .content-bottom{
+    padding-bottom: 40px;
+}
+
+.postid-13052 .content-bottom ul{
+    display: block;
+    margin: 0;
+    padding:0
+}
+
+
+.postid-13052 .content-bottom ul li{
+    display: inline-block;
+}
+
+.postid-13052 .content-bottom ul li a{
+    color: #a9dbda;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 0 20px;
+}
+
+.postid-13052 .content-bottom ul li:first-child a{
+    border-right: 1px solid #3e3d3c;
+    padding-left: 0;    
+}
+
+@media screen and (min-width:1024px){
+   .postid-13052 .content-bottom ul li a{
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .postid-13052 .content-bottom ul li{
+        display: block;
+        padding:5px 0;
+    }
+    .postid-13052 .content-bottom ul li a{
+        padding: 0;
+    }
+    .postid-13052 .content-bottom ul li:first-child a{
+        border-right: none;
+    }
+}/* End custom CSS */

@@ -1,0 +1,52 @@
+.elementor-7319 .elementor-element.elementor-element-d92f8b4 a.elementor-button, .elementor-7319 .elementor-element.elementor-element-d92f8b4 .elementor-button{font-family:"Arial", Sans-serif;font-size:19px;font-weight:normal;background-color:#f16742;}.elementor-7319 .elementor-element.elementor-element-d92f8b4 .elementor-button{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-7319 .elementor-element.elementor-element-d92f8b4 > .elementor-widget-container{padding:15px 0px 0px 0px;}.elementor-7319 .elementor-element.elementor-element-15a16a1{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-7319 .elementor-element.elementor-element-15a16a1 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-7319 .elementor-element.elementor-element-ac52a3a a.elementor-button, .elementor-7319 .elementor-element.elementor-element-ac52a3a .elementor-button{font-family:"Arial", Sans-serif;font-size:19px;font-weight:normal;background-color:#f16742;}.elementor-7319 .elementor-element.elementor-element-ac52a3a .elementor-button{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);}.elementor-7319 .elementor-element.elementor-element-ac52a3a > .elementor-widget-container{padding:15px 0px 0px 0px;}.elementor-7319 .elementor-element.elementor-element-0c7b077 .elementor-spacer-inner{height:50px;}@media(min-width:768px){.elementor-7319 .elementor-element.elementor-element-5f37384{width:28.378%;}.elementor-7319 .elementor-element.elementor-element-d14b6be{width:50.473%;}.elementor-7319 .elementor-element.elementor-element-352d316{width:21.148%;}}/* Start custom CSS for page-settings */@media screen and (max-width:1024px) and (min-width:769px){
+    /* Contact Us */
+    .elementor-7319 .elementor-element.elementor-element-352d316 {
+        width: 100%;
+    }
+    .elementor-7319 .elementor-element.elementor-element-d14b6be {
+        width: 71.622%;
+    }
+    .elementor-7319 .elementor-element.elementor-element-d92f8b4 > .elementor-widget-container{
+        padding: 0;
+        text-align: center;
+    }
+    /* Thank you */
+    .elementor-7368 .elementor-element.elementor-element-4a76c820{
+        width: 100%;
+    }
+    .elementor-7368 .elementor-element.elementor-element-4d89216a{
+        width: 71.622%;
+    }
+    .elementor-7368 .elementor-element.elementor-element-63b16ba8 > .elementor-widget-container{
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1170px) and (min-width:1025px){
+    .elementor-7319 .elementor-element.elementor-element-352d316 {
+        width: 35%;
+    }
+    .elementor-7368 .elementor-element.elementor-element-4a76c820{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:1561px) and (min-width:1025px){
+    .elementor-button.elementor-size-xl{
+        padding: 30px 15px;
+    }
+    .elementor-7368 .elementor-element.elementor-element-63b16ba8 .elementor-button{
+        padding: 30px 15px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .elementor-hidden-desktop{
+        display: block!important;
+    }
+    .elementor-hidden-phone{
+        display: none!important;
+    }
+}/* End custom CSS */

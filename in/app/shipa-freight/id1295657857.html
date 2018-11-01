@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="en-gb" prefix="og: http://ogp.me/ns#"  lang="en-gb" xml:lang="en-gb">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+<meta name="web-experience-app/config/environment" content="%7B%22appVersion%22%3A1%2C%22modulePrefix%22%3A%22web-experience-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22history-hash-router-scroll%22%2C%22historySupportMiddleware%22%3Atrue%2C%22contentSecurityPolicyMeta%22%3Atrue%2C%22contentSecurityPolicy%22%3A%7B%22default-src%22%3A%5B%22'none'%22%5D%2C%22img-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%2C%22*.apple.com%22%2C%22data%3A%22%5D%2C%22style-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22*.apple.com%22%5D%2C%22font-src%22%3A%5B%22'self'%22%2C%22http%3A%2F%2F*.apple.com%22%2C%22https%3A%2F%2F*.apple.com%22%5D%2C%22media-src%22%3A%5B%22'self'%22%2C%22blob%3A%22%2C%22http%3A%2F%2F*.apple.com%22%2C%22*.apple.com%22%2C%22http%3A%2F%2F*.akamaihd.net%22%2C%22*.akamaihd.net%22%5D%2C%22connect-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22https%3A%2F%2F*.mzstatic.com%22%2C%22*.mzstatic.com%22%5D%2C%22script-src%22%3A%5B%22'self'%22%2C%22'unsafe-inline'%22%2C%22'unsafe-eval'%22%2C%22*.apple.com%22%5D%2C%22frame-src%22%3A%5B%22'self'%22%2C%22*.apple.com%22%2C%22itmss%3A%22%2C%22itms-appss%3A%22%2C%22itms-bookss%3A%22%2C%22itms-itunesus%3A%22%2C%22itms-messagess%3A%22%2C%22itms-podcasts%3A%22%2C%22itms-watchs%3A%22%2C%22macappstores%3A%22%2C%22musics%3A%22%2C%22apple-musics%3A%22%5D%7D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22PROGRESS_BAR_DELAY%22%3A3000%2C%22name%22%3A%22web-experience-app%22%2C%22version%22%3A%221842.14.0%2B63b07cc9%22%7D%2C%22MEDIA_API%22%3A%7B%22teamId%22%3A%22AMPWebPlay%22%2C%22keyId%22%3A%22WebPlayKid%22%2C%22privateKeyPath%22%3A%22ssl%2Fwebplayer.p8%22%2C%22token%22%3A%22eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldlYlBsYXlLaWQifQ.eyJpc3MiOiJBTVBXZWJQbGF5IiwiaWF0IjoxNTQwODMyODc2LCJleHAiOjE1NTYzODQ4NzZ9.cTdIfZ4QeAl9u8pW-PEuUupeK1iwboWCQz8pdTcf1VNv9_43JYHqZt0mrOZ1jGXinV45XPB6stisyoxx0WrIPw%22%7D%2C%22routerScroll%22%3A%7B%22targetElement%22%3A%22%23ember-app%22%7D%2C%22i18n%22%3A%7B%22defaultLocale%22%3A%22en-gb%22%2C%22useDevLoc%22%3Afalse%2C%22pathToLocales%22%3A%22dist%2Flocales%22%7D%2C%22moment%22%3A%7B%22includeLocales%22%3Atrue%2C%22includeTimezone%22%3A%22subset%22%7D%2C%22browserify%22%3A%7B%22transform%22%3A%5B%5B%22babelify%22%2C%7B%22presets%22%3A%5B%22env%22%5D%2C%22global%22%3Atrue%2C%22only%22%3A%7B%7D%7D%5D%5D%7D%2C%22API%22%3A%7B%22MZStore%22%3A%22https%3A%2F%2Fitunes.apple.com%22%2C%22UTSHost%22%3A%22https%3A%2F%2Ftv.apple.com%2Fapi%2Futs%2Fpreview%22%2C%22StorePlatform%22%3A%22https%3A%2F%2Fuclient-api.itunes.apple.com%2FWebObjects%2FMZStorePlatform.woa%2Fwa%22%2C%22globalElementsPath%22%3A%22%2Fglobal-elements%22%2C%22videoLocalizationPath%22%3A%22%2Fglobal%2Fac_media_player%2Fscripts%2Fac_media_languages%2F%22%2C%22appleTvDomain%22%3A%22tv.apple.com%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%7B%7D%5D%7D%2C%22ember-a11y-testing%22%3A%7B%22componentOptions%22%3A%7B%22turnAuditOff%22%3Atrue%2C%22axeOptions%22%3A%7B%22rules%22%3A%7B%22color-contrast%22%3A%7B%22enabled%22%3Afalse%7D%7D%7D%7D%7D%2C%22METRICS%22%3A%7B%22isEnabled%22%3Atrue%2C%22autoTrackingEnabled%22%3Atrue%2C%22topic%22%3A%22xp_amp_web_exp%22%2C%22appName%22%3A%22web-experience-app%22%2C%22metricsUrl%22%3A%22https%3A%2F%2Fxp.apple.com%2Freport%22%2C%22compoundSeparator%22%3A%22_%22%7D%2C%22assetHost%22%3A%22https%3A%2F%2Fweb-experience.itunes.apple.com%22%2C%22contentSecurityPolicyHeader%22%3A%22Content-Security-Policy-Report-Only%22%2C%22emberData%22%3A%7B%22enableRecordDataRFCBuild%22%3Afalse%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' http://*.mzstatic.com *.mzstatic.com *.apple.com data:; style-src 'self' 'unsafe-inline' *.apple.com; font-src 'self' http://*.apple.com https://*.apple.com; media-src 'self' blob: http://*.apple.com *.apple.com http://*.akamaihd.net *.akamaihd.net; connect-src 'self' *.apple.com https://*.mzstatic.com *.mzstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.apple.com; frame-src 'self' *.apple.com itmss: itms-appss: itms-bookss: itms-itunesus: itms-messagess: itms-podcasts: itms-watchs: macappstores: musics: apple-musics:; ">
+<!-- EMBER_CLI_FASTBOOT_TITLE --><link rel="stylesheet" href="//www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" name="fonts">  <meta name="ember-cli-head-start" content><title>‎ShipA Freight on the App Store</title>
+<link rel="canonical" href="https://itunes.apple.com/in/app/shipa-freight/id1295657857?mt=8">
+<link rel="manifest" href="https://apps.mzstatic.com/content/static-config/android/manifest.json">
+  <meta name="description" content="‎Read reviews, compare customer ratings, see screenshots and learn more about ShipA Freight. Download ShipA Freight and enjoy it on your iPhone, iPad and iPod touch." id="ember11536086" class="ember-view">
+
+  <meta name="keywords" content="ShipA Freight, Agility Logistics Corp, Business, Productivity, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes" id="ember11536088" class="ember-view">
+
+  <meta property="og:title" content="‎ShipA Freight" id="ember11536090" class="ember-view">
+
+  <meta property="og:description" content="‎The ShipA Freight app makes it easy to get air and ocean freight quotes and track your shipments on the go. ShipA Freight is powered by Agility, a global freight forwarder offering air, ocean and road freight; warehousing and distribution; and specialized services in project logistics, chemical logi…" id="ember11536092" class="ember-view">
+
+  <meta property="og:site_name" content="App Store" id="ember11536094" class="ember-view">
+
+  <meta property="og:url" content="https://itunes.apple.com/in/app/shipa-freight/id1295657857?mt=8" id="ember11536096" class="ember-view">
+
+  <meta property="og:image" content="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/1200x630wa.png" id="ember11536098" class="ember-view">
+
+  <meta property="og:image:alt" content="ShipA Freight on the App Store" id="ember11536100" class="ember-view">
+
+  <meta property="og:image:secure_url" content="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/1200x630wa.png" id="ember11536102" class="ember-view">
+
+  <meta property="og:image:type" content="image/png" id="ember11536104" class="ember-view">
+
+  <meta property="og:image:width" content="1200" id="ember11536106" class="ember-view">
+
+  <meta property="og:image:height" content="630" id="ember11536108" class="ember-view">
+
+  <meta property="og:type" content="website" id="ember11536110" class="ember-view">
+
+  <meta property="og:locale" content="en_GB" id="ember11536112" class="ember-view">
+
+  <meta property="al:ios:url" content="https://itunes.apple.com/in/app/shipa-freight/id1295657857?mt=8" id="ember11536114" class="ember-view">
+
+  <meta property="al:ios:app_store_id" content="116556461780510" id="ember11536116" class="ember-view">
+
+  <meta property="al:ios:app_name" content="App Store" id="ember11536118" class="ember-view">
+
+  <meta property="fb:app_id" content="116556461780510" id="ember11536120" class="ember-view">
+
+  <meta name="twitter:title" content="‎ShipA Freight" id="ember11536122" class="ember-view">
+
+  <meta name="twitter:description" content="‎The ShipA Freight app makes it easy to get air and ocean freight quotes and track your shipments on the go. ShipA Freight is powered by Agility, a global freight forwarder offering air, ocean and road freight; warehousing and distribution; and specialized services in project logistics, chemical logi…" id="ember11536124" class="ember-view">
+
+  <meta name="twitter:site" content="@AppStore" id="ember11536126" class="ember-view">
+
+  <meta name="twitter:domain" content="AppStore" id="ember11536128" class="ember-view">
+
+  <meta name="twitter:image" content="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/600x600wa.png" id="ember11536130" class="ember-view">
+
+  <meta name="twitter:image:alt" content="ShipA Freight on the App Store" id="ember11536132" class="ember-view">
+
+  <meta name="twitter:card" content="summary_large_image" id="ember11536134" class="ember-view">
+
+  <script name="schema:software-application" id="ember11536136" class="ember-view" type="application/ld+json">{"@context":"http://schema.org","@type":"SoftwareApplication","name":"ShipA Freight","description":"The ShipA Freight app makes it easy to get air and ocean freight quotes and track your shipments on the go. ShipA Freight is powered by Agility, a global freight forwarder offering air, ocean and road freight; warehousing and distribution; and specialized services in project logistics, chemical logistics and fairs &amp; events. With our global network of logistics experts and industry-leading technology, we ensure that your goods arrive safely and reliably every time.","screenshot":["https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/300x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/300x0w.jpg","https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/300x0w.jpg","https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/300x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/300x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/30/6d/58/306d5882-4e42-001d-b918-42dad9fd3e68/pr_source.png/643x0w.jpg","https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/9d/a8/4f/9da84f61-2ca1-83a9-55fe-68acb25a17eb/pr_source.png/643x0w.jpg","https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/6e/34/aa/6e34aa07-95d7-3961-fc41-98d3a1a6c11c/pr_source.png/643x0w.jpg","https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/13/67/6b/13676b55-37e3-a37a-1089-2dacb1154cfd/pr_source.png/643x0w.jpg","https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/8f/2f/298f2f1a-8ef4-4412-f2a9-e968a2d53120/pr_source.png/643x0w.jpg"],"image":"https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/1200x630wa.png","applicationCategory":"Business","datePublished":"2017-10-16","operatingSystem":"Requires iOS 10.0 or later. Compatible with iPhone, iPad and iPod touch.","author":{"@type":"Person","name":"Agility Logistics Corp","url":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8"},"offers":{"@type":"Offer","category":"free","price":0,"priceCurrency":"INR"}}
+</script>
+  <meta name="apple:content_id" content="1295657857" id="ember11536138" class="ember-view">
+
+
+<meta name="ember-cli-head-end" content>
+
+    <meta name="version" content="1842.14.0">
+
+    <link integrity="" rel="stylesheet" href="https://web-experience.itunes.apple.com/assets/web-experience-app-4817f81cebefc29a7182f78bbb439fdf.css">
+
+    
+  </head>
+  <body class="no-js">
+    <script type="x/boundary" id="fastboot-body-start"></script><link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalnav/3/en_IN/styles/ac-globalnav.built.css">
+<aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-IN" dir="ltr" data-strings="{ &apos;exit&apos;: &apos;Exit&apos;, &apos;view&apos;: &apos;{%STOREFRONT%} Store Home&apos;, &apos;segments&apos;: { &apos;smb&apos;: &apos;&apos;, &apos;eduInd&apos;: &apos;&apos;, &apos;other&apos;: &apos;Store Home&apos; } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate">
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global Navigation" data-hires="false" data-analytics-region="global nav" lang="en-IN" dir="ltr" data-store-locale="" data-store-api="//www.apple.com/[storefront]/shop/bag/status" data-search-locale="en_IN" data-search-api="//www.apple.com/search-services/suggestions/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Open Menu</span>
+				</a>
+				<a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Close Menu</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/in/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/in/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="//www.apple.com/in/mac/" data-analytics-title="mac">
+					<span class="ac-gn-link-text">Mac</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="//www.apple.com/in/ipad/" data-analytics-title="ipad">
+					<span class="ac-gn-link-text">iPad</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="//www.apple.com/in/iphone/" data-analytics-title="iphone">
+					<span class="ac-gn-link-text">iPhone</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="//www.apple.com/in/watch/" data-analytics-title="watch">
+					<span class="ac-gn-link-text">Watch</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="//www.apple.com/in/apple-tv-4k/" data-analytics-title="tv">
+					<span class="ac-gn-link-text">TV</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="//www.apple.com/in/music/" data-analytics-title="music">
+					<span class="ac-gn-link-text">Music</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com/en-in" data-analytics-title="support">
+					<span class="ac-gn-link-text">Support</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-buy">
+				<a class="ac-gn-link ac-gn-link-buy" href="//www.apple.com/in/buy/" data-analytics-title="buy">
+					<span class="ac-gn-link-text">Where to Buy</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a class="ac-gn-link ac-gn-link-search" href="//www.apple.com/in/search" data-analytics-title="search" data-analytics-click="search" aria-label="Search apple.com">
+					<span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com</span>
+				</a>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<form id="ac-gn-searchform" class="ac-gn-searchform" action="//www.apple.com/in/search" method="get">
+					<div class="ac-gn-searchform-wrapper">
+						<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false">
+						<input id="ac-gn-searchform-src" type="hidden" name="src" value="itunes_serp">
+						<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit"></button>
+						<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search"></button>
+					</div>
+				</form>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults=""></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+	</div>
+</nav>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+<script type="text/javascript" src="https://www.apple.com/ac/globalnav/3/en_IN/scripts/ac-globalnav.built.js" async></script>
+<div class="ember-view" id="ember11536082"><!---->
+
+<main class="is-app-theme">
+  <style id="ember11536139" class="ember-view"><!----></style>
+  <!---->
+  <div id="ember11536140" class="focusing-outlet ember-view"><div id="ember11536141" class="ember-view"><div id="ember11536142" class="focusing-outlet ember-view"><div id="ember11536143" class="ember-view">
+  <input id="localnav-menustate" class="localnav-menustate" type="checkbox">
+<nav id="localnav" class="we-localnav localnav" role="navigation" data-sticky>
+  <div class="localnav-wrapper">
+    <div class="localnav-background we-localnav__background"></div>
+    <div class="localnav-content">
+      <div class="localnav-title we-localnav__title">
+        <a><span class="we-localnav__title__product" data-test-we-localnav-store-title>App Store</span> <span class="we-localnav__title__qualifier" data-test-we-localnav-preview-title>Preview</span></a>
+      </div>
+      <div class="localnav-menu we-localnav__menu we-localnav__menu--app">
+        <div class="localnav-actions we-localnav__actions">
+            <div class="localnav-action localnav-action-button we-localnav__action">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<label id="localnav-curtain" for="localnav-menustate"></label>
+
+
+
+<div id="ember11536146" class="animation-wrapper is-visible ember-view">
+    <div id="ember11536147" style="display: none;" class="ember-view"><div class="l-content-width we-banner" role="alert">
+    <p class="we-banner__copy">This app is only available on the App Store for iOS devices.</p>
+</div>
+</div>
+  <section class="l-content-width section section--hero product-hero">
+    <div class="l-row">
+      <div class="product-hero__media l-column small-5 medium-4 large-3 small-valign-top">
+          <picture id="ember11536148" class="product-hero__artwork we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/230x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/460x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/690x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/217x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/434x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/651x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/246x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/492x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/738x0w.jpg 3x">
+        <img class="we-artwork__image ember11536148" src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/246x0w.jpg" style="background-color: #ffffff;" alt height="246" width="246">
+
+  <style>
+    .ember11536148, #ember11536148::before {
+          width: 246px;
+          height: 246px;
+        }
+        .ember11536148::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536148, #ember11536148::before {
+          width: 217px;
+          height: 217px;
+        }
+        .ember11536148::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536148, #ember11536148::before {
+          width: 230px;
+          height: 230px;
+        }
+        .ember11536148::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+      </div>
+
+      <div class="l-column small-7 medium-8 large-9 small-valign-top">
+        <header class="product-header app-header product-header--padded-start" role="banner">
+          <h1 class="product-header__title app-header__title">
+            ShipA Freight
+              <span class="badge badge--product-title">4+</span>
+          </h1>
+<!---->          <h2 class="product-header__identity app-header__identity">
+            <a class="link" href="https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8">Agility Logistics Corp</a>
+          </h2>
+          <ul class="product-header__list app-header__list">
+<!----><!---->          </ul>
+          <ul class="product-header__list app-header__list">
+<!---->            <li class="product-header__list__item">
+              <ul class="inline-list inline-list--mobile-compact">
+                <li class="inline-list__item inline-list__item--bulleted">Free</li>
+<!---->              </ul>
+            </li>
+<!----><!---->          </ul>
+<!----><!---->        </header>
+      </div>
+    </div>
+  </section>
+
+<!---->
+      <section class="l-content-width section section--bordered">
+      <div class="section__nav section__nav--align-start">
+        <h2 class="section__headline">Screenshots</h2>
+        <nav class="gallery-nav">
+          <ul class="gallery-nav__items">
+              <li class="gallery-nav__item">
+<a href="/in/app/shipa-freight/id1295657857#?platform=iphone" id="ember11536153" class="link link--no-decoration is-active ember-view">                  iPhone
+</a>              </li>
+              <li class="gallery-nav__item">
+<a href="/in/app/shipa-freight/id1295657857#?platform=ipad" id="ember11536154" class="link link--no-decoration ember-view">                  iPad
+</a>              </li>
+          </ul>
+        </nav>
+      </div>
+    <div id="ember11536155" class="we-screenshot-viewer ember-view"><div class="we-screenshot-viewer__screenshots">
+  <ul class="l-row l-row--peek">
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember11536157" class="we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/230x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/460x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/690x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/158x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/316x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/300x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/600x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/900x0w.jpg 3x">
+        <img class="we-artwork__image ember11536157" src="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/300x0w.jpg" style="background-color: #ffffff;" alt height="533" width="300">
+
+  <style>
+    .ember11536157, #ember11536157::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember11536157::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 736px) {
+          .ember11536157, #ember11536157::before {
+          width: 158px;
+          height: 280px;
+        }
+        .ember11536157::before {
+          padding-top: 177.2151898734177%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536157, #ember11536157::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember11536157::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember11536162" class="we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/230x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/460x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/690x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/158x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/316x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/300x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/600x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/900x0w.jpg 3x">
+        <img class="we-artwork__image ember11536162" src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/300x0w.jpg" style="background-color: #ffffff;" alt height="533" width="300">
+
+  <style>
+    .ember11536162, #ember11536162::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember11536162::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 736px) {
+          .ember11536162, #ember11536162::before {
+          width: 158px;
+          height: 280px;
+        }
+        .ember11536162::before {
+          padding-top: 177.2151898734177%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536162, #ember11536162::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember11536162::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember11536167" class="we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/230x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/460x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/690x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/158x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/316x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/300x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/600x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/900x0w.jpg 3x">
+        <img class="we-artwork__image ember11536167" src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/300x0w.jpg" style="background-color: #ffffff;" alt height="533" width="300">
+
+  <style>
+    .ember11536167, #ember11536167::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember11536167::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 736px) {
+          .ember11536167, #ember11536167::before {
+          width: 158px;
+          height: 280px;
+        }
+        .ember11536167::before {
+          padding-top: 177.2151898734177%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536167, #ember11536167::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember11536167::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember11536172" class="we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/230x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/460x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/690x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/158x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/316x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/300x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/600x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/900x0w.jpg 3x">
+        <img class="we-artwork__image ember11536172" src="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/300x0w.jpg" style="background-color: #ffffff;" alt height="533" width="300">
+
+  <style>
+    .ember11536172, #ember11536172::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember11536172::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 736px) {
+          .ember11536172, #ember11536172::before {
+          width: 158px;
+          height: 280px;
+        }
+        .ember11536172::before {
+          padding-top: 177.2151898734177%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536172, #ember11536172::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember11536172::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+        <li class="l-column small-2 medium-3 large-3">
+          <picture id="ember11536177" class="we-artwork--fullwidth we-artwork--screenshot-platform-iphone we-artwork--screenshot-version-iphone6plus we-artwork--screenshot-orientation-portrait we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/230x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/460x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/690x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/158x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/316x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/300x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/600x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/900x0w.jpg 3x">
+        <img class="we-artwork__image ember11536177" src="https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/300x0w.jpg" style="background-color: #ffffff;" alt height="533" width="300">
+
+  <style>
+    .ember11536177, #ember11536177::before {
+          width: 300px;
+          height: 533px;
+        }
+        .ember11536177::before {
+          padding-top: 177.66666666666666%;
+        }
+@media (min-width: 736px) {
+          .ember11536177, #ember11536177::before {
+          width: 158px;
+          height: 280px;
+        }
+        .ember11536177::before {
+          padding-top: 177.2151898734177%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536177, #ember11536177::before {
+          width: 230px;
+          height: 408px;
+        }
+        .ember11536177::before {
+          padding-top: 177.3913043478261%;
+        }
+        }
+  </style>
+</picture>
+        </li>
+  </ul>
+<!----></div>
+</div>
+  </section>
+
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__description">
+        <h2 class="section__headline">Description</h2>
+        <p aria-label="The ShipA Freight app makes it easy to get air and ocean freight quotes and track your shipments on the go. ShipA Freight is powered by Agility, a global freight forwarder offering air, ocean and road freight; warehousing and distribution; and specialized services in project logistics, chemical logistics and fairs &amp; events. With our global network of logistics experts and industry-leading technology, we ensure that your goods arrive safely and reliably every time." id="ember11536181" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember11536182" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      The ShipA Freight app makes it easy to get air and ocean freight quotes and track your shipments on the go. ShipA Freight is powered by Agility, a global freight forwarder offering air, ocean and road freight; warehousing and distribution; and specialized services in project logistics, chemical logistics and fairs &amp; events. With our global network of logistics experts and industry-leading technology, we ensure that your goods arrive safely and reliably every time.
+    
+</span>
+</span>
+  </span>
+<!----></p>
+      </div>
+    </section>
+
+    <section class="l-content-width section section--bordered whats-new">
+      <div class="section__nav section__nav--small">
+        <h2 class="whats-new__headline">What's New</h2>
+<div id="ember11536183" class="version-history ember-view">  <button class="we-modal__show link" id="modal-trigger-ember11536183">Version History</button>
+<div class="we-modal we-modal--page-overlay " role="dialog" aria-hidden="true" aria-labelledby="modal-trigger-ember11536183">
+  <div class="we-modal__content large-10 medium-12" id="modal-content-ember11536183" role="document" tabindex="0">
+    <div class="we-modal__content__wrapper">
+                  <h3 class="version-history__headline">Version History</h3>
+            <ul class="version-history__items">
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">4.2</h4>
+                  <time data-test-we-datetime datetime="30 Oct 2018" aria-label="30 October 2018" class="version-history__item__release-date" >30 Oct 2018</time>
+                  <div title="- Bug fixes." id="ember11536186" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536187" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">4.1</h4>
+                  <time data-test-we-datetime datetime="19 Oct 2018" aria-label="19 October 2018" class="version-history__item__release-date" >19 Oct 2018</time>
+                  <div title="- Bug fixes." id="ember11536189" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536190" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">4.0</h4>
+                  <time data-test-we-datetime datetime="3 Oct 2018" aria-label="3 October 2018" class="version-history__item__release-date" >3 Oct 2018</time>
+                  <div title="- Payment Integration. - Fapiao enhancement for china users. - Bug fixes. - UI Changes (Get Instance Quote)." id="ember11536192" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536193" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Payment Integration.<br />- Fapiao enhancement for china users.<br />- Bug fixes.<br />- UI Changes (Get Instance Quote).
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">3.5</h4>
+                  <time data-test-we-datetime datetime="29 Aug 2018" aria-label="29 August 2018" class="version-history__item__release-date" >29 Aug 2018</time>
+                  <div title="- Prohibit Intra-region quote requests. - Zip code validation based on province. - Require user to provide MSDS certificate if asking for a DG quote. - Prevent customers from applying for business credit if country setup doesn't allow. - Used Google taxonomy, allow free text entry and disable string matching verification for cargo description. - Enhancements and bug fixes." id="ember11536195" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536196" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Prohibit Intra-region quote requests.<br />- Zip code validation based on province.<br />- Require user to provide MSDS certificate if asking for a DG quote.<br />- Prevent customers from applying for business credit if country setup doesn&#39;t allow.<br />- Used Google taxonomy, allow free text entry and disable string matching verification for cargo description.<br />- Enhancements and bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">3.4</h4>
+                  <time data-test-we-datetime datetime="7 Aug 2018" aria-label="7 August 2018" class="version-history__item__release-date" >7 Aug 2018</time>
+                  <div title="- Bug fixes." id="ember11536198" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536199" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">3.3</h4>
+                  <time data-test-we-datetime datetime="1 Aug 2018" aria-label="1 August 2018" class="version-history__item__release-date" >1 Aug 2018</time>
+                  <div title="- Make filling out the user profile simpler and more flexible. - Customer support module(Enhancements). - Fapio Handling for China users. - Regenerate quote that's expired from the booking page. - Enhancements and bug fixes." id="ember11536201" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536202" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Make filling out the user profile simpler and more flexible.<br />- Customer support module(Enhancements).<br />- Fapio Handling for China users.<br />- Regenerate quote that&#39;s expired from the booking page.<br />- Enhancements and bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">3.2</h4>
+                  <time data-test-we-datetime datetime="20 Jul 2018" aria-label="20 July 2018" class="version-history__item__release-date" >20 Jul 2018</time>
+                  <div title="- Bug fixes." id="ember11536204" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536205" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">3.1</h4>
+                  <time data-test-we-datetime datetime="19 Jul 2018" aria-label="19 July 2018" class="version-history__item__release-date" >19 Jul 2018</time>
+                  <div title="· Bug fixes." id="ember11536207" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536208" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      · Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">3.0</h4>
+                  <time data-test-we-datetime datetime="3 Jul 2018" aria-label="3 July 2018" class="version-history__item__release-date" >3 Jul 2018</time>
+                  <div title="·Added Knowledge Series. ·Allowed customer to request additional credit. ·Differentiate LCL and FCL port lists for p2p, d2p, p2d shipments. ·Added documents collaborate functionality. ·Included zip code validation." id="ember11536210" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536211" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      ·Added Knowledge Series.<br />·Allowed customer to request additional credit.<br />·Differentiate LCL and FCL port lists for p2p, d2p, p2d shipments.<br />·Added documents collaborate functionality.<br />·Included zip code validation.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.5</h4>
+                  <time data-test-we-datetime datetime="10 May 2018" aria-label="10 May 2018" class="version-history__item__release-date" >10 May 2018</time>
+                  <div title="• Added support for Cancelling/Refund job. • Improvements currency formats as per MDM structure. • Enhancements &amp; Bug Fixes." id="ember11536213" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536214" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      • Added support for Cancelling/Refund job.<br />• Improvements currency formats as per MDM structure.<br />• Enhancements &amp; Bug Fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.4.1</h4>
+                  <time data-test-we-datetime datetime="27 Apr 2018" aria-label="27 April 2018" class="version-history__item__release-date" >27 Apr 2018</time>
+                  <div title="- Bug fixes." id="ember11536216" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536217" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.4</h4>
+                  <time data-test-we-datetime datetime="15 Apr 2018" aria-label="15 April 2018" class="version-history__item__release-date" >15 Apr 2018</time>
+                  <div title="Added New Features - Offers: Now You can view new offers from Shipa Freight &amp; create Quotes from them. - Notifications: Get instant notifications about your shipments on the go. - Contact Us: You can contact Shipa Freight team right from our mobile app &amp; request for support. - Parties: A feature where you can add your parties &amp; their addresses to access the easily while booking shipments. - Support: Now you can raise support request tickets &amp; resolve them from your mobile app." id="ember11536219" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536220" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Added New Features<br />- Offers: Now You can view new offers from Shipa Freight &amp; create Quotes from them.<br />- Notifications: Get instant notifications about your shipments on the go.<br />- Contact Us: You can contact Shipa Freight team right from our mobile app &amp; request for support.<br />- Parties: A feature where you can add your parties &amp; their addresses to access the easily while booking shipments.<br />- Support: Now you can raise support request tickets &amp; resolve them from your mobile app.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.3</h4>
+                  <time data-test-we-datetime datetime="22 Mar 2018" aria-label="22 March 2018" class="version-history__item__release-date" >22 Mar 2018</time>
+                  <div title="•Included Parties menu and Help Desk. •Included Offers, Notifications and Contact us. •Bug fixes and Enhancements." id="ember11536222" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536223" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      •Included Parties menu and Help Desk.<br />•Included Offers, Notifications and Contact us.<br />•Bug fixes and Enhancements.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.2</h4>
+                  <time data-test-we-datetime datetime="29 Jan 2018" aria-label="29 January 2018" class="version-history__item__release-date" >29 Jan 2018</time>
+                  <div title="•Upload later and upload multiple documents options are included. •Bug fixes and Enhancements." id="ember11536225" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536226" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      •Upload later and upload multiple documents options are included.<br />•Bug fixes and Enhancements.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.1</h4>
+                  <time data-test-we-datetime datetime="3 Jan 2018" aria-label="3 January 2018" class="version-history__item__release-date" >3 Jan 2018</time>
+                  <div title="Bug fixes." id="ember11536228" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536229" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">2.0</h4>
+                  <time data-test-we-datetime datetime="19 Dec 2017" aria-label="19 December 2017" class="version-history__item__release-date" >19 Dec 2017</time>
+                  <div title="•Job booking included •Bug fixes and enhancements" id="ember11536231" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536232" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      •Job booking included<br />•Bug fixes and enhancements
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">1.5</h4>
+                  <time data-test-we-datetime datetime="29 Nov 2017" aria-label="29 November 2017" class="version-history__item__release-date" >29 Nov 2017</time>
+                  <div title="Bug fixes." id="ember11536234" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536235" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">1.4</h4>
+                  <time data-test-we-datetime datetime="22 Nov 2017" aria-label="22 November 2017" class="version-history__item__release-date" >22 Nov 2017</time>
+                  <div title="Bug fixes." id="ember11536237" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536238" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">1.3</h4>
+                  <time data-test-we-datetime datetime="10 Nov 2017" aria-label="10 November 2017" class="version-history__item__release-date" >10 Nov 2017</time>
+                  <div title="Bug fixes and performance improvements." id="ember11536240" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536241" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Bug fixes and performance improvements.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">1.2</h4>
+                  <time data-test-we-datetime datetime="30 Oct 2017" aria-label="30 October 2017" class="version-history__item__release-date" >30 Oct 2017</time>
+                  <div title="Performance and UI improvements." id="ember11536243" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536244" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Performance and UI improvements.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">1.1</h4>
+                  <time data-test-we-datetime datetime="23 Oct 2017" aria-label="23 October 2017" class="version-history__item__release-date" >23 Oct 2017</time>
+                  <div title="Bug fixes." id="ember11536246" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536247" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+                <li class="version-history__item">
+                  <h4 class="version-history__item__version-number">1.0</h4>
+                  <time data-test-we-datetime datetime="15 Oct 2017" aria-label="15 October 2017" class="version-history__item__release-date" >15 Oct 2017</time>
+                  <div title id="ember11536249" class="version-history__item__release-notes we-truncate we-truncate--multi-line ember-view">  <span class="we-truncate__child">
+    <span id="ember11536250" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      
+    
+</span>
+</span>
+  </span>
+<!----></div>
+                </li>
+            </ul>
+
+    </div>
+
+    <button class="we-modal__close" aria-label="Close"></button>
+  </div>
+
+  <button class="we-modal__close--overlay" tabindex="-1" aria-label="Close"></button>
+</div>
+</div>      </div>
+      <div class="l-row whats-new__content">
+          <div class="l-column small-12 medium-3 large-4 small-valign-top whats-new__latest">
+            <div class="l-row">
+              <time data-test-we-datetime datetime="30 Oct 2018" aria-label="30 October 2018" class="" >30 Oct 2018</time>
+              <p class="l-column small-6 medium-12 whats-new__latest__version">Version 4.2</p>
+            </div>
+          </div>
+        <div class="l-column small-12 medium-9 large-8 small-valign-top">
+          <p aria-label="- Bug fixes." id="ember11536253" class="we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember11536254" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      - Bug fixes.
+    
+</span>
+</span>
+  </span>
+<!----></p>
+        </div>
+      </div>
+    </section>
+
+<!---->
+<!---->
+<!---->
+  <section class="l-content-width section section--bordered">
+    <div class="l-row">
+      <div class="l-column small-12">
+        <h2 class="section__headline">Information</h2>
+        <dl class="information-list information-list--app medium-columns">
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Seller</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">
+              Agility Logistics Corp
+            </dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Size</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6" aria-label="69.5 megabytes">69.5 MB</dd>
+          </div>
+            <div class="information-list__item l-row">
+              <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Category</dt>
+              <dd class="information-list__item__definition l-column medium-9 large-6">
+                  <a href="https://itunes.apple.com/in/genre/id6000" class="link">Business</a>
+              </dd>
+            </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Compatibility</dt>
+            <dd aria-label="Requires iOS 10.0 or later. Compatible with iPhone, iPad and iPod touch." id="ember11536255" class="information-list__item__definition l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember11536256" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Requires iOS 10.0 or later. Compatible with iPhone, iPad and iPod touch.
+    
+</span>
+</span>
+  </span>
+<!----></dd>
+          </div>
+<!---->          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Languages</dt>
+            <dd aria-label="English" id="ember11536257" class="information-list__item__definition l-column medium-9 large-6 we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember11536258" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      English
+    
+</span>
+</span>
+  </span>
+<!----></dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Age Rating</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">Rated 4+</dd>
+          </div>
+<!----><!---->          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Copyright</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">© 2018 Agility</dd>
+          </div>
+          <div class="information-list__item l-row">
+            <dt class="information-list__item__term medium-valign-top l-column medium-3 large-2">Price</dt>
+            <dd class="information-list__item__definition l-column medium-9 large-6">Free</dd>
+          </div>
+<!---->
+        </dl>
+      </div>
+      <div class="l-column small-hide medium-show medium-9 medium-offset-3 large-10 large-offset-2">
+        <ul class="inline-list inline-list--app-extensions">
+            <li class="inline-list__item inline-list__item--margin-inline-end-large">
+              <a class="link icon icon-after icon-external" href="http://www.shipafreight.com">Developer Website</a>
+            </li>
+            <li class="inline-list__item inline-list__item--margin-inline-end-large">
+              <a class="link icon icon-after icon-external" href="http://www.shipafreight.com">App Support</a>
+            </li>
+<!---->            <li class="inline-list__item inline-list__item--margin-inline-end-large">
+              <a class="link icon icon-after icon-external" href="https://www.shipafreight.com/privacy-policy">Privacy Policy</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--link-list l-content-width medium-hide">
+    <ul class="link-list link-list--a">
+        <li class="link-list__item link-list__item--a">
+          <a class="link icon icon-after icon-external" href="http://www.shipafreight.com">Developer Website</a>
+        </li>
+        <li class="link-list__item link-list__item--a">
+          <a class="link icon icon-after icon-external" href="http://www.shipafreight.com">App Support</a>
+        </li>
+<!---->        <li class="link-list__item link-list__item--a">
+          <a class="link icon icon-after icon-external" href="https://www.shipafreight.com/privacy-policy">Privacy Policy</a>
+        </li>
+    </ul>
+  </section>
+
+    <section class="l-content-width section section--bordered">
+      <div class="section__nav">
+        <h2 class="section__headline">Supports</h2>
+      </div>
+      <ul class="supports-list l-row">
+          <li class="supports-list__item l-column l-column--grid small-12 medium-6 large-4">
+            <img src="https://web-experience.itunes.apple.com/assets/images/supports/supports-FamilySharing@2x-f58f31bc78fe9fe7be3565abccbecb34.png" class="supports-list__item__artwork" alt>
+            <div class="supports-list__item__copy">
+              <h3 id="ember11536259" class="supports-list__item__copy__heading we-truncate we-truncate--single-line ember-view">  Family Sharing
+</h3>
+              <h4 aria-label="Up to six family members will be able to use this app with Family Sharing enabled." id="ember11536260" class="supports-list__item__copy__description we-truncate we-truncate--multi-line we-truncate--interactive ember-view">  <span class="we-truncate__child">
+    <span id="ember11536261" class="we-clamp ember-view"><span class="we-clamp__contents">
+  
+      Up to six family members will be able to use this app with Family Sharing enabled.
+    
+</span>
+</span>
+  </span>
+<!----></h4>
+            </div>
+          </li>
+      </ul>
+    </section>
+
+      <section class="l-content-width section section--bordered">
+        <div class="section__nav">
+          <h2 class="section__headline">
+            More By This Developer
+          </h2>
+          <a rel="nofollow" data-we-link-to-exclude href="/in/app/shipa-freight/id1295657857#see-all/more-by-this-developer" id="ember11536262" style="display: none;" class="link section__nav__see-all-link ember-view">See All</a>
+        </div>
+
+        <div class="l-row l-row--peek">
+    
+                <a href="https://itunes.apple.com/in/app/agility-logistics/id473655072?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536266" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536268" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/146x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/292x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/158x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/316x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/200x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/400x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536268" src="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/200x0w.jpg" style="background-color: #ffffff;" alt height="200" width="200">
+
+  <style>
+    .ember11536268, #ember11536268::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536268::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536268, #ember11536268::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536268::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536268, #ember11536268::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536268::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536272" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Agility Logistics
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/agility-delivers/id961093295?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536274" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536276" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/146x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/292x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/158x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/316x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/200x0w.jpg 1x,https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/400x0w.jpg 2x,https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536276" src="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/200x0w.jpg" style="background-color: #f47920;" alt height="200" width="200">
+
+  <style>
+    .ember11536276, #ember11536276::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536276::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536276, #ember11536276::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536276::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536276, #ember11536276::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536276::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536280" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Agility Delivers
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/wesafe/id963169934?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536282" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536284" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/146x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/292x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/158x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/316x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/200x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/400x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536284" src="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/200x0w.jpg" style="background-color: #f47920;" alt height="200" width="200">
+
+  <style>
+    .ember11536284, #ember11536284::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536284::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536284, #ember11536284::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536284::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536284, #ember11536284::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536284::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536288" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  WeSafe
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/agility-take5/id985958531?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536290" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536292" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/146x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/292x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/158x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/316x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/200x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/400x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536292" src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/200x0w.jpg" style="background-color: #ffffff;" alt height="200" width="200">
+
+  <style>
+    .ember11536292, #ember11536292::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536292::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536292, #ember11536292::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536292::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536292, #ember11536292::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536292::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536296" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Agility Take5
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/agility-scan/id1017700754?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536298" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536300" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/146x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/292x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/158x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/316x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/200x0w.jpg 1x,https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/400x0w.jpg 2x,https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536300" src="https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/200x0w.jpg" style="background-color: #981907;" alt height="200" width="200">
+
+  <style>
+    .ember11536300, #ember11536300::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536300::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536300, #ember11536300::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536300::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536300, #ember11536300::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536300::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536304" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Agility Scan
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/agility-bbs/id1094160495?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536306" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536308" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/146x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/292x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/158x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/316x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/200x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/400x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536308" src="https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/200x0w.jpg" style="background-color: #ffffff;" alt height="200" width="200">
+
+  <style>
+    .ember11536308, #ember11536308::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536308::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536308, #ember11536308::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536308::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536308, #ember11536308::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536308::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536312" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Agility BBS
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Productivity</div>
+<!----></a>
+
+
+
+        </div>
+      </section>
+
+      <section class="l-content-width section section--bordered">
+        <div class="section__nav">
+          <h2 class="section__headline">
+            You May Also Like
+          </h2>
+          <a rel="nofollow" data-we-link-to-exclude href="/in/app/shipa-freight/id1295657857#see-all/customers-also-bought-apps" id="ember11536313" style="display: none;" class="link section__nav__see-all-link ember-view">See All</a>
+        </div>
+
+        <div class="l-row l-row--peek">
+    
+                <a href="https://itunes.apple.com/in/app/shipwaves/id1330302734?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536317" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536319" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/146x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/292x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/158x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/316x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/200x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/400x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536319" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/200x0w.jpg" style="background-color: #ffffff;" alt height="200" width="200">
+
+  <style>
+    .ember11536319, #ember11536319::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536319::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536319, #ember11536319::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536319::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536319, #ember11536319::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536319::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536323" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Shipwaves
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/toplink/id549106014?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536325" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536327" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/146x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/292x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/158x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/316x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/200x0w.jpg 1x,https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/400x0w.jpg 2x,https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536327" src="https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/200x0w.jpg" style="background-color: #040707;" alt height="200" width="200">
+
+  <style>
+    .ember11536327, #ember11536327::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536327::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536327, #ember11536327::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536327::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536327, #ember11536327::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536327::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536331" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  TopLink.
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/tradeindia-app/id1049304422?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536333" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536335" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/146x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/292x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/158x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/316x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/200x0w.jpg 1x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/400x0w.jpg 2x,https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536335" src="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/200x0w.jpg" style="background-color: #a61f16;" alt height="200" width="200">
+
+  <style>
+    .ember11536335, #ember11536335::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536335::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536335, #ember11536335::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536335::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536335, #ember11536335::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536335::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536339" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Tradeindia App
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+    
+                <a href="https://itunes.apple.com/in/app/markaba/id1106586837?mt=8" data-test-we-lockup-kind="iosSoftware" id="ember11536341" class="we-lockup targeted-link l-column small-2 medium-3 large-2 ember-view">    <picture id="ember11536343" class="we-lockup__artwork we-artwork--lockup we-artwork--fullwidth we-artwork--ios-app-icon we-artwork ember-view">
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/146x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/292x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/438x0w.jpg 3x" media="(min-width: 1069px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/158x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/316x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/474x0w.jpg 3x" media="(min-width: 736px)">
+<!---->
+
+        <source class="we-artwork__source" srcset="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/200x0w.jpg 1x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/400x0w.jpg 2x,https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/600x0w.jpg 3x">
+        <img class="we-artwork__image ember11536343" src="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/200x0w.jpg" style="background-color: #bc050c;" alt height="200" width="200">
+
+  <style>
+    .ember11536343, #ember11536343::before {
+          width: 200px;
+          height: 200px;
+        }
+        .ember11536343::before {
+          padding-top: 100%;
+        }
+@media (min-width: 736px) {
+          .ember11536343, #ember11536343::before {
+          width: 158px;
+          height: 158px;
+        }
+        .ember11536343::before {
+          padding-top: 100%;
+        }
+        }
+@media (min-width: 1069px) {
+          .ember11536343, #ember11536343::before {
+          width: 146px;
+          height: 146px;
+        }
+        .ember11536343::before {
+          padding-top: 100%;
+        }
+        }
+  </style>
+</picture>
+
+<!---->
+  <div class="we-lockup__title ">
+      <div id="ember11536347" class="we-truncate targeted-link__target we-truncate--single-line ember-view">  Markaba
+</div>
+  </div>
+
+  <div class="truncate-single-line we-lockup__subtitle targeted-link__target">Business</div>
+<!----></a>
+
+
+
+        </div>
+      </section>
+
+
+<!----></div>
+</div></div></div></div>
+  <!---->
+</main>
+</div><footer id="ac-globalfooter" class="no-js" role="contentinfo" lang="en-IN" dir="ltr"><div class="ac-gf-content"><link rel="stylesheet" type="text/css" href="https://www.apple.com/ac/globalfooter/3/en_IN/styles/ac-globalfooter.built.css">
+<section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		Where to buy: <a href="https://locate.apple.com/in/en/">find a retailer</a>.
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="//www.apple.com/choose-your-country/" title="Choose your country or region" aria-label="India. Choose your country or region"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>India</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright &#xA9; 2018 Apple Inc. All rights reserved.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/in/privacy/privacy-policy/">Privacy Policy</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/in/legal/terms/site.html">Terms of Use</a>
+			<a class="ac-gf-footer-legal-link" href="https://www.apple.com/in/legal/">Legal</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/in/sitemap/">Site Map</a>
+		</div>
+	</div>
+</section>
+<script type="text/javascript" src="https://www.apple.com/ac/globalfooter/3/en_IN/scripts/ac-globalfooter.built.js" async></script>
+</div></footer><script type="fastboot/shoebox" id="shoebox-language-tag">"en-gb"</script><script type="fastboot/shoebox" id="shoebox-ember-data-store">{"data":{"type":"product/app","id":"1295657857","attributes":{"userRating":{"value":0,"ratingCount":0,"ratingCountList":[0,0,0,0,0],"ariaLabelForRatings":"0 stars"},"deviceFamilies":["iphone","ipad","ipod"],"metricsBase":{"pageType":"Software","pageId":"1295657857","pageDetails":"Agility Logistics Corp_ShipA Freight","page":"Software_1295657857","serverInstance":"3013904","storeFrontHeader":"","language":"2","platformId":"8","platformName":"ItunesPreview","storeFront":"143467","environmentDataCenter":"MR22"},"contentRating":{"name":"4+","value":100,"rank":1},"copyright":"© 2018 Agility","description":"The ShipA Freight app makes it easy to get air and ocean freight quotes and track your shipments on the go. ShipA Freight is powered by Agility, a global freight forwarder offering air, ocean and road freight; warehousing and distribution; and specialized services in project logistics, chemical logistics and fairs \u0026 events. With our global network of logistics experts and industry-leading technology, we ensure that your goods arrive safely and reliably every time.","familyShareEnabledDate":"0001-04-23T00:00:00Z","kind":"iosSoftware","name":"ShipA Freight","ratingText":"Rated 4+","advisories":[],"releaseDate":"2017-10-16","softwareInfo":{"seller":"Agility Logistics Corp","languagesDisplayString":"English","requirementsString":"Requires iOS 10.0 or later. Compatible with iPhone, iPad and iPod touch.","eulaUrl":null,"supportUrl":"http://www.shipafreight.com","websiteUrl":"http://www.shipafreight.com","privacyPolicyUrl":"https://www.shipafreight.com/privacy-policy","privacyPolicyTextUrl":null},"url":"https://itunes.apple.com/in/app/shipa-freight/id1295657857?mt=8","versionHistory":[{"releaseNotes":"- Bug fixes.","versionString":"4.2","releaseDate":"2018-10-31T04:44:02Z"},{"releaseNotes":"- Bug fixes.","versionString":"4.1","releaseDate":"2018-10-19T18:22:43Z"},{"releaseNotes":"- Payment Integration.\n- Fapiao enhancement for china users.\n- Bug fixes.\n- UI Changes (Get Instance Quote).","versionString":"4.0","releaseDate":"2018-10-04T02:20:03Z"},{"releaseNotes":"- Prohibit Intra-region quote requests.\n- Zip code validation based on province.\n- Require user to provide MSDS certificate if asking for a DG quote.\n- Prevent customers from applying for business credit if country setup doesn't allow.\n- Used Google taxonomy, allow free text entry and disable string matching verification for cargo description.\n- Enhancements and bug fixes.","versionString":"3.5","releaseDate":"2018-08-30T04:32:27Z"},{"releaseNotes":"- Bug fixes.","versionString":"3.4","releaseDate":"2018-08-08T05:26:03Z"},{"releaseNotes":"- Make filling out the user profile simpler and more flexible.\n- Customer support module(Enhancements).\n- Fapio Handling for China users.\n- Regenerate quote that's expired from the booking page.\n- Enhancements and bug fixes.","versionString":"3.3","releaseDate":"2018-08-02T05:13:40Z"},{"releaseNotes":"- Bug fixes.","versionString":"3.2","releaseDate":"2018-07-21T03:24:38Z"},{"releaseNotes":"· Bug fixes.","versionString":"3.1","releaseDate":"2018-07-20T05:39:13Z"},{"releaseNotes":"·Added Knowledge Series.\n·Allowed customer to request additional credit.\n·Differentiate LCL and FCL port lists for p2p, d2p, p2d shipments.\n·Added documents collaborate functionality.\n·Included zip code validation.","versionString":"3.0","releaseDate":"2018-07-04T06:41:55Z"},{"releaseNotes":"• Added support for Cancelling/Refund job.\n• Improvements currency formats as per MDM structure.\n• Enhancements \u0026 Bug Fixes.","versionString":"2.5","releaseDate":"2018-05-11T03:17:35Z"},{"releaseNotes":"- Bug fixes.","versionString":"2.4.1","releaseDate":"2018-04-27T20:56:02Z"},{"releaseNotes":"Added New Features\n- Offers: Now You can view new offers from Shipa Freight \u0026 create Quotes from them.\n- Notifications: Get instant notifications about your shipments on the go.\n- Contact Us: You can contact Shipa Freight team right from our mobile app \u0026 request for support.\n- Parties: A feature where you can add your parties \u0026 their addresses to access the easily while booking shipments.\n- Support: Now you can raise support request tickets \u0026 resolve them from your mobile app.","versionString":"2.4","releaseDate":"2018-04-16T01:45:00Z"},{"releaseNotes":"•Included Parties menu and Help Desk.\n•Included Offers, Notifications and Contact us.\n•Bug fixes and Enhancements.","versionString":"2.3","releaseDate":"2018-03-23T03:03:25Z"},{"releaseNotes":"•Upload later and upload multiple documents options are included.\n•Bug fixes and Enhancements.","versionString":"2.2","releaseDate":"2018-01-30T02:34:59Z"},{"releaseNotes":"Bug fixes.","versionString":"2.1","releaseDate":"2018-01-04T05:50:59Z"},{"releaseNotes":"•Job booking included\n•Bug fixes and enhancements","versionString":"2.0","releaseDate":"2017-12-20T03:24:52Z"},{"releaseNotes":"Bug fixes.","versionString":"1.5","releaseDate":"2017-11-30T04:30:09Z"},{"releaseNotes":"Bug fixes.","versionString":"1.4","releaseDate":"2017-11-23T02:03:07Z"},{"releaseNotes":"Bug fixes and performance improvements.","versionString":"1.3","releaseDate":"2017-11-11T07:00:39Z"},{"releaseNotes":"Performance and UI improvements.","versionString":"1.2","releaseDate":"2017-10-31T03:41:20Z"},{"releaseNotes":"Bug fixes.","versionString":"1.1","releaseDate":"2017-10-24T00:28:44Z"},{"releaseNotes":null,"versionString":"1.0","releaseDate":"2017-10-16T05:06:32Z"}],"size":69529600,"minimumOSVersion":"10.0","iphoneScreenshotsVersion":"iphone6+","ipadScreenshotsVersion":"ipadPro"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536019"}]},"developer":{"data":{"type":"lockup/developer","id":"473655075"}},"artwork":{"data":{"type":"image","id":"st11536020"}},"iphoneScreenshots":{"data":[{"type":"image","id":"st11536021"},{"type":"image","id":"st11536022"},{"type":"image","id":"st11536023"},{"type":"image","id":"st11536024"},{"type":"image","id":"st11536025"}]},"ipadScreenshots":{"data":[{"type":"image","id":"st11536026"},{"type":"image","id":"st11536027"},{"type":"image","id":"st11536028"},{"type":"image","id":"st11536029"},{"type":"image","id":"st11536030"}]},"subscriptions":{"data":[]},"inAppPurchases":{"data":[]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"moreByThisDeveloper":{"data":[{"type":"lockup/app","id":"473655072"},{"type":"lockup/app","id":"961093295"},{"type":"lockup/app","id":"963169934"},{"type":"lockup/app","id":"985958531"},{"type":"lockup/app","id":"1017700754"},{"type":"lockup/app","id":"1094160495"},{"type":"lockup/app","id":"1094707710"},{"type":"lockup/app","id":"1337005129"}]},"customersAlsoBoughtApps":{"data":[{"type":"lockup/app","id":"1330302734"},{"type":"lockup/app","id":"549106014"},{"type":"lockup/app","id":"1049304422"},{"type":"lockup/app","id":"1106586837"}]},"reviews":{"data":[]}}},"included":[{"type":"offer","id":"st11536019","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":69529600}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1295657857\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829116156","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st47413","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":141284352}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=298844386\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828644608","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st42289","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":101174272}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=338761996\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829032290","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st222679","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":40603648}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=441697527\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828275145","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st264940","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":139416576}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=469337564\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829080119","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536031","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":30196736}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=473655072\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=827231342","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143524","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":47526912}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=482877505\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828032048","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143526","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":122206208}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=486328406\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828896973","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143529","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":32579584}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=492342639\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=825790663","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st17587","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":225942528}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=503451073\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828896927","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143532","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":97390592}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=505454145\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828676499","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st17591","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":91568128}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=546505307\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828773632","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536033","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":107330560}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=549106014\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829076438","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143534","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":91557888}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=551876751\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829069644","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st17599","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":154549248}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=605841731\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829011327","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143536","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":98106368}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=668561641\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829079953","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st47425","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":57483264}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=719171358\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828624840","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st42298","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":44835840}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=917418728\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=827416891","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143546","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":166587392}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=924005506\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828542201","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536035","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":32029696}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=961093295\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=829062302","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536037","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":22905856}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=963169934\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828128897","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536039","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":5976064}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=985958531\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828447017","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st5921","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":152593408}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1017261655\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828745151","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536041","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":23060480}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1017700754\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=820247260","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st38812","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":142024704}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1040093707\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828808571","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11402123","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":19143680}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1049304422\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828876418","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st81877","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":117536768}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1051980424\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=827314658","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536043","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":16317440}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1094160495\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=816768636","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536045","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":16702464}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1094707710\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828917178","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536047","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":47311872}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1106586837\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=827554706","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143556","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":20667392}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1117893542\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828634212","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st73483","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":31091712}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1166474681\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828564244","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st38816","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":139241472}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1199564834\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828100599","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536049","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":38226944}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1330302734\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828493437","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st11536051","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":41017344}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1337005129\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=827839434","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st6674442","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":110650368}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1351181238\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828899124","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st143560","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":63590400}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1358643891\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828396439","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"offer","id":"st735093","attributes":{"actionText":{"short":"Get","medium":"Get","long":"Get App","downloaded":"Installed","downloading":"Installing"},"assets":[{"flavor":"iosSoftware","size":80622592}],"buyParams":"productType=C\u0026price=0\u0026salableAdamId=1362975885\u0026pricingParameters=STDQ\u0026pg=default\u0026appExtVrsId=828401777","price":0,"priceFormatted":"₹ 0","type":"get"},"relationships":{}},{"type":"lockup/developer","id":"473655075","attributes":{"name":"Agility Logistics Corp","url":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8"},"relationships":{}},{"type":"image","id":"st11536020","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"0e0e0e","textColor2":"313131","textColor3":"3e3e3e","textColor4":"5a5a5a","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c2/bb/d4/c2bbd4f0-5f89-5c94-272b-5b61a2623d3e/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536021","attributes":{"bgColor":"ffffff","height":2208,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"2d2d2d","textColor3":"333333","textColor4":"575757","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/18/ea/86/18ea867e-41b3-3736-da85-5fed33d922ab/mzl.hxnbzpyg.png/{w}x{h}bb.{f}","width":1242,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536022","attributes":{"bgColor":"ffffff","height":2208,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"1a1a1a","textColor3":"333333","textColor4":"474747","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/72/23/cf/7223cfd2-01b7-b02e-520c-d1fb58872fb5/mzl.nzomioyl.png/{w}x{h}bb.{f}","width":1242,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536023","attributes":{"bgColor":"ffffff","height":2208,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"2d2d2d","textColor3":"333333","textColor4":"575757","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/c7/62/e8/c762e87b-01d6-cf30-f9ea-ec3a96688cf5/mzl.liwxwqxa.png/{w}x{h}bb.{f}","width":1242,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536024","attributes":{"bgColor":"ffffff","height":2208,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"2d2d2d","textColor3":"333333","textColor4":"575757","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/34/4f/97/344f977f-a94f-20ea-946f-645b4884612c/mzl.gzzehmwc.png/{w}x{h}bb.{f}","width":1242,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536025","attributes":{"bgColor":"ffffff","height":2208,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"282828","textColor3":"333333","textColor4":"535353","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/f7/ee/96/f7ee969d-30e4-7d61-dd41-6c1ddfee33e5/mzl.ydnobmoy.png/{w}x{h}bb.{f}","width":1242,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536026","attributes":{"bgColor":"ffffff","height":2732,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"161616","textColor3":"333333","textColor4":"454545","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/30/6d/58/306d5882-4e42-001d-b918-42dad9fd3e68/pr_source.png/{w}x{h}bb.{f}","width":2048,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st11536027","attributes":{"bgColor":"ffffff","height":2732,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"161616","textColor3":"333333","textColor4":"454545","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/9d/a8/4f/9da84f61-2ca1-83a9-55fe-68acb25a17eb/pr_source.png/{w}x{h}bb.{f}","width":2048,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st11536028","attributes":{"bgColor":"ffffff","height":2732,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"222222","textColor3":"333333","textColor4":"4e4e4e","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/6e/34/aa/6e34aa07-95d7-3961-fc41-98d3a1a6c11c/pr_source.png/{w}x{h}bb.{f}","width":2048,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st11536029","attributes":{"bgColor":"ffffff","height":2732,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"222222","textColor3":"333333","textColor4":"4e4e4e","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/13/67/6b/13676b55-37e3-a37a-1089-2dacb1154cfd/pr_source.png/{w}x{h}bb.{f}","width":2048,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st11536030","attributes":{"bgColor":"ffffff","height":2732,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"161616","textColor3":"333333","textColor4":"454545","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/29/8f/2f/298f2f1a-8ef4-4412-f2a9-e968a2d53120/pr_source.png/{w}x{h}bb.{f}","width":2048,"hasAlpha":true},"relationships":{}},{"type":"image","id":"st47414","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"002433","textColor2":"082c30","textColor3":"334f5c","textColor4":"395659","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/55/f6/9b/55f69b40-afb1-c42c-8640-69385ac6e106/AppIcon-1x_U007emarketing-85-220-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st42291","attributes":{"bgColor":"f2f2f2","height":1024,"supportsLayeredImage":false,"textColor1":"010b11","textColor2":"00314d","textColor3":"31393e","textColor4":"30586e","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/14/c7/80/14c78037-9837-d3a7-296c-e3c7868e0f91/AppIcon-1x_U007emarketing-85-220-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st222680","attributes":{"bgColor":"a1161b","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"d9e4f1","textColor3":"ecd0d1","textColor4":"cebbc6","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/62/59/2c/62592c10-3310-76ce-f314-34e80aebe245/AppIcon-1x_U007emarketing-85-220-5.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st264941","attributes":{"bgColor":"bf0000","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"faa8a8","textColor3":"f2cbcb","textColor4":"ee8686","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/40/dd/72/40dd727c-e64d-7785-0de1-8db99a9c51c4/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536032","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"4f0a00","textColor2":"511314","textColor3":"723b33","textColor4":"744243","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/4c/30/1d/4c301dff-ab5f-0c56-ccbe-27136e58d7cf/AppIcon-1x_U007emarketing-sRGB-85-220-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143525","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"07304f","textColor2":"660e11","textColor3":"395972","textColor4":"853e41","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2f/ea/4f/2fea4faa-0853-1d57-f372-26d19d70f645/AppIcon-1x_U007emarketing-85-220-0-4.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143528","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"0f0d0e","textColor2":"232122","textColor3":"3f3e3e","textColor4":"4f4e4e","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/75/d1/e5/75d1e594-900b-c5b4-a938-97f734f96bb8/AppIcon-0-1x_U007emarketing-0-0-85-220-0-5.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143530","attributes":{"bgColor":"4e4e4e","height":1024,"supportsLayeredImage":false,"textColor1":"f9f9f9","textColor2":"f3f3f3","textColor3":"d7d7d7","textColor4":"d2d2d2","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/37/8c/72/378c72bf-a1e5-c787-5356-3299647255cd/mzl.clagqvsc.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st17588","attributes":{"bgColor":"ff731c","height":1024,"supportsLayeredImage":false,"textColor1":"161514","textColor2":"161616","textColor3":"452816","textColor4":"452917","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/66/d5/e4/66d5e424-df65-582d-b70f-61cc10ca0636/AppIcon-1x_U007emarketing-85-220-0-6.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143533","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"003059","textColor2":"0e355a","textColor3":"33597a","textColor4":"3e5d7b","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/e5/de/d3/e5ded3f8-cf6a-c914-3dfe-13dba8bd53e1/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st17592","attributes":{"bgColor":"2dadff","height":1024,"supportsLayeredImage":false,"textColor1":"161616","textColor2":"161616","textColor3":"1b3545","textColor4":"1b3545","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/7b/e7/ad/7be7ad12-7993-c690-bb0f-9b0dac37a6fe/AppIcon-1x_U007emarketing-0-85-220-0-8.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536034","attributes":{"bgColor":"040707","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"dbdcdb","textColor3":"cccdcd","textColor4":"b0b1b0","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/2b/2c/ea/2b2ceaa8-2c3e-00c9-4cf9-533e26d58e0e/AppIcon-1x_U007emarketing-85-220-0-6.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143535","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"0d181b","textColor2":"4e0c0d","textColor3":"3e4648","textColor4":"713c3d","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/56/84/c4/5684c4f8-a625-26e5-cbc4-c4442b291d76/AppIcon-1x_U007emarketing-85-220-6.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st17600","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"001015","textColor2":"001015","textColor3":"333f44","textColor4":"333f44","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/32/2f/1e/322f1e29-6202-3af4-f473-2765abe71f0c/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-4.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143537","attributes":{"bgColor":"f1f1f1","height":1024,"supportsLayeredImage":false,"textColor1":"4d0d09","textColor2":"610809","textColor3":"6e3a38","textColor4":"7d3637","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/e4/64/e7/e464e7d1-79d9-dfc2-6fed-66e00f626c59/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st47426","attributes":{"bgColor":"005eab","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"f0f8fd","textColor3":"cbdeee","textColor4":"c0d9ed","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/63/b2/62/63b2621a-5108-5707-5cad-c5e22b635c6d/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st42300","attributes":{"bgColor":"005f90","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"e6ffff","textColor3":"cbdfe8","textColor4":"b7dfe8","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/b0/3f/e7/b03fe750-417d-42b5-9619-7b826ea2d309/mzl.sijylpyp.jpg/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143547","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"56072a","textColor2":"132c72","textColor3":"783955","textColor4":"42568e","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/24/16/2c/24162c1c-6373-3aa5-fa13-4ada323daa2f/AppIconFree-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536036","attributes":{"bgColor":"f47920","height":1024,"supportsLayeredImage":false,"textColor1":"161616","textColor2":"161616","textColor3":"422a18","textColor4":"422a18","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/27/e3/47/27e34736-c105-5f86-ea5d-375be5f420d3/mzl.llpdpsso.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536038","attributes":{"bgColor":"f47920","height":1024,"supportsLayeredImage":false,"textColor1":"161616","textColor2":"161616","textColor3":"432a18","textColor4":"432a18","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/51/7d/24/517d2401-485d-7d95-6542-030a741f15c7/mzl.knhhklyh.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536040","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"4f1214","textColor2":"552325","textColor3":"724143","textColor4":"774f51","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/f9/67/c3/f967c32b-b724-8b31-c478-9475afb50ba6/mzl.uiaslzra.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st5922","attributes":{"bgColor":"0c4777","height":1024,"supportsLayeredImage":false,"textColor1":"eff6fc","textColor2":"d9ebfb","textColor3":"c1d3e1","textColor4":"b0cae0","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/e1/63/a5/e163a54a-3862-b2d7-4b88-8434f658fa89/AppIconFree-0-1x_U007emarketing-0-0-85-220-0-10.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536042","attributes":{"bgColor":"981907","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"f9d4c1","textColor3":"ead1cd","textColor4":"e5ae9c","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple122/v4/ee/6e/a7/ee6ea73b-60d9-5300-15ce-f90bc849e5a4/mzl.tlfpakfs.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st38813","attributes":{"bgColor":"fdfdfd","height":1024,"supportsLayeredImage":false,"textColor1":"0f0f0f","textColor2":"2a2a2a","textColor3":"3e3e3e","textColor4":"545454","url":"https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/de/52/14/de521465-7b27-4bb9-2092-5d0427372e79/AppIcon-Free-Scanner-App-0-1x_U007emarketing-0-0-85-220-0-7.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11402124","attributes":{"bgColor":"a61f16","height":1024,"supportsLayeredImage":false,"textColor1":"fdf4f4","textColor2":"fdcd18","textColor3":"eccac8","textColor4":"ebaa17","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/44/30/10/44301057-244d-5616-daeb-085ae25ce191/AppIcon-1x_U007emarketing-85-220-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st81878","attributes":{"bgColor":"b61100","height":1024,"supportsLayeredImage":false,"textColor1":"ffffff","textColor2":"fcdedb","textColor3":"f0cfcb","textColor4":"eeb5af","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/a2/40/c5/a240c575-8ec7-e5be-3586-819463f1376b/AppIconIntune-1x_U007emarketing-85-220-0-6.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536044","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"102a38","textColor2":"113142","textColor3":"405460","textColor4":"415a67","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple127/v4/cd/8d/fa/cd8dfa6b-b8c2-c2c8-1f1c-79a06d398086/contsched.pyclzhao.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536046","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"4f1114","textColor2":"581103","textColor3":"724143","textColor4":"794035","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/5e/ad/cf/5eadcf51-2c64-c7a7-1171-a7049f46cd27/AppIcon-1x_U007emarketing-85-220-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536048","attributes":{"bgColor":"bc050c","height":1024,"supportsLayeredImage":false,"textColor1":"f0f0f2","textColor2":"faecef","textColor3":"e6c1c4","textColor4":"edbec1","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/3b/10/74/3b10746a-4b4a-69c4-7d62-75369cf28176/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143557","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"110802","textColor2":"130902","textColor3":"403935","textColor4":"423a35","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/6d/51/32/6d513265-8200-fe78-8779-be47e9974029/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st73484","attributes":{"bgColor":"00e127","height":1024,"supportsLayeredImage":false,"textColor1":"000000","textColor2":"5e030b","textColor3":"002d08","textColor4":"4b2f11","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/92/c5/d7/92c5d787-cf86-c965-1e8f-fdec3a91ee9f/AppIcon-1x_U007emarketing-sRGB-85-220-0-4.jpeg/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st38817","attributes":{"bgColor":"002626","height":1024,"supportsLayeredImage":false,"textColor1":"c7ffff","textColor2":"00fcfc","textColor3":"9fd3d3","textColor4":"00d1d1","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/5b/71/26/5b712648-5ffb-7884-5e3a-25c1a65b2003/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536050","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"010d0c","textColor2":"242425","textColor3":"333d3d","textColor4":"505050","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/35/6a/cc/356acca0-ddb6-2fd5-b3dc-7cf887574e3e/AppIcon-1x_U007emarketing-85-220-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st11536052","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"4e1214","textColor2":"501408","textColor3":"724143","textColor4":"734339","url":"https://is1-ssl.mzstatic.com/image/thumb/Purple115/v4/7d/e2/2d/7de22d74-6a26-1836-f040-08dfc4f74bd9/AppIcon-1x_U007emarketing-85-220-0-6.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st6674443","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"080808","textColor2":"2a2a2a","textColor3":"393939","textColor4":"555555","url":"https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/d0/51/e1/d051e149-229d-cb48-de34-a07301f6fdb2/AppIconFree-0-1x_U007emarketing-0-0-85-220-0-7.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st143561","attributes":{"bgColor":"ffffff","height":1024,"supportsLayeredImage":false,"textColor1":"150404","textColor2":"160706","textColor3":"443636","textColor4":"453838","url":"https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/31/4c/18/314c181b-9a99-face-3d77-3387d77d092a/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-9.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"image","id":"st735094","attributes":{"bgColor":"303056","height":1024,"supportsLayeredImage":false,"textColor1":"fe7f6d","textColor2":"f46a6c","textColor3":"d56f68","textColor4":"cc5f68","url":"https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/52/bc/4f/52bc4f96-3f12-c58d-fe83-a5e507654bfc/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.png/{w}x{h}bb.{f}","width":1024,"hasAlpha":false},"relationships":{}},{"type":"genre","id":"st224172","attributes":{"mediaType":"8","name":"Business","url":"https://itunes.apple.com/in/genre/id6000"},"relationships":{}},{"type":"genre","id":"st180725","attributes":{"mediaType":"8","name":"Productivity","url":"https://itunes.apple.com/in/genre/id6007"},"relationships":{}},{"type":"genre","id":"st180746","attributes":{"mediaType":"8","name":"Lifestyle","url":"https://itunes.apple.com/in/genre/id6012"},"relationships":{}},{"type":"genre","id":"st1128025","attributes":{"mediaType":"8","name":"Shopping","url":"https://itunes.apple.com/in/genre/id6024"},"relationships":{}},{"type":"genre","id":"st290680","attributes":{"mediaType":"8","name":"Finance","url":"https://itunes.apple.com/in/genre/id6015"},"relationships":{}},{"type":"genre","id":"st180728","attributes":{"mediaType":"8","name":"Utilities","url":"https://itunes.apple.com/in/genre/id6002"},"relationships":{}},{"type":"genre","id":"st180753","attributes":{"mediaType":"8","name":"Education","url":"https://itunes.apple.com/in/genre/id6017"},"relationships":{}},{"type":"lockup/app","id":"473655072","attributes":{},"relationships":{}},{"type":"lockup/app","id":"961093295","attributes":{},"relationships":{}},{"type":"lockup/app","id":"963169934","attributes":{},"relationships":{}},{"type":"lockup/app","id":"985958531","attributes":{},"relationships":{}},{"type":"lockup/app","id":"1017700754","attributes":{},"relationships":{}},{"type":"lockup/app","id":"1094160495","attributes":{},"relationships":{}},{"type":"lockup/app","id":"1094707710","attributes":{},"relationships":{}},{"type":"lockup/app","id":"1337005129","attributes":{},"relationships":{}},{"type":"lockup/app","id":"1330302734","attributes":{},"relationships":{}},{"type":"lockup/app","id":"549106014","attributes":{},"relationships":{}},{"type":"lockup/app","id":"1049304422","attributes":{},"relationships":{}},{"type":"lockup/app","id":"1106586837","attributes":{},"relationships":{}},{"type":"lockup/app","id":"298844386","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"298844389","artistName":"Cisco","artistUrl":"https://itunes.apple.com/in/developer/cisco/id298844389?mt=8","kind":"iosSoftware","name":"Cisco Webex Meetings","url":"https://itunes.apple.com/in/app/cisco-webex-meetings/id298844386?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st47413"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st47414"}}}},{"type":"lockup/app","id":"338761996","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"338761999","artistName":"AirWatch, LLC","artistUrl":"https://itunes.apple.com/in/developer/airwatch-llc/id338761999?mt=8","kind":"iosSoftware","name":"Intelligent Hub","url":"https://itunes.apple.com/in/app/intelligent-hub/id338761996?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st42289"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st42291"}}}},{"type":"lockup/app","id":"441697527","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"358934279","artistName":"Hikvision Digital Technology Co.,Ltd","artistUrl":"https://itunes.apple.com/in/developer/hikvision-digital-technology-co-ltd/id358934279?mt=8","kind":"iosSoftware","name":"iVMS-4500 lite","url":"https://itunes.apple.com/in/app/ivms-4500-lite/id441697527?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st222679"}]},"genres":{"data":[{"type":"genre","id":"st224172"}]},"artwork":{"data":{"type":"image","id":"st222680"}}}},{"type":"lockup/app","id":"469337564","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"331646274","artistName":"Adobe","artistUrl":"https://itunes.apple.com/in/developer/adobe/id331646274?mt=8","kind":"iosSoftware","name":"Adobe Acrobat Reader","url":"https://itunes.apple.com/in/app/adobe-acrobat-reader/id469337564?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st264940"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st264941"}}}},{"type":"lockup/app","id":"473655072","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"Agility Logistics","url":"https://itunes.apple.com/in/app/agility-logistics/id473655072?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536031"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536032"}}}},{"type":"lockup/app","id":"482877505","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"724241433","artistName":"Info Edge","artistUrl":"https://itunes.apple.com/in/developer/info-edge/id724241433?mt=8","kind":"iosSoftware","name":"Naukri.com Job Search","url":"https://itunes.apple.com/in/app/naukri-com-job-search/id482877505?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143524"}]},"genres":{"data":[{"type":"genre","id":"st224172"}]},"artwork":{"data":{"type":"image","id":"st143525"}}}},{"type":"lockup/app","id":"486328406","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"1063476106","artistName":"Magicbricks Realty Services Limited","artistUrl":"https://itunes.apple.com/in/developer/magicbricks-realty-services-limited/id1063476106?mt=8","kind":"iosSoftware","name":"Magicbricks Property Search","url":"https://itunes.apple.com/in/app/magicbricks-property-search/id486328406?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143526"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180746"}]},"artwork":{"data":{"type":"image","id":"st143528"}}}},{"type":"lockup/app","id":"492342639","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"1380084272","artistName":"Brain Zoo Oy","artistUrl":"https://itunes.apple.com/in/developer/brain-zoo-oy/id1380084272?mt=8","kind":"iosSoftware","name":"Secret Apps Photo Locker","url":"https://itunes.apple.com/in/app/secret-apps-photo-locker/id492342639?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143529"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st143530"}}}},{"type":"lockup/app","id":"503451073","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"436672032","artistName":"Alibaba.com Hong Kong Limited","artistUrl":"https://itunes.apple.com/in/developer/alibaba-com-hong-kong-limited/id436672032?mt=8","kind":"iosSoftware","name":"Alibaba.com B2B Trade App","url":"https://itunes.apple.com/in/app/alibaba-com-b2b-trade-app/id503451073?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st17587"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st1128025"}]},"artwork":{"data":{"type":"image","id":"st17588"}}}},{"type":"lockup/app","id":"505454145","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"493202639","artistName":"BajajFinserv","artistUrl":"https://itunes.apple.com/in/developer/bajajfinserv/id493202639?mt=8","kind":"iosSoftware","name":"Bajaj Finserv","url":"https://itunes.apple.com/in/app/bajaj-finserv/id505454145?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143532"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st290680"}]},"artwork":{"data":{"type":"image","id":"st143533"}}}},{"type":"lockup/app","id":"546505307","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"530594111","artistName":"Zoom","artistUrl":"https://itunes.apple.com/in/developer/zoom/id530594111?mt=8","kind":"iosSoftware","name":"ZOOM Cloud Meetings","url":"https://itunes.apple.com/in/app/zoom-cloud-meetings/id546505307?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st17591"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st17592"}}}},{"type":"lockup/app","id":"549106014","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"409271607","artistName":"World Economic Forum","artistUrl":"https://itunes.apple.com/in/developer/world-economic-forum/id409271607?mt=8","kind":"iosSoftware","name":"TopLink.","url":"https://itunes.apple.com/in/app/toplink/id549106014?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536033"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536034"}}}},{"type":"lockup/app","id":"551876751","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"551876754","artistName":"CP PLUS GMBH \u0026 CO.KG","artistUrl":"https://itunes.apple.com/in/developer/cp-plus-gmbh-co-kg/id551876754?mt=8","kind":"iosSoftware","name":"iCMOB","url":"https://itunes.apple.com/in/app/icmob/id551876751?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143534"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180728"}]},"artwork":{"data":{"type":"image","id":"st143535"}}}},{"type":"lockup/app","id":"605841731","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"298856275","artistName":"Microsoft Corporation","artistUrl":"https://itunes.apple.com/in/developer/microsoft-corporation/id298856275?mt=8","kind":"iosSoftware","name":"Skype for Business","url":"https://itunes.apple.com/in/app/skype-for-business/id605841731?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st17599"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st17600"}}}},{"type":"lockup/app","id":"668561641","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"668561644","artistName":"IndiaMART InterMESH Ltd.","artistUrl":"https://itunes.apple.com/in/developer/indiamart-intermesh-ltd/id668561644?mt=8","kind":"iosSoftware","name":"IndiaMART: Buy \u0026 Sell Products","url":"https://itunes.apple.com/in/app/indiamart-buy-sell-products/id668561641?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143536"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st1128025"}]},"artwork":{"data":{"type":"image","id":"st143537"}}}},{"type":"lockup/app","id":"719171358","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"298856275","artistName":"Microsoft Corporation","artistUrl":"https://itunes.apple.com/in/developer/microsoft-corporation/id298856275?mt=8","kind":"iosSoftware","name":"Intune Company Portal","url":"https://itunes.apple.com/in/app/intune-company-portal/id719171358?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st47425"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st47426"}}}},{"type":"lockup/app","id":"917418728","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"288429043","artistName":"LinkedIn Corporation","artistUrl":"https://itunes.apple.com/in/developer/linkedin-corporation/id288429043?mt=8","kind":"iosSoftware","name":"LinkedIn SlideShare","url":"https://itunes.apple.com/in/app/linkedin-slideshare/id917418728?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st42298"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180753"}]},"artwork":{"data":{"type":"image","id":"st42300"}}}},{"type":"lockup/app","id":"924005506","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"289579214","artistName":"MobiSystems, Inc.","artistUrl":"https://itunes.apple.com/in/developer/mobisystems-inc/id289579214?mt=8","kind":"iosSoftware","name":"OfficeSuite \u0026 PDF editor","url":"https://itunes.apple.com/in/app/officesuite-pdf-editor/id924005506?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143546"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st143547"}}}},{"type":"lockup/app","id":"961093295","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"Agility Delivers","url":"https://itunes.apple.com/in/app/agility-delivers/id961093295?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536035"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536036"}}}},{"type":"lockup/app","id":"963169934","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"WeSafe","url":"https://itunes.apple.com/in/app/wesafe/id963169934?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536037"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536038"}}}},{"type":"lockup/app","id":"985958531","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"Agility Take5","url":"https://itunes.apple.com/in/app/agility-take5/id985958531?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536039"}]},"genres":{"data":[{"type":"genre","id":"st224172"}]},"artwork":{"data":{"type":"image","id":"st11536040"}}}},{"type":"lockup/app","id":"1017261655","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"749046894","artistName":"Apalon Apps","artistUrl":"https://itunes.apple.com/in/developer/apalon-apps/id749046894?mt=8","kind":"iosSoftware","name":"Scanner for Me: Scan documents","url":"https://itunes.apple.com/in/app/scanner-for-me-scan-documents/id1017261655?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st5921"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180728"}]},"artwork":{"data":{"type":"image","id":"st5922"}}}},{"type":"lockup/app","id":"1017700754","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"Agility Scan","url":"https://itunes.apple.com/in/app/agility-scan/id1017700754?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536041"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536042"}}}},{"type":"lockup/app","id":"1040093707","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"1085442365","artistName":"BPMobile","artistUrl":"https://itunes.apple.com/in/developer/bpmobile/id1085442365?mt=8","kind":"iosSoftware","name":"Scanner App: Scan PDF Document","url":"https://itunes.apple.com/in/app/scanner-app-scan-pdf-document/id1040093707?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st38812"}]},"genres":{"data":[{"type":"genre","id":"st224172"}]},"artwork":{"data":{"type":"image","id":"st38813"}}}},{"type":"lockup/app","id":"1049304422","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"1049304421","artistName":"Infocom Network Ltd.","artistUrl":"https://itunes.apple.com/in/developer/infocom-network-ltd/id1049304421?mt=8","kind":"iosSoftware","name":"Tradeindia App","url":"https://itunes.apple.com/in/app/tradeindia-app/id1049304422?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11402123"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11402124"}}}},{"type":"lockup/app","id":"1051980424","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"331646274","artistName":"Adobe","artistUrl":"https://itunes.apple.com/in/developer/adobe/id331646274?mt=8","kind":"iosSoftware","name":"Adobe Acrobat Reader Intune","url":"https://itunes.apple.com/in/app/adobe-acrobat-reader-intune/id1051980424?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st81877"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st81878"}}}},{"type":"lockup/app","id":"1094160495","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"Agility BBS","url":"https://itunes.apple.com/in/app/agility-bbs/id1094160495?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536043"}]},"genres":{"data":[{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536044"}}}},{"type":"lockup/app","id":"1094707710","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"Agility FIC","url":"https://itunes.apple.com/in/app/agility-fic/id1094707710?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536045"}]},"genres":{"data":[{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536046"}}}},{"type":"lockup/app","id":"1106586837","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"1380705186","artistName":"Markaba INC","artistUrl":"https://itunes.apple.com/in/developer/markaba-inc/id1380705186?mt=8","kind":"iosSoftware","name":"Markaba","url":"https://itunes.apple.com/in/app/markaba/id1106586837?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536047"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st1128025"}]},"artwork":{"data":{"type":"image","id":"st11536048"}}}},{"type":"lockup/app","id":"1117893542","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"631328499","artistName":"eMudhra Limited","artistUrl":"https://itunes.apple.com/in/developer/emudhra-limited/id631328499?mt=8","kind":"iosSoftware","name":"eMudhra Customer","url":"https://itunes.apple.com/in/app/emudhra-customer/id1117893542?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143556"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st290680"}]},"artwork":{"data":{"type":"image","id":"st143557"}}}},{"type":"lockup/app","id":"1166474681","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"1097304866","artistName":"Kun Wang","artistUrl":"https://itunes.apple.com/in/developer/kun-wang/id1097304866?mt=8","kind":"iosSoftware","name":"Call Recorder for Phone Calls","url":"https://itunes.apple.com/in/app/call-recorder-for-phone-calls/id1166474681?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st73483"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180728"}]},"artwork":{"data":{"type":"image","id":"st73484"}}}},{"type":"lockup/app","id":"1199564834","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"331646274","artistName":"Adobe","artistUrl":"https://itunes.apple.com/in/developer/adobe/id331646274?mt=8","kind":"iosSoftware","name":"Adobe Scan","url":"https://itunes.apple.com/in/app/adobe-scan/id1199564834?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st38816"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st38817"}}}},{"type":"lockup/app","id":"1330302734","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"1301193421","artistName":"Shipwaves Pvt Ltd","artistUrl":"https://itunes.apple.com/in/developer/shipwaves-pvt-ltd/id1301193421?mt=8","kind":"iosSoftware","name":"Shipwaves","url":"https://itunes.apple.com/in/app/shipwaves/id1330302734?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536049"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st11536050"}}}},{"type":"lockup/app","id":"1337005129","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"473655075","artistName":"Agility Logistics Corp","artistUrl":"https://itunes.apple.com/in/developer/agility-logistics-corp/id473655075?mt=8","kind":"iosSoftware","name":"Agility Events","url":"https://itunes.apple.com/in/app/agility-events/id1337005129?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st11536051"}]},"genres":{"data":[{"type":"genre","id":"st224172"}]},"artwork":{"data":{"type":"image","id":"st11536052"}}}},{"type":"lockup/app","id":"1351181238","attributes":{"deviceFamilies":["iphone","ipad","ipod"],"artistId":"1319851911","artistName":"Click \u0026 Translate","artistUrl":"https://itunes.apple.com/in/developer/click-translate/id1319851911?mt=8","kind":"iosSoftware","name":"Scanner \u0026 Fax Pro","url":"https://itunes.apple.com/in/app/scanner-fax-pro/id1351181238?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st6674442"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180728"}]},"artwork":{"data":{"type":"image","id":"st6674443"}}}},{"type":"lockup/app","id":"1358643891","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"1319851911","artistName":"Click \u0026 Translate","artistUrl":"https://itunes.apple.com/in/developer/click-translate/id1319851911?mt=8","kind":"iosSoftware","name":"Caller - Call Recorder","url":"https://itunes.apple.com/in/app/caller-call-recorder/id1358643891?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st143560"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180728"}]},"artwork":{"data":{"type":"image","id":"st143561"}}}},{"type":"lockup/app","id":"1362975885","attributes":{"deviceFamilies":["iphone","ipod"],"artistId":"1362975884","artistName":"Arun Nair","artistUrl":"https://itunes.apple.com/in/developer/arun-nair/id1362975884?mt=8","kind":"iosSoftware","name":"Automatic call recorder ●","url":"https://itunes.apple.com/in/app/automatic-call-recorder/id1362975885?mt=8"},"relationships":{"offers":{"data":[{"type":"offer","id":"st735093"}]},"genres":{"data":[{"type":"genre","id":"st224172"},{"type":"genre","id":"st180725"}]},"artwork":{"data":{"type":"image","id":"st735094"}}}}]}</script><script type="fastboot/shoebox" id="shoebox-ember-locale-store">{"priceCurrency":"INR","storefrontId":"143467","languageCode":"en-gb","storefront":"IN"}</script><script type="fastboot/shoebox" id="shoebox-metrics-base">{"pageType":"Software","pageId":"1295657857","pageDetails":"Agility Logistics Corp_ShipA Freight","page":"Software_1295657857","serverInstance":"3013904","storeFrontHeader":"","language":"2","platformId":"8","platformName":"ItunesPreview","storeFront":"143467","environmentDataCenter":"MR22"}</script><script type="fastboot/shoebox" id="shoebox-global-elements">{"isLoaded":true}</script><script type="x/boundary" id="fastboot-body-end"></script>
+
+    <script src="https://web-experience.itunes.apple.com/assets/vendor-be924f4b8cd6597fc0b21839baf2881d.js"></script>
+    <script src="https://web-experience.itunes.apple.com/assets/web-experience-app-396410ad826a2192b3b5091ee7c63f8a.js"></script>
+
+    <div id="ember-basic-dropdown-wormhole"></div>
+  </body>
+</html>

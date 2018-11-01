@@ -1,0 +1,229 @@
+.elementor-8316 .elementor-element.elementor-element-c24f106 .elementor-spacer-inner{height:50px;}.elementor-8316 .elementor-element.elementor-element-948a120{padding:0px 40px 0px 40px;}.elementor-8316 .elementor-element.elementor-element-9b518b3{font-size:13px;}.elementor-8316 .elementor-element.elementor-element-63da815e > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(:last-child){margin-bottom:40px;}.elementor-8316 .elementor-element.elementor-element-63da815e > .elementor-element-populated{background-color:#faf7f3;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:5px 5px 5px 5px;padding:0px 30px 30px 30px;}.elementor-8316 .elementor-element.elementor-element-63da815e > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8316 .elementor-element.elementor-element-59b3783e{font-weight:normal;}.elementor-8316 .elementor-element.elementor-element-59b3783e > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-8316 .elementor-element.elementor-element-73edad75{font-size:13px;}.elementor-8316 .elementor-element.elementor-element-73edad75 .elementor-widget-container{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-8316 .elementor-element.elementor-element-4d21adfa > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(:last-child){margin-bottom:40px;}.elementor-8316 .elementor-element.elementor-element-4d21adfa > .elementor-element-populated{background-color:#faf7f3;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:5px 5px 5px 5px;padding:0px 20px 30px 20px;}.elementor-8316 .elementor-element.elementor-element-4d21adfa > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-8316 .elementor-element.elementor-element-8bde0c3{font-weight:normal;}.elementor-8316 .elementor-element.elementor-element-8bde0c3 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-8316 .elementor-element.elementor-element-48ee320 .elementor-accordion .elementor-tab-title{background-color:#6fb7b0;color:#ffffff;}.elementor-8316 .elementor-element.elementor-element-48ee320 .elementor-accordion .elementor-tab-content{background-color:#ffffff;}.elementor-8316 .elementor-element.elementor-element-846947e{font-weight:normal;}.elementor-8316 .elementor-element.elementor-element-846947e > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-8316 .elementor-element.elementor-element-8ab3bff .elementor-accordion .elementor-tab-title{background-color:#6fb7b0;color:#ffffff;}.elementor-8316 .elementor-element.elementor-element-8ab3bff .elementor-accordion .elementor-tab-content{background-color:#f9f9f9;}@media(min-width:768px){.elementor-8316 .elementor-element.elementor-element-63da815e{width:63.851%;}.elementor-8316 .elementor-element.elementor-element-4d21adfa{width:36.149%;}}/* Start custom CSS for html, class: .elementor-element-53345450 *//* Global CSS */
+.page-id-8316 .container-custom{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Need CSS for Individual Page for Padding */
+
+.page-id-8316 .elementor-element-30fbd841 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{
+    padding:0;
+}
+
+/* -------------------------------------------- */
+/* Start of Nav menu */
+
+#nav-ir .navbar{
+    min-height: 0;
+}
+
+#nav-ir .navbar-header .collapsed .fa-chevron-down,
+#nav-ir .navbar-header .fa-chevron-up {
+    display: inline-block;
+    color: #ee7d22;
+    font-size: 25px;
+}
+
+#nav-ir .navbar-header .collapsed .fa-chevron-up,
+#nav-ir .navbar-header .fa-chevron-down {
+  display: none;
+}
+
+#nav-ir .container-fluid{
+    background-color: #ee7d22;
+}
+
+#nav-ir i.fa {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+#nav-ir .collapsed ~ .panel-body {
+  padding: 0;
+}
+
+#nav-ir .navbar{
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+
+#nav-ir .navbar-inverse .navbar-nav{
+    width: 100%;
+}
+
+#nav-ir .navbar-inverse .navbar-nav>li{
+    width: 16.66%;
+}
+
+#nav-ir .navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+#nav-ir .navbar-inverse{
+    background-color: transparent;
+}
+
+#nav-ir .navbar-inverse .navbar-nav>li a.active,
+#nav-ir .navbar-inverse .navbar-nav>li a.focus{
+    background-color: #f69541;
+    font-weight:400;
+}
+
+#nav-ir .navbar-inverse .navbar-nav>.open>a,
+#nav-ir .navbar-inverse .navbar-nav>.open>a:focus,
+#nav-ir .navbar-inverse .navbar-nav>.open>a:hover{
+        background-color: #f69541;
+}
+
+#nav-ir .dropdown-menu{
+    position: absolute;
+    top:98%;
+}
+
+@media screen and (min-width: 1440px){
+    /*#nav-ir  .navbar-inverse .navbar-nav>li a{
+        font-size: 22px!important;
+    }*/
+}
+
+@media screen and (min-width: 1024px){
+    #nav-ir  .navbar-inverse .navbar-nav>li a{
+        font-size: 18px;
+    }
+    
+    #nav-ir .navbar-inverse .navbar-nav>li:hover{
+        background-color: #f69541;
+        transition: .3s;
+    }
+
+    #nav-ir .dropdown-menu>li>a:focus, 
+    #nav-ir .dropdown-menu>li>a:hover{
+        background-color:#f69541;
+    }
+    
+    #nav-ir .dropdown-menu{
+        background-color:#ee7d22;
+        padding: 0;
+    }
+    
+    #nav-ir .dropdown-menu li a{
+        color:#fff;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #nav-ir .container-fluid{
+        background-color: transparent;
+        padding-bottom:10px;
+        border-top: 1px solid #ddd7d1;
+    }
+    
+    #nav-ir .container-custom{
+        border: 2px solid #ee7d22;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    #nav-ir .navbar-inverse .navbar-toggle {
+        border: none;
+    }
+    
+    #nav-ir .navbar-inverse .navbar-toggle:focus, 
+    #nav-ir .navbar-inverse .navbar-toggle:hover{
+        background: transparent;
+        border: none;
+    }
+      
+    #nav-ir .navbar-header {
+        float: none;
+    }
+    #nav-ir .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    #nav-ir .navbar-toggle {
+        display: block;
+    }
+    #nav-ir .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    #nav-ir .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    #nav-ir .navbar-collapse.collapse {
+        display: none!important;
+    }
+    #nav-ir .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    
+    #nav-ir .navbar-nav>li {
+        float: none;
+        width: 100%!important;
+        text-align: left!important;
+    }
+    #nav-ir .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#ee7d22!important;
+        text-align: left!important;
+    }
+    #nav-ir .collapse.in{
+        display:block !important;
+        border-top: 2px solid #ee7d22;
+    }
+    
+    #nav-ir .navbar-inverse .navbar-nav>.active>a, 
+    #nav-ir .navbar-inverse .navbar-nav>.active>a:focus, 
+    #nav-ir .navbar-inverse .navbar-nav>.active>a:hover{
+        border-bottom:none;
+        background: transparent;
+    }
+    
+    #nav-ir .navbar-inverse .navbar-nav>.open>a, 
+    #nav-ir .navbar-inverse .navbar-nav>.open>a:focus, 
+    #nav-ir .navbar-inverse .navbar-nav>.open>a:hover {
+        color: #fff;
+        background-color: transparent;
+    }
+
+    #nav-ir .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    #nav-ir .navbar-inverse .navbar-nav>li>a{
+        padding: 10px;
+        color: #837970!important;
+        font-weight: 400;
+    }
+    
+    #nav-ir .navbar-nav .open .dropdown-menu>li>a{
+        color:#837970!important;
+    }
+    #nav-ir .navbar-inverse .navbar-nav>li a.active,
+    #nav-ir .navbar-inverse .navbar-nav>li a.focus{
+        background-color: transparent;
+    }
+}
+/* -------------------------------------------- */
+/* End of CSS Nav menu *//* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-6fd13040 */.ir2-body {
+    padding: 0 40px;
+}/* End custom CSS */

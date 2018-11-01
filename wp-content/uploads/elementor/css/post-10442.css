@@ -1,0 +1,461 @@
+.elementor-10442 .elementor-element.elementor-element-e8666df > .elementor-container{max-width:1600px;}.elementor-10442 .elementor-element.elementor-element-e8666df{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-10442 .elementor-element.elementor-element-e8666df > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.5 * 100% );}.elementor-10442 .elementor-element.elementor-element-fa5fcc6:after{content:"0.5";position:absolute;color:transparent;}.elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-post__thumbnail__link{width:100%;}.elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-posts-container{grid-column-gap:50px;grid-row-gap:35px;}.elementor-msie .elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-post{padding-right:calc( 50px/2 );padding-left:calc( 50px/2 );padding-bottom:35px;}.elementor-msie .elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-posts-container{margin-left:calc( -50px/2 );margin-right:calc( -50px/2 );}.elementor-10442 .elementor-element.elementor-element-fa5fcc6.elementor-posts--thumbnail-left .elementor-post__thumbnail__link{margin-right:30px;}.elementor-10442 .elementor-element.elementor-element-fa5fcc6.elementor-posts--thumbnail-right .elementor-post__thumbnail__link{margin-left:30px;}.elementor-10442 .elementor-element.elementor-element-fa5fcc6.elementor-posts--thumbnail-top .elementor-post__thumbnail__link{margin-bottom:30px;}.elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-post__read-more{color:#ee7d22;font-size:18px;}.elementor-10442 .elementor-element.elementor-element-082905d > .elementor-container{max-width:1600px;}.elementor-10442 .elementor-element.elementor-element-082905d{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-10442 .elementor-element.elementor-element-082905d > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-10442 .elementor-element.elementor-element-bef04ec .gallery-item img{border-radius:0px 0px 0px 0px;}.elementor-10442 .elementor-element.elementor-element-bef04ec .gallery-item .gallery-caption{text-align:center;font-family:"Karla", Sans-serif;font-size:16px;}.elementor-10442 .elementor-element.elementor-element-bef04ec > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-10442 .elementor-element.elementor-element-074b094 > .elementor-container{max-width:1140px;}.elementor-10442 .elementor-element.elementor-element-3506bd3{z-index:0;}.elementor-10442 .elementor-element.elementor-element-6e009e9 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-10442 .elementor-element.elementor-element-ebed523 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-10442 .elementor-element.elementor-element-d839fd5 > .elementor-element-populated{padding:0px 0px 0px 0px;}.elementor-10442 .elementor-element.elementor-element-2405d73 > .elementor-widget-container{padding:0px 0px 0px 0px;}@media(max-width:767px){.elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-posts-container .elementor-post__thumbnail{padding-bottom:calc( 0.5 * 100% );}.elementor-10442 .elementor-element.elementor-element-fa5fcc6:after{content:"0.5";position:absolute;color:transparent;}.elementor-10442 .elementor-element.elementor-element-fa5fcc6 .elementor-post__thumbnail__link{width:100%;}}/* Start custom CSS for image-gallery, class: .elementor-element-bef04ec */.elementor-image-gallery figure figcaption{
+    display: none;
+}
+
+.elementor-image-gallery .gallery-item img{
+    margin:10px;
+}/* End custom CSS */
+/* Start custom CSS for page-settings */.single-stand_alone_page.postid-10442 section .container{
+    padding: 0;
+    max-width: 100%;
+}
+
+.single-stand_alone_page.postid-10442 .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 100%;
+}
+
+.single-stand_alone_page.postid-10442 .container-custom{
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.single-stand_alone_page.postid-10442  #footer {
+    margin-top: 20px;
+}
+
+.single-stand_alone_page.postid-10442 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 0;
+}
+
+.single-stand_alone_page.postid-10442 .no-padding{
+    padding: 0;
+}
+
+.single-stand_alone_page.postid-10442 .no-margin{
+    margin: 0;
+}
+
+.single-stand_alone_page.postid-10442 .center{
+    text-align: center;
+}
+
+
+/* -------------------------------------------- */
+/* Start of Nav menu */
+
+.postid-10442 .section-page-content{
+    margin-top: 0;
+}
+.postid-10442 #nav-africa .container-fluid{
+    background-color: #ee7d22;
+}
+
+.postid-10442 #nav-africa .navbar-header .collapsed .fa-chevron-down,
+.postid-10442 #nav-africa .navbar-header .fa-chevron-up {
+    display: inline-block;
+    color: #ee7d22;
+    font-size: 25px;
+}
+
+.postid-10442 #nav-africa .navbar-header .collapsed .fa-chevron-up,
+.postid-10442 #nav-africa .navbar-header .fa-chevron-down {
+  display: none;
+}
+
+.postid-10442 #nav-africa i.fa {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.postid-10442 #nav-africa .collapsed ~ .panel-body {
+  padding: 0;
+}
+
+.postid-10442 #nav-africa .navbar{
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.postid-10442 #nav-africa  .navbar-inverse .navbar-nav{
+    width: 100%;
+}
+
+.postid-10442 #nav-africa  .navbar-inverse .navbar-nav>li{
+    width: 16.66%;
+}
+
+.postid-10442 #nav-africa  .navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.postid-10442 #nav-africa .navbar-inverse{
+    background-color: transparent;
+}
+
+.postid-10442 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    border-bottom: #fff 2px solid;
+    background: transparent;
+}
+
+@media screen and (max-width: 1024px){
+    .postid-10442 #nav-africa .container-fluid{
+        background-color: transparent;
+        padding-bottom:10px;
+        border-top: 1px solid #ddd7d1;
+    }
+    
+    .postid-10442 #nav-africa .container-custom{
+        border: 2px solid #ee7d22;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .postid-10442 #nav-africa .navbar-inverse .navbar-toggle {
+        border: none;
+    }
+    
+    .postid-10442 #nav-africa .navbar-inverse .navbar-toggle:focus, 
+    .postid-10442 #nav-africa .navbar-inverse .navbar-toggle:hover{
+        background: transparent;
+        border: none;
+    }
+    
+    .postid-10442 #nav-africa .navbar-header {
+        float: none;
+    }
+    .postid-10442 #nav-africa .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .postid-10442 #nav-africa .navbar-toggle {
+        display: block;
+    }
+    .postid-10442 #nav-africa .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .postid-10442 #nav-africa .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .postid-10442 #nav-africa .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .postid-10442 #nav-africa .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    
+    .postid-10442 #nav-africa .navbar-nav>li {
+        float: none;
+        width: 100%!important;
+        text-align: left!important;
+    }
+    .postid-10442 #nav-africa .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#ee7d22!important;
+        text-align: left!important;
+    }
+    .postid-10442 #nav-africa .collapse.in{
+        display:block !important;
+        border-top: 2px solid #ee7d22;
+    }
+    .postid-10442  #nav-africa .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+    .postid-10442  #nav-africa .navbar-inverse .navbar-nav>.active>a:hover{
+        border-bottom:none;
+        background: transparent;
+    }
+}
+/* -------------------------------------------- */
+/* End of CSS Nav menu */
+
+
+
+/* -------------------------------------------- */
+/* Start of CSS Banner */
+.postid-10442 .banner-africa .container-fluid{
+    background-image: url('../../2018/05/bg-image-1-1.jpeg');
+    background-size: cover;
+    height: 530px;
+}
+
+.postid-10442 .banner-africa .content{
+    padding: 0px 0 0;
+}
+
+.postid-10442 .banner-africa .banner-text{
+    margin-top: 190px;
+    z-index: 1;
+}
+
+.postid-10442 .banner-africa .banner-text button{
+    border: none;
+}
+
+.postid-10442 .banner-africa .banner-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.postid-10442 .banner-africa .banner-text p{
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    max-width: 100%;
+    word-spacing: 5px;
+}
+
+.postid-10442 .banner-africa .container-custom img.map{
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.postid-10442 .banner-africa .banner-bottom-line{
+    background: url(https://www.stagingdemo.agility.com/wp-content/uploads/2018/05/line.png);
+    background-size: 100% 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+
+/* Banner - Media Screen */
+
+@media screen and (max-width:992px){
+    .postid-10442 .banner-africa .container-fluid{
+        height: 575px;
+    }
+    
+    .postid-10442 .banner-africa .banner-text{
+        padding-top: 0px;
+    }
+    
+    .postid-10442 .banner-africa img.map{
+        display:none;
+    }
+    
+    .postid-10442 .banner-africa .banner-text h1{
+        font-size: 26px;
+        line-height: initial;
+        width: initial;
+    }
+}
+
+@media screen and (max-width:550px){
+    .postid-10442 .banner-africa .container-fluid{
+        height: 475px;
+    }
+    .postid-10442 .banner-africa .banner-text{
+        margin-top:120px;
+    }
+
+    .postid-10442 .banner-africa .banner-text h1{
+        font-size: 26px;
+    }
+    
+    .postid-10442 .banner-africa .banner-text h1 br{
+        display: none;
+    }
+}
+/* End of CSS Banner */
+/* -------------------------------------------- */
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section A */
+
+.postid-10442 .section-a{
+    padding: 100px 0;
+}
+.postid-10442 .section-a .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    color: #837970;
+    margin-top: 0;
+    padding-bottom: 60px;
+}
+
+.postid-10442 .section-a .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.postid-10442 .section-a img{
+    min-height: 300px;
+}
+
+.postid-10442 .section-a a.elementor-post__read-more{
+    color: #ee7d22;
+    font-size: 18px;
+}
+
+.postid-10442 .section-a .elementor-posts-container{
+    display: table;
+}
+
+.postid-10442 .section-a .elementor-posts--thumbnail-top .elementor-post{
+    padding: 0 20px;
+    display: table-cell;
+    width: 33.33%;
+}
+
+.postid-10442 .section-a h3.elementor-post__title {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px){
+    .postid-10442 .section-a .elementor-posts--thumbnail-top .elementor-post {
+        padding: 20px 20px;
+        display: table;
+        width: 100%;
+    }
+}
+/* End of CSS Banner */
+/* -------------------------------------------- */
+
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section B */
+.postid-10442 .section-b{
+    padding: 100px 0;
+    background-color: #f4f3f2;
+}
+.postid-10442 .section-b .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    color: #837970;
+    margin-top: 0;
+    padding-bottom: 60px;
+}
+
+.postid-10442 .section-b .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.postid-10442 .section-b .image{
+    border: 1px solid #eee;
+}
+
+.postid-10442 .section-b .image img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.postid-10442 .section-b .image .img-text{
+    text-align:center;
+    padding: 20px 0;
+}
+
+.postid-10442 .section-b .image a{
+    color:#ee7d22;
+    font-size: 18px;
+    line-height: 1em;
+}
+
+@media screen and (max-width:992px){
+    .postid-10442 .section-b .image{
+        margin-bottom:10px;
+    }
+
+}
+/* End of CSS Section A */
+/* -------------------------------------------- */
+
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section B */
+
+.postid-10442 #section-c{
+    padding: 100px 0;
+}
+.postid-10442 #section-c .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    color: #837970;
+    padding-bottom: 60 px;
+    margin-top: 0;
+    padding-bottom: 60px;
+}
+
+.postid-10442 #section-c .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.section-c-video-text{
+    font-size: 22px;
+    color:#ee7d22;
+    font-weight: 400;
+}
+
+/* End of CSS Section C */
+/* -------------------------------------------- */
+
+/* -------------------------------------------- */
+/* Start of CSS Section D */
+
+.postid-10442 #section-d{
+    padding: 100px 0;
+    background-color: #f4f3f2;
+}
+.postid-10442 #section-d .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    color: #837970;
+    padding-bottom: 60 px;
+    margin-top: 0;
+    padding-bottom: 60px;
+}
+
+.postid-10442 #section-d .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.postid-10442 .section-d-video-a{
+    padding-right: 30px;
+}
+
+.postid-10442 .section-d-video-b{
+    padding-left: 30px;
+}
+
+/* End of CSS Section C */
+/* -------------------------------------------- *//* End custom CSS */

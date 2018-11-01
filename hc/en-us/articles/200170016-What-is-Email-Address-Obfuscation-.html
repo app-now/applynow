@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v14891 -->
+
+  <title>What is Email Address Obfuscation? &ndash; Cloudflare Support</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="lZN9KBA2/E+jcfH89SgkCDVk5IZ2yn/J/iiTeJUJ2mIN8bUlvJZentRYrXKXEnCXaUwbFqhQ3Fpprnba+0FaSQ==" />
+  <meta name="description" content="Cloudflare Email Address Obfuscation helps in spam prevention by hiding email addresses appearing in your pages from email harvesters and..." /><meta property="og:image" content="https://theme.zdassets.com/theme_assets/184946/be36d4c8fe96911c031c619185310fc0b4b97d5a.svg" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Cloudflare Support" />
+<meta property="og:title" content="What is Email Address Obfuscation?" />
+<meta property="og:description" content="Cloudflare Email Address Obfuscation helps in spam prevention by hiding email addresses appearing in your pages from email harvesters and other bots, while remaining visible to your site visitors.
+..." />
+<meta property="og:url" content="http://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-" />
+<link rel="canonical" href="https://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-" />
+<link rel="alternate" hreflang="de" href="https://support.cloudflare.com/hc/de/articles/200170016-What-is-Email-Address-Obfuscation-Was-ist-E-Mail-Adressverschleierung-" />
+<link rel="alternate" hreflang="en" href="https://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-" />
+<link rel="alternate" hreflang="es" href="https://support.cloudflare.com/hc/es-es/articles/200170016--Qu%C3%A9-es-la-ofuscaci%C3%B3n-de-la-direcci%C3%B3n-de-correo-electr%C3%B3nico-" />
+<link rel="alternate" hreflang="fr" href="https://support.cloudflare.com/hc/fr-fr/articles/200170016-Qu-est-ce-que-le-masquage-de-l-adresse-e-mail-" />
+<link rel="alternate" hreflang="zh" href="https://support.cloudflare.com/hc/zh-cn/articles/200170016-%E4%BB%80%E4%B9%88%E6%98%AF%E7%94%B5%E5%AD%90%E9%82%AE%E4%BB%B6%E5%9C%B0%E5%9D%80%E6%B7%B7%E6%B7%86-" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/application-6229f1ebd2f90b23df13e8c12bfd8ab1.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p13.zdassets.com/hc/theming_assets/184946/475874/style.css?digest=360149988352" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="//theme.zdassets.com/theme_assets/184946/28e92aca4bc0f1eb0784c2572768a3b07355f3d5.png" />
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//static.zdassets.com/hc/assets/jquery-b60ddb79ff2563b75442a6bac88b00b5.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-10218544-10', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+  
+
+  <script>
+  ga('create',  "UA-113010760-1", 'auto', 'unifiedTracker');
+	ga('unifiedTracker.send', 'pageview');
+</script>
+
+<meta name="msvalidate.01" content="CF295E1604697F9CAD18B5A232E871F6" />
+<!-- add code here that should appear in the document head -->
+<!-- <script src="//p5.zdassets.com/hc/theme_assets/662945/200053267/fetch.js"></script> -->
+<script type="text/javascript" src="//theme.zdassets.com/theme_assets/184946/d0608d7794a77e0c9fbdc1b0e5b4ecdfe79f2c37.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+<meta class="swiftype" name="language" data-type="string" content="en" />
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families:['Open Sans:400italic,600italic,700italic,700,300,600,400']
+    }
+  });
+</script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="//cdn.bizible.com/scripts/bizible.js" async=""></script>
+
+
+  <script type="text/javascript" src="//p13.zdassets.com/hc/theming_assets/184946/475874/script.js?digest=360149988352"></script>
+</head>
+<body class="">
+  
+  
+
+
+  
+
+
+  <script src="//my.hellobar.com/97c2c3743248f2d22bf2913e078757ebbb386115.js" type="text/javascript" charset="utf-8" async="async"></script><header class="header">
+  <script type="text/javascript">document.write("<scrip"+"t src=\"//qcdn.qordoba.com/qordoba-latest.min.js\"></scrip"+"t><scrip"+"t src=\"https://storaged.qordoba.com/sdk-settings-5456.js?cachebust="+Math.random()+"\"></scrip"+"t>")</script>
+	<div class="header-inner">
+		<div class="logo"><a title="Home" href="/hc/en-us">
+		  <img src="//theme.zdassets.com/theme_assets/184946/be36d4c8fe96911c031c619185310fc0b4b97d5a.svg" alt="Logo">
+		</a></div>
+		<nav class="user-nav">
+      <div style="margin-left:-350px;"><a class="login" role="button" href="https://community.cloudflare.com/">Ask the Community</a></div>
+			
+			  <div class="dropdown language-selector" aria-haspopup="true">
+			    <a class="dropdown-toggle">
+			      English (US)
+			    </a>
+			    <span class="dropdown-menu dropdown-menu-end" role="menu">
+			      
+			        <a href="/hc/change_language/de?return_to=%2Fhc%2Fde%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-Was-ist-E-Mail-Adressverschleierung-" dir="ltr" rel="nofollow" role="menuitem">
+                Deutsch
+			        </a>
+			      
+			        <a href="/hc/change_language/es-es?return_to=%2Fhc%2Fes-es%2Farticles%2F200170016--Qu%25C3%25A9-es-la-ofuscaci%25C3%25B3n-de-la-direcci%25C3%25B3n-de-correo-electr%25C3%25B3nico-" dir="ltr" rel="nofollow" role="menuitem">
+                Español (España)
+			        </a>
+			      
+			        <a href="/hc/change_language/fr-fr?return_to=%2Fhc%2Ffr-fr%2Farticles%2F200170016-Qu-est-ce-que-le-masquage-de-l-adresse-e-mail-" dir="ltr" rel="nofollow" role="menuitem">
+                Français (France)
+			        </a>
+			      
+			        <a href="/hc/change_language/zh-cn?return_to=%2Fhc%2Fzh-cn%2Farticles%2F200170016-%25E4%25BB%2580%25E4%25B9%2588%25E6%2598%25AF%25E7%2594%25B5%25E5%25AD%2590%25E9%2582%25AE%25E4%25BB%25B6%25E5%259C%25B0%25E5%259D%2580%25E6%25B7%25B7%25E6%25B7%2586-" dir="ltr" rel="nofollow" role="menuitem">
+                简体中文
+			        </a>
+			      
+			    </span>
+			  </div>
+			
+			<a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+			  <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.cloudflare.com%2Fhc%2Fen-us%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-&amp;locale=1">Sign in</a>
+
+		</nav>
+	</div>
+</header>
+
+<div class="banner unselectable">
+	<div class="wrap search-wide">
+		<h1><a data-link="homepage" href="/hc/"> Cloudflare Support </a></h1>
+		<section class="search-box main-column">
+		  	<form role="search" class="search" data-search="" data-instant="true" autocomplete="off" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" autocomplete="off" aria-label="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+		</section>
+		<p class="popular-links">Popular topics: <a href="https://support.cloudflare.com/hc/en-us/articles/200170196-I-am-under-DDoS-attack-what-do-I-do-">I'm under DDoS</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/200172336-How-do-I-create-a-Page-Rule-">Using Page Rules</a>, <a href="https://support.cloudflare.com/hc/en-us/articles/200170786-Why-do-my-server-logs-show-CloudFlare-s-IPs-using-CloudFlare-">Restoring IPs on server logs</a></p>
+	</div>
+</div>
+
+<div class="main">
+
+  <main role="main">
+    <aside class="sidebar">
+	<section class="system-status two-col">
+		<div class="icon">
+			<i class="fa"></i>
+		</div>
+		<div>
+			<p class="status">Status unknown</p>
+			<a href="https://www.cloudflarestatus.com" target="new">Detailed system status <i class="fa fa-angle-right"></i></a>
+		</div>
+	</section>
+
+	
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGkEjGHuCzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGkEIFruCzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI%2BL2hjL2VuLXVzL2FydGljbGVzLzIwMDE3MTkxNi1FcnJvci01MjEtV2ViLXNlcnZlci1pcy1kb3duBjsIVDoJcmFua2kG--658d1d55ebd3e35337690b68e6c3cbd9163b1b2e">Error 521: Web server is down</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGkElmHuCzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGkEIFruCzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI%2BL2hjL2VuLXVzL2FydGljbGVzLzIwMDE3MTkyNi1FcnJvci01MjQtQS10aW1lb3V0LW9jY3VycmVkBjsIVDoJcmFua2kH--d9eb1c24ce122b588a47273413c60030597d9043">Error 524: A timeout occurred</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGkEo7EEDToYcmVmZXJyZXJfYXJ0aWNsZV9pZGkEIFruCzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI1L2hjL2VuLXVzL2FydGljbGVzLzIxODQxMTQyNy1QYWdlLVJ1bGVzLVR1dG9yaWFsBjsIVDoJcmFua2kI--bd16fa00e919e7e7caf4af0f95bdb3df3e64762d">Page Rules Tutorial</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGkErFXuCzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGkEIFruCzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJLL2hjL2VuLXVzL2FydGljbGVzLzIwMDE2ODg3Ni1FbWFpbC11bmRlbGl2ZXJhYmxlLXdoZW4tdXNpbmctQ2xvdWRmbGFyZQY7CFQ6CXJhbmtpCQ%3D%3D--ff4486acf9993f890e1ea66c603425c53cbae565">Email undeliverable when using Cloudflare</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGkEOGXuCzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGkEIFruCzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJRL2hjL2VuLXVzL2FydGljbGVzLzIwMDE3Mjg1Ni1NeS13ZWJzaXRlLWlzLXNsb3ctb3ItaGF2aW5nLXBlcmZvcm1hbmNlLWlzc3VlcwY7CFQ6CXJhbmtpCg%3D%3D--c59463d46b0ce28e5aa77aa56f043ede582859a6">My website is slow or having performance issues</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+
+	<div data-recent-articles></div>
+</aside>
+
+<article class="main-column">
+	<nav class="sub-nav">
+		<ol class="breadcrumbs">
+  
+    <li title="Cloudflare Support">
+      
+        <a href="/hc/en-us">Cloudflare Support</a>
+      
+    </li>
+  
+    <li title="Firewall">
+      
+        <a href="/hc/en-us/categories/200275228-Firewall">Firewall</a>
+      
+    </li>
+  
+    <li title="General">
+      
+        <a href="/hc/en-us/sections/200805097-General">General</a>
+      
+    </li>
+  
+</ol>
+ <span>> What is Email Address Obfuscation?</span>
+	</nav>
+
+	<header class="article-header">
+		<h2> What is Email Address Obfuscation?</h2>
+		<div class="article-info">
+		<div class="article-avatar"><img src="https://secure.gravatar.com/avatar/3f3d13ef5e03dec5dae29d626ded09ac?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fdefault_avatar.png&amp;r=g" alt="Avatar"/></div>
+			<div class="article-meta">
+				<strong class="article-author">
+				  Cris
+				</strong>
+			<div class="article-updated meta"><time datetime="2018-08-07T01:58:52Z" title="2018-08-07T01:58:52Z" data-datetime="calendar">August 07, 2018 01:58</time></div>
+			</div>
+			<div class="article-subscribe"><a class="article-subscribe" title="Opens a sign-in dialog" rel="nofollow" role="button" data-auth-action="signin" aria-selected="false" href="/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-/subscription">Follow</a></div>
+		</div>
+	</header>
+
+	<div class="article-body markdown">
+	<p><em>Cloudflare Email Address Obfuscation helps in spam prevention by hiding email addresses appearing in your pages from email harvesters and other bots, while remaining visible to your site visitors.</em></p>
+<hr />
+<h2>Overview </h2>
+<p>Email harvesters and other bots roam the Internet looking for email addresses to add to lists that target recipients for spam. This trend results in an increasing amount of unwanted email.</p>
+<p>Web administrators have come up with clever ways to protect against this by writing out email addresses (i.e., help [at] cloudflare [dot] com) or by using embedded images of the email address. However, you lose the convenience of clicking on the email address to automatically send an email.<br /><br />By enabling Cloudflare Email Address Obfuscation, email addresses on your web page will be obfuscated (hidden) from bots, while keeping them visible to humans. In fact, there are no visible changes to your website for visitors.</p>
+<div class="cf-sidebar cf-sidebar-bgcolor-note">
+<div class="cf-sidebar-icon far fa-sticky-note fa-2x"> </div>
+<div>For email address obfuscation to work in Cloudflare, a page must have a MIME type (Content-Type) of "text/html" or "application/xhtml+xml". </div>
+</div>
+<hr />
+<h2>Verify email address obfuscation</h2>
+<p>Cloudflare enables email address obfuscation automatically when you sign up. </p>
+<p>To verify email address obfuscation in the Cloudflare dashboard:</p>
+<p>1. Log in to the Cloudflare dashboard.</p>
+<p>2. Ensure the website you want to verify is selected.</p>
+<p>3. Click the <strong>Scrape Shield</strong> app.</p>
+<p>4. Under <strong>Email Address Obfuscation</strong>, check that the toggle is set to <em>On</em>.</p>
+<p>Alternatively, you can retrieve the page source from an HTTP client such as CURL, an HTTP library, or browser's view-source option. Then, review the source HTML to confirm that the address is no longer present. </p>
+<hr />
+<h2>Troubleshoot email obfuscation</h2>
+<p>To prevent unexpected website behavior, email addresses are not obfuscated when they appear in:</p>
+<ul>
+<li>Any HTML tag attribute, except for the <em>href</em> attribute of the <em>a</em> tag.</li>
+<li>Other HTML tags:</li>
+</ul>
+<p class="wysiwyg-indent5"><em>script</em> tags: &lt;script&gt;&lt;/script&gt;</p>
+<p class="wysiwyg-indent5"><em>noscript</em> tags: &lt;noscript&gt;&lt;/noscript&gt;</p>
+<p class="wysiwyg-indent5">HTML comments: &lt;!-- --&gt;</p>
+<p class="wysiwyg-indent5"><em>textarea</em> tags: &lt;textarea&gt;&lt;/textarea&gt;</p>
+<p class="wysiwyg-indent5"><em>xmp</em> tags: &lt;xmp&gt;&lt;/xmp&gt;</p>
+<p class="wysiwyg-indent5"><em>head</em> tags: &lt;head&gt;&lt;/head&gt;</p>
+<ul>
+<li>Any page that does not have a MIME type of "text/html" or "application/xhtml+xml"</li>
+</ul>
+<hr />
+<h2>Prevent Cloudflare from obfuscating email</h2>
+<p>To prevent Cloudflare from obfuscating emails, you can:</p>
+<ul>
+<li>Add the following comment in the page HTML code: </li>
+</ul>
+<p class="wysiwyg-indent5">&lt;!--email_off--&gt;<em>you</em> <em>email addresses, goes here</em>&lt;!--/email_off--&gt;</p>
+<ul>
+<li>Return email addresses in JSON format for AJAX calls, making sure your web server returns a content type of "application/json".<br /><br /></li>
+</ul>
+	</div>
+
+	<div class="article-attachments">
+	<ul class="attachments">
+	  
+	</ul>
+	</div>
+</article>
+
+
+<div class="article-footer clearfix left-wrap">
+		
+		  <div class="article-vote">
+		    <span class="article-vote-question">Was this article helpful?</span>
+		    <div class="article-vote-controls">
+		      <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" data-auth-action="signin" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.cloudflare.com%2Fhc%2Fen-us%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-"></a>
+		      <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" data-auth-action="signin" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.cloudflare.com%2Fhc%2Fen-us%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-"></a>
+		    </div>
+		    <small class="article-vote-count">
+		      <span class="article-vote-label">29 out of 42 found this helpful</span>
+		    </small>
+		  </div>
+		
+		<ul class="share">
+  <li><a href="https://www.facebook.com/share.php?title=What+is+Email+Address+Obfuscation%3F&u=https%3A%2F%2Fsupport.cloudflare.com%2Fhc%2Fen-us%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=What+is+Email+Address+Obfuscation%3F&url=https%3A%2F%2Fsupport.cloudflare.com%2Fhc%2Fen-us%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-" class="share-twitter">Twitter</a></li>
+  <li><a href="https://www.linkedin.com/shareArticle?mini=true&source=Cloudflare&title=What+is+Email+Address+Obfuscation%3F&url=https%3A%2F%2Fsupport.cloudflare.com%2Fhc%2Fen-us%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fsupport.cloudflare.com%2Fhc%2Fen-us%2Farticles%2F200170016-What-is-Email-Address-Obfuscation-" class="share-googleplus">Google+</a></li>
+</ul>
+
+</div>
+
+<div class="not-finding-what-you-need search-wide">
+	<div class="two-col">
+		<div class="not-finding-what-you-need__title">
+			<span class="h2"> Not finding what you need?  </span>
+			<p>95% of questions can be answered using the search tool. This is the quickest way to get a response.</p>
+		</div>
+		<div class="not-finding-what-you-need__action pull-right">
+			<a id="submit-request" href="https://support.cloudflare.com/requests/new" class="btn green">Submit a request</a>
+		</div>
+	</div>
+	<section class="search-box"></section>
+	<p class="popular-links">Popular questions:  <a href="https://support.cloudflare.com/hc/articles/200172856-My-website-is-slow-or-having-performance-issues">Why is my site slow</a>, <a href="https://support.cloudflare.com/hc/articles/200171906-Error-522-Connection-timed-out">522 errors</a>, <a href="https://support.cloudflare.com/hc/articles/200172906-What-should-I-do-if-I-m-expecting-a-surge-or-spike-in-traffic-">I'm expecting a spike in traffic</a></p>
+</div>
+  </main>
+
+  
+	<footer class="footer">
+		<a href="https://www.cloudflare.com">cloudflare.com</a>
+    <a href="https://community.cloudflare.com/">Community</a>
+		<a href="https://www.cloudflare.com/terms">Terms</a>
+		<a href="https://www.cloudflare.com/security-policy">Privacy</a>
+		<a href="https://twitter.com/cloudflare">Twitter</a>
+		<a href="https://www.facebook.com/CloudFlare?ref=ts">Facebook</a>
+		<a href="https://plus.google.com/100611700350554803650/">Google+</a>
+		<a href="https://www.linkedin.com/company/407222">LinkedIn</a>
+	</footer>
+
+	</div> <!-- End of main body div -->
+
+    <div class="powered-by-zendesk">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z"/>
+  </svg>
+
+  <a href="https://www.zendesk.com/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=Cloudflare" target="_blank" >Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  <script type="text/javascript" src="//static.zdassets.com/hc/assets/locales/en-us-3d4abef49badc2dd07cfd08d524a66c3.js"></script>
+  <script src="https://cloudflare.zendesk.com/auth/v2/host.js" data-brand-id="475874" data-return-to="https://support.cloudflare.com/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-" data-theme="hc" data-locale="1" data-auth-origin="475874,true,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"cloudflare","environment":"production","name":"Cloudflare"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":"WglotXh7HZrSA2A1FngVHNcZNmJC6kxiSR5ZPHwSm3LCa6C41Nu/S6UqPLt0QkGDizHJ8pxw7/HemLyeElobWQ==","shared_csrf_token":null},"settings":{"zopim_enabled":true,"spam_filter_enabled":false},"current_record_id":"200170016","current_record_url":"/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-","current_record_title":"What is Email Address Obfuscation?","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://cloudflare.zendesk.com","current_host_mapping":"support.cloudflare.com","current_path":"/hc/en-us/articles/200170016-What-is-Email-Address-Obfuscation-","authentication_domain":"https://cloudflare.zendesk.com","show_autocomplete_breadcrumbs":true,"rollbar_config":{"enabled":true,"endpoint":"https://rollbar-us.zendesk.com/api/1/item/","accessToken":"731a5a953e9a4b7ab6cac9623f50c732","captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production","client":{"javascript":{"source_map_enabled":true,"code_version":"dc25c3f79d412b5f00b28e016b88f2cffebc3138","guess_uncaught_frames":true}}}},"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_anonymous_kb_voting":false,"has_professional_upsell":false,"has_multi_language_help_center":true,"mobile_device":false,"mobile_site_enabled":false,"show_at_mentions":false,"has_copied_content":true,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","plans_url":"https://support.cloudflare.com/hc/admin/plan?locale=en-us","manage_content_url":"https://support.cloudflare.com/hc/en-us","arrange_content_url":"https://support.cloudflare.com/hc/admin/arrange_contents?locale=en-us","general_settings_url":"https://support.cloudflare.com/hc/admin/general_settings?locale=en-us","user_segments_url":"https://cloudflare.zendesk.com/knowledge/user_segments?brand_id=475874","import_articles_url":"https://support.cloudflare.com/hc/admin/import_articles?locale=en-us","has_community_enabled":false,"has_groups":true,"has_internal_sections":true,"has_organizations":true,"has_tag_restrictions":true,"has_answer_bot_web_form_enabled":false,"has_close_the_loop_enabled":false,"billing_url":"/access/return_to?return_to=https://cloudflare.zendesk.com/agent/admin/subscription","has_answer_bot":true,"has_block_answer_bot_embeddable":false,"has_guide_docs_importer":true,"has_guide_permission_groups":true,"answer_bot_management_url":"https://support.cloudflare.com/hc/admin/answer_bot?locale=en-us","is_account_owner":false,"has_theming_templates":true,"theming_center_url":"https://support.cloudflare.com/theming","theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-preview","is_preview":false,"permission_groups_url":"https://cloudflare.zendesk.com/knowledge/permissions?brand_id=475874","has_guide_user_segments_search":false,"has_guide_user_segments_v2":true,"has_alternate_templates":false};
+</script>
+
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-8d4f93021497ff3dda0e5188ba380668.js"></script>
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://support.cloudflare.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEIFruCzoKX21ldGF7CzoPYWNjb3VudF9pZGkDctICOhNoZWxwX2NlbnRlcl9pZGkED8rrCzoNYnJhbmRfaWRpA+JCBzoMdXNlcl9pZDA6DnVzZXJfcm9sZUkiDmFub255bW91cwY7BlQ7AEkiCmVuLXVzBjsGVA==--ab23d390e98d3e37d561d095016582984d81c2b1");
+})();
+
+  </script>
+</body>
+</html>

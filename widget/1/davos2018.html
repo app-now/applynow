@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js ie ie6 ltie10 ltie9 ltie8 ltie7"> <![endif]-->
+<!--[if IE 7]>     <html class="no-js ie ie7 ltie10 ltie9 ltie8"> <![endif]-->
+<!--[if IE 8]>     <html class="no-js ie ie8 ltie10 ltie9"> <![endif]-->
+<!--[if IE 9]>     <html class="no-js ie ie9 ltie10"> <![endif]-->
+<!--[if gt IE 9]>  <html class="no-js ie"> <![endif]-->
+<!--[if !IE]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <title>WEF</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <link rel="stylesheet" href="/gadget/includes/v1-6-8-1538383775781.412956740650910432/widget1/css/styles.css">
+
+
+  </head>
+
+  <body id="ng-app" ng-app="app" data-ng-controller="displayCtrl" data-ng-cloak>
+
+    
+<div class="container theme-1  player player-information full-schedule-items-3" data-ng-class="{'player-full-width': expandedPlayer}">
+
+  
+
+  <div class="top">
+
+    
+
+    <div class="left">
+
+      
+
+      <div class="player" data-ng-controller="playerCtrl">
+  <div class="player-wrapper">
+    <div class="fade" data-ng-class="{'show': !loading}">
+      <div
+        class="holder"
+        data-ng-class="{'blank': getIframe(session)}"
+        data-ng-style="{'background-image': 'url('+getSlate(session)+')'}"
+        data-player="[[getIframe(session)]]"
+        data-ng-if="getSlate(session)"
+      ></div>
+      <div
+        class="holder"
+        data-ng-class="{'blank': getIframe(session)}"
+        data-player="[[getIframe(session)]]"
+        data-ng-if="!getSlate(session)"
+      ></div>
+    </div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+
+      <div class="information" data-ng-controller="informationCtrl" data-ng-class="{'loader': loading, 'loaded': !loading}">
+  <div class="information-wrapper">
+    <div class="header clearfix">
+      <div class="live-wrapper" data-ng-hide="session.status != 'now'">
+        <div class="live">
+          <span class="live-text">
+            [[ translateStr('Live') ]]
+          </span>
+        </div>
+      </div>
+      <div class="popup fade" data-ng-class="{'show': !loading}">
+        <a href="" data-ng-click="toggleExapndedPlayer()">
+          <span class="expand-icon bg-sprite"></span>
+        </a>
+      </div>
+
+            <div class="languages fade" data-ng-show="(session.archive && session.archive_languages.length) || ((session.status == 'now' || session.status == 'next') && session.languages.length)" data-ng-class="{'show': !loading}">
+        <div class="language-label">[[ translateStr('Audio') ]]: </div>
+        <div class="language-filter filter">
+          <div class="dropdown open-below">
+            <div id="language" class="dropdown-selector" data-ng-class="{'open': languageSelect=='open'}">
+              <div class="dropdown-btn">
+                <a href="" data-ng-click="toggleLanguageSelect()">
+                  <span data-ng-bind="language"></span>
+                  <span class="arrow">
+                    <i class="arrow-down bg-sprite" data-ng-show="languageSelect=='closed'"></i>
+                    <i class="arrow-up bg-sprite" data-ng-show="languageSelect=='open'"></i>
+                  </span>
+                </a>
+              </div>
+              <div class="dropdown-items" data-scroller="[[session.archive_languages.length]]-[[languageSelect]]" data-height="[[session.archive_languages.length]]" data-ng-if="session.archive">
+                <div>
+                  <div class="btn dropdown-item" data-ng-repeat="lang in session.archive_languages | orderBy">
+                    <a href="" data-ng-click="setLanguage(lang);">
+                      <span class="dropdown-item-inside">[[lang]]</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-items" data-scroller="[[session.languages.length]]-[[languageSelect]]" data-height="[[session.languages.length]]" data-ng-if="!session.archive">
+                <div>
+                  <div class="btn dropdown-item" data-ng-repeat="lang in session.languages | orderBy">
+                    <a href="" data-ng-click="setLanguage(lang);">
+                      <span class="dropdown-item-inside">[[lang]]</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="date" data-ng-show="session.status == 'next' || session.status == 'next-no-player'" >
+        [[session.start_datetime | dateLocal]]
+      </div>
+    </div>
+    <div class="information-content-wrapper">
+      
+      <aside id="speaker-bio-overlay" class="speaker-bio-overlay">
+        <div id="bio-scroller" class="fill" data-scroller>
+          <a class="close-overlay" href="" data-ng-click="closeSpeakerBio()">&#x2715;</a>
+          <h2 data-ng-show="!speakerBio.name" class="bio-title">[[ translateStr('Speaker Bio') ]]</h2>
+          <p data-ng-show="speakerBio.name" class="bio-title-name"><strong>[[ translateStr('Name') ]]:</strong> [[speakerBio.name]]</p>
+          <img data-ng-show="speakerBio.image" data-ng-src="[[speakerBio.image]]">
+
+          <p data-ng-show="speakerBio.position"><strong>[[ translateStr('Position') ]]:</strong> [[speakerBio.position]]<span data-ng-show="speakerBio.company">, [[ speakerBio.company ]]</span></p>
+          <p>[[speakerBio.description]]</p>
+        </div>
+      </aside>
+      <div class="information-content" id="information-content" data-scroller="[[session.description.length + session.title.length + 60]]" data-ng-class="{'title-only':expandedPlayer}">
+        <div class="title">
+          <a data-ng-href="[[session.session_page_url]]" target="_top" data-ng-if="session.session_page_url">
+            [[ translateData(session, 'title') ]]
+          </a>
+          <span data-ng-if="!session.session_page_url">
+            [[ translateData(session, 'title') ]]
+          </span>
+        </div>
+        <div class="content">
+          <div class="content-padding">
+            <a href="[[session.link_url]]" data-ng-hide="!session.link_url || !session.link_title" data-ng-href="[[session.link_url]]" target="_blank" class="session-link" data-track data-track-category="External Link" data-track-action="Clicked" data-track-label="[[session.link_url]]">[[session.link_title]]</a>
+            <span class="description" data-ng-bind-html="translateData(session, 'description')|textFormat"></span>
+            <span class="speakers" data-ng-hide="!session.participants.length">
+              [[ translateStr('Speakers') ]]:
+              <span data-ng-repeat="speaker in session.participants" class="speaker">
+                <a href="" data-ng-click="showSpeakerBio(speaker)">[[speaker.name]]</a><span data-ng-if="(session.participants.length - 1) != $index">,</span>
+              </span>
+            </span>
+            <span class="topics" data-ng-show="session.topics.length">
+              [[ translateStr('Topics') ]]:
+              <span data-ng-repeat="topic in session.topics">
+                <a data-ng-click="setTopic(topic)">[[topic]]</a><span data-ng-if="(session.topics.length - 1) != $index">,</span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      
+      <div data-ng-show="(session.status == 'now' || session.status == 'next') && session.twitter" class="twitter-container">
+        <a class="twitter-widget twitter-reply" data-twitter-reply target="_blank" data-reply-url="[[session.share_link]]" data-reply-hashtags="[[session.twitter]]" data-track data-track-category="Social" data-track-action="Twitter" data-track-label="Tweet">
+          <i></i>
+          <span class="label">[[session.twitter]]</span>
+        </a>
+      </div>
+      
+      
+      <div id="embed-btn-mini-schedule" class="embed-btn" data-ng-show="session" data-ng-hide="session.private || !session.id">
+        <a data-ng-click="embed('embed-btn-mini-schedule')">
+          <span class="icon bg-sprite"></span>
+          <span class="text">[[ translateStr('Embed') ]]</span>
+        </a>
+      </div>
+      
+      <div class="dropdown downloads open-above" data-ng-if="session.download_languages.length && session.released">
+        <div id="downloadVideo" class="dropdown-selector" data-ng-class="{'open': downloadSelect=='open'}">
+          <div class="dropdown-btn">
+            <a href="" data-ng-click="toggleDownloadSelect()">
+              <span>[[ translateStr('Download') ]]</span>
+              <span class="arrow">
+                <i class="arrow-up bg-sprite" data-ng-show="downloadSelect=='closed'"></i>
+                <i class="arrow-down bg-sprite" data-ng-show="downloadSelect=='open'"></i>
+              </span>
+            </a>
+          </div>
+          <div class="dropdown-items" data-scroller="[[session.download_languages.length]]" data-height="[[session.download_languages.length]]">
+            <div>
+              <div class="btn dropdown-item" data-ng-repeat="lang in session.download_languages | orderBy">
+                <a href="[[ session['download_'+lang] ]]" target="_blank" data-ng-if="session['download_'+lang]" data-ng-click="startDownload('[[ session.id ]]');">
+                  <span class="dropdown-item-inside">[[lang]]</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more-details" data-ng-show="session" data-ng-hide="session.private || !session.id" data-ng-if="session.session_page_url">
+        <a href="[[session.session_page_url]]" target="_top">
+          <span class="text">[[ translateStr('view_full_session_details') ]]</span>
+        </a>
+      </div>
+      <div class="download-status" data-ng-show="download">
+        <span class="text">If you experience any playback issues with any of the downloaded videos using your default player, please use an alternative option.</span>
+        <button class="btn" data-ng-click="dismissDownloadStatus();">&times;</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    </div>
+
+    
+
+    
+
+  </div>
+
+  
+
+  
+
+  
+  <div class="footer-bar">
+    
+    <div class="share-links">
+      <a
+        data-share-google-plus
+        data-share-google-plus-url="https://www.weforum.org/events/world-economic-forum-annual-meeting-2018"
+        data-track
+        data-track-category="Social"
+        data-track-action="Share"
+        data-track-label="Google Plus"
+        target="_blank"
+      >
+        <span class="google-icon bg-sprite icon" ></span>
+      </a>
+      <a data-share-twitter
+         data-share-text="Live debate and analysis from the Annual Meeting 2018, Davos, 23-26 January, #wef18 wef.ch/am18"
+         data-track
+         data-track-category="Social"
+         data-track-action="Share"
+         data-track-label="Twitter"
+         target="_blank"
+        >
+        <span class="twitter-icon bg-sprite icon" ></span>
+      </a>
+      <a data-share-facebook
+         data-share-url="https://www.weforum.org/events/world-economic-forum-annual-meeting-2018"
+         data-track
+         data-track-category="Social"
+         data-track-action="Share"
+         data-track-label="Facebook"
+         target="_blank"
+        >
+        <span class="facebook-icon bg-sprite icon"></span>
+      </a>
+    </div>
+    
+    
+    <div id="embed-btn-footer" class="embed-btn">
+
+      <a data-ng-click="embed('embed-btn-footer')">
+        <span class="icon bg-sprite"></span>
+        <span class="text">[[ translateStr('Embed') ]]</span>
+      </a>
+    </div>
+    
+  </div>
+  
+
+  <div id="wef-embed-overlay" class="embed-overlay fill" data-ng-controller="embedCtrl" data-embed-fade data-embed-fade-status="[[visible]]" data-embed-el-clicked-offset="">
+    <div id="embedscroller" class="embed-content scroller" data-scroller>
+      <div>
+      <div class="embed-container">
+        <div class="header">
+          <div class="title">
+            [[ translateStr('Embed this Widget into your website') ]]
+          </div>
+          <div class="close-btn">
+            <a data-ng-click="close();">x</a>
+          </div>
+        </div>
+
+        <div class="section-title">
+          [[ translateStr('Select your layout') ]]
+        </div>
+
+        <div class="option-p option" data-ng-hide="!session">
+          <input type="radio" name="option" data-ng-model="layout" value="p=1" id="player" class="radio-btn" />
+          <label for="player">
+            <span class="icon"></span>
+            <span class="label">[[ translateStr('Player Only') ]]</span>
+          </label>
+        </div>
+        <div class="option-pi option" data-ng-hide="!session">
+          <input type="radio" name="option" data-ng-model="layout" value="p=1&pi=1" id="playerinfo" class="radio-btn" />
+          <label for="playerinfo">
+            <span class="icon"></span>
+            <span class="label">[[ translateStr('Player and Session Information') ]]</span>
+          </label>
+        </div>
+        <div class="option-ms option" data-ng-hide="session">
+          <input type="radio" name="option" data-ng-model="layout" value="p=1&pi=1&ms=1" id="minischedule" class="radio-btn" />
+          <label for="minischedule">
+            <span class="icon"></span>
+            <span class="label">[[ translateStr('Player, Session Information and Mini Schedule') ]]</span>
+          </label>
+        </div>
+        <div class="option-fs option" data-ng-hide="session">
+          <input type="radio" name="option" data-ng-model="layout" value="p=1&pi=1&ms=1&fs=1" id="fullschedule" class="radio-btn" />
+          <label for="fullschedule">
+            <span class="icon"></span>
+            <span class="label">[[ translateStr('Player, Session Information, Mini Schedule and Full Schedule') ]]</span>
+          </label>
+        </div>
+        <div class="option-s option" data-ng-hide="session">
+          <input type="radio" name="option" data-ng-model="layout" value="fs=1" id="scheduleonly" class="radio-btn" />
+          <label for="scheduleonly">
+            <span class="icon"></span>
+            <span class="label">[[ translateStr('Schedule Only') ]]</span>
+          </label>
+        </div>
+        <div data-ng-show="layout == 'p=1'">
+          <div class="section-title">[[ translateStr('Please enter a width (optional)') ]]</div>
+          <div class="option-w option">
+
+            <div class="player-props">
+              <span class="player-props-label">[[ translateStr('Width') ]]</span>
+              <input type="text" data-ng-model="playerWidth" id="player-width" placeholder="Enter Width"/>
+            </div>
+            <div class="player-props">
+              <span class="player-props-label">[[ translateStr('Height') ]]</span>
+              <input class="disabled" type="text" data-ng-model="playerHeight" id="player-height" placeholder="Height" disabled="disabled" />
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title">
+          [[ translateStr('Please select a theme') ]]
+        </div>
+        <div class="option-t">
+          <div class="theme-filter filter">
+            <div class="dropdown">
+              <div id="theme" class="dropdown-selector" data-select-dropdown data-ng-class="{'open': dropdowns['theme'].open}">
+                <div class="dropdown-btn">
+                  <a href="" data-ng-click="toggleOpen('theme')">
+                    <span data-ng-show="dropdowns['theme'].text">[[ dropdowns['theme'].text ]]</span>
+                    <span data-ng-hide="dropdowns['theme'].text">[[ translateStr('Theme') ]]</span>
+                    <span class="arrow">
+                      <i class="arrow-down bg-sprite" data-ng-show="!dropdowns['theme'].open"></i>
+                      <i class="arrow-up bg-sprite" data-ng-show="dropdowns['theme'].open"></i>
+                    </span>
+                  </a>
+                </div>
+                <div class="dropdown-items">
+                  <div>
+                    <div class="btn dropdown-item">
+                      <a href="" data-ng-click="toggleOpen('theme'); setValue(translateStr('White'), 'theme'); theme=1;">
+                        <span class="dropdown-item-inside">[[ translateStr('White') ]]</span>
+                      </a>
+                    </div>
+                    <div class="btn dropdown-item">
+                      <a href="" data-ng-click="toggleOpen('theme'); setValue(translateStr('Grey'), 'theme'); theme=2;">
+                        <span class="dropdown-item-inside">[[ translateStr('Grey') ]]</span>
+                      </a>
+                    </div>
+                    <div class="btn dropdown-item">
+                      <a href="" data-ng-click="toggleOpen('theme'); setValue(translateStr('Blue'), 'theme'); theme=3;">
+                        <span class="dropdown-item-inside">[[ translateStr('Blue') ]]</span>
+                      </a>
+                    </div>
+                    <div class="btn dropdown-item">
+                      <a href="" data-ng-click="toggleOpen('theme'); setValue(translateStr('Black'), 'theme'); theme=4;">
+                        <span class="dropdown-item-inside">[[ translateStr('Black') ]]</span>
+                      </a>
+                    </div>
+                    <div class="btn dropdown-item">
+                      <a href="" data-ng-click="toggleOpen('theme'); setValue(translateStr('Transparent'), 'theme'); theme=5;">
+                        <span class="dropdown-item-inside">[[ translateStr('Transparent') ]]</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-title">
+          [[ translateStr('Default Language') ]]
+        </div>
+        <div class="option-t">
+          <div class="theme-filter filter">
+            <div class="dropdown">
+              <div id="defaultLanguage" class="dropdown-selector" data-select-dropdown data-ng-class="{'open': dropdowns['defaultLanguage'].open}">
+                <div class="dropdown-btn">
+                  <a href="" data-ng-click="toggleOpen('defaultLanguage')">
+                    <span data-ng-show="dropdowns['defaultLanguage'].text">[[ dropdowns['defaultLanguage'].text ]]</span>
+                    <span data-ng-hide="dropdowns['defaultLanguage'].text">[[ translateStr('Language') ]]</span>
+                    <span class="arrow">
+                      <i class="arrow-down bg-sprite" data-ng-show="!dropdowns['defaultLanguage'].open"></i>
+                      <i class="arrow-up bg-sprite" data-ng-show="dropdowns['defaultLanguage'].open"></i>
+                    </span>
+                  </a>
+                </div>
+                <div class="dropdown-items">
+                  <div>
+                    <div class="btn dropdown-item" data-ng-repeat="lang in displayLanguages track by $index">
+                      <a href="" data-ng-click="toggleOpen('defaultLanguage'); setValue(lang, 'defaultLanguage'); setLanguage(lang);">
+                        <span class="dropdown-item-inside">[[lang]]</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="section-title">
+          [[ translateStr('Autoplay videos') ]]
+        </div>
+        <div class="embed-autoplay">
+          <form class="clearfix">
+            <input id="embed-autoplay-yes" type="radio" name="embed-autoplay" value="on" data-ng-model="embedAutoplay"><label for="embed-autoplay-yes">[[ translateStr('Autoplay on') ]]</label><br>
+            <input id="embed-autoplay-no" type="radio" name="embed-autoplay" value="off" data-ng-model="embedAutoplay"><label for="embed-autoplay-no">[[ translateStr('Autoplay off') ]]</label>
+          </form>
+        </div>
+        <div data-ng-show="url">
+          <div class="section-title">
+            [[ translateStr('Your embed URL is') ]]
+          </div>
+          <div class="embed-url option">
+            <a data-ng-href="[[url]]" target="_blank" class="embed-url-link">[[url]]</a>
+          </div>
+        </div>
+        <div data-ng-show="code">
+          <div class="section-title">
+            [[ translateStr('Your embed code is') ]]
+          </div>
+          <div class="embed-code option">
+            <code>
+              [[code]]
+            </code>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+    <script>
+      var version = '1-6-8-1538383775781.412956740650910432';
+      
+      var config = {
+        "hl": "english",
+        "s": "p",
+        "tz": "CET",
+        "id": "a0Wb000000AHjPAEA1",
+        "e": "davos2018",
+        "p": "livestream",
+        "auto": false,
+        "ls": {
+          "a":"1909571",
+          "s":"https://s3-eu-west-1.amazonaws.com/wef.videos/slates/davos2018.jpg",
+          "sv":"https://cdn.livestream.com/events/wef/replayable_soon.jpg",
+          "sr":"https://cdn.livestream.com/events/wef/release-date.jpg"},
+        "c": {"p": true, "l": false, "i": true, "m": false, "f": false, "fi": true,"th": true, "he" : false},
+        "r": "false",
+        "t": false,
+        "u": {
+          "w": {
+            "e": "https://www.weforum.org/events/world-economic-forum-annual-meeting-2018",
+            "p": "https://www.weforum.org/events/world-economic-forum-annual-meeting-2018/programme",
+            "s": "https://www.weforum.org/events/world-economic-forum-annual-meeting-2018/player"},
+          "e": {
+            "e": "https://toplink.weforum.org/events/a0Pb000000ErKE2EAN/world-economic-forum-annual-meeting/",
+            "p": "https://toplink.weforum.org/events/a0Pb000000ErKE2EAN/world-economic-forum-annual-meeting/programme",
+            "s": false},
+          "p": {
+            "e": "https://www.weforum.org/events/world-economic-forum-annual-meeting-2018",
+            "p": "https://www.weforum.org/events/world-economic-forum-annual-meeting-2018/programme",
+            "s": "https://www.weforum.org/events/world-economic-forum-annual-meeting-2018/player"}
+        },
+        "w": false,
+        "h": false};
+      var translations = {'Blue': {'chinese': '\xe8\x93\x9d\xe8\x89\xb2', 'english': 'Blue'}, 'Speakers': {'chinese': '\xe5\x98\x89\xe5\xae\xbe', 'english': 'Speakers'}, 'AddtoGoogleCalendar': {'chinese': '\xe5\x8a\xa0\xe5\x85\xa5\xe8\xb0\xb7\xe6\xad\x8c\xe8\xa1\x8c\xe4\xba\x8b\xe5\x8e\x86', 'english': 'Add to Google Calendar'}, 'Searchforwebcasts': {'chinese': '\xe6\x90\x9c\xe7\xb4\xa2\xe8\xa7\x86\xe9\xa2\x91', 'english': 'Search for webcasts...'}, 'ScheduleOnly': {'chinese': '\xe5\x8f\xaa\xe6\x98\xbe\xe7\xa4\xba\xe6\x97\xa5\xe7\xa8\x8b', 'english': 'Schedule Only'}, 'Grey': {'chinese': '\xe7\x81\xb0\xe8\x89\xb2', 'english': 'Grey'}, 'Speakerbio': {'chinese': '\xe5\x98\x89\xe5\xae\xbe\xe4\xbf\xa1\xe6\x81\xaf', 'english': 'Speaker bio'}, 'PlayerSessionInformationandMiniSchedule': {'chinese': '\xe6\x92\xad\xe6\x94\xbe\xe5\x99\xa8\xe3\x80\x81\xe5\x9c\xba\xe6\xac\xa1\xe4\xbf\xa1\xe6\x81\xaf\xe3\x80\x81\xe7\xae\x80\xe5\x8d\x95\xe6\x97\xa5\xe7\xa8\x8b', 'english': 'Player, Session Information and Mini Schedule'}, 'PleaseenteraWidthoptional': {'chinese': '\xe8\xaf\xb7\xe8\xbe\x93\xe5\x85\xa5\xe5\xae\xbd\xe5\xba\xa6\xef\xbc\x88\xe5\x8f\xaf\xe5\xa1\xab\xef\xbc\x89', 'english': 'Please enter a Width (optional)'}, 'Autoplayon': {'chinese': '\xe5\xbc\x80\xe5\x90\xaf\xe8\x87\xaa\xe5\x8a\xa8\xe6\x92\xad\xe6\x94\xbe', 'english': 'Autoplay on'}, 'Black': {'chinese': '\xe9\xbb\x91\xe8\x89\xb2', 'english': 'Black'}, 'Name': {'chinese': '\xe5\xa7\x93\xe5\x90\x8d', 'english': 'Name'}, 'Close': {'chinese': '\xe5\x85\xb3\xe9\x97\xad', 'english': 'Close'}, 'Position': {'chinese': '\xe8\x81\x8c\xe4\xbd\x8d', 'english': 'Position'}, 'Embed': {'chinese': '\xe5\xb5\x8c\xe5\x85\xa5', 'english': 'Embed'}, 'NextSessions': {'chinese': '\xe4\xb8\x8b\xe4\xb8\x80\xe5\x9c\xba', 'english': 'Next Sessions'}, 'White': {'chinese': '\xe7\x99\xbd\xe8\x89\xb2', 'english': 'White'}, 'PlayerandSessionInformation': {'chinese': '\xe6\x98\xbe\xe7\xa4\xba\xe6\x92\xad\xe6\x94\xbe\xe5\x99\xa8\xe5\x92\x8c\xe5\x9c\xba\xe6\xac\xa1\xe4\xbf\xa1\xe6\x81\xaf', 'english': 'Player and Session Information'}, 'Availablefrom': {'chinese': '\xe5\xbc\x80\xe5\xa7\x8b\xe6\x97\xb6\xe9\x97\xb4', 'english': 'Available from'}, 'Showmore': {'chinese': '\xe6\x98\xbe\xe7\xa4\xba\xe6\x9b\xb4\xe5\xa4\x9a', 'english': 'Show more'}, 'Theme': {'chinese': '\xe4\xb8\xbb\xe9\xa2\x98', 'english': 'Theme'}, 'Selectyourlayout': {'chinese': '\xe9\x80\x89\xe6\x8b\xa9\xe4\xbd\xa0\xe7\x9a\x84\xe6\x9d\xbf\xe5\xbc\x8f', 'english': 'Select your layout'}, 'Width': {'chinese': '\xe5\xae\xbd\xe5\xba\xa6', 'english': 'Width'}, 'Language': {'chinese': '\xe8\xaf\xad\xe8\xa8\x80', 'english': 'Language'}, 'PlayerOnly': {'chinese': '\xe5\x8f\xaa\xe6\x98\xbe\xe7\xa4\xba\xe6\x92\xad\xe6\x94\xbe\xe5\x99\xa8', 'english': 'Player Only'}, 'Autoplayoff': {'chinese': '\xe5\x85\xb3\xe9\x97\xad\xe8\x87\xaa\xe5\x8a\xa8\xe6\x92\xad\xe6\x94\xbe', 'english': 'Autoplay off'}, 'YourembedURLis': {'chinese': '\xe5\xb5\x8c\xe5\x85\xa5\xe9\x93\xbe\xe6\x8e\xa5', 'english': 'Your embed URL is'}, 'Topics': {'chinese': '\xe4\xb8\xbb\xe9\xa2\x98', 'english': 'Topics'}, 'PlayerSessionInformationMiniScheduleandFullSchedule': {'chinese': '\xe6\x92\xad\xe6\x94\xbe\xe5\x99\xa8\xe3\x80\x81\xe5\x9c\xba\xe6\xac\xa1\xe4\xbf\xa1\xe6\x81\xaf\xe3\x80\x81\xe7\xae\x80\xe5\x8d\x95\xe6\x97\xa5\xe7\xa8\x8b\xe3\x80\x81\xe5\x85\xa8\xe9\x83\xa8\xe6\x97\xa5\xe7\xa8\x8b', 'english': 'Player, Session Information, Mini Schedule and Full Schedule'}, 'Height': {'chinese': '\xe9\xab\x98\xe5\xba\xa6', 'english': 'Height'}, 'FeaturedSessions': {'chinese': '\xe7\x89\xb9\xe5\x88\xab\xe5\x9c\xba\xe6\xac\xa1', 'english': 'Featured Sessions'}, 'AddtoCalendar': {'chinese': '\xe5\x8a\xa0\xe5\x85\xa5\xe8\xa1\x8c\xe4\xba\x8b\xe5\x8e\x86', 'english': 'Add to Calendar'}, 'Pleaseselectatheme': {'chinese': '\xe8\xaf\xb7\xe9\x80\x89\xe6\x8b\xa9\xe4\xb8\xbb\xe9\xa2\x98', 'english': 'Please select a theme'}, 'EmbedthisWidgetintoyourwebsite': {'chinese': '\xe5\xb5\x8c\xe5\x85\xa5\xe6\xad\xa4\xe6\xa8\xa1\xe5\x9d\x97', 'english': 'Embed this Widget into your website'}, 'Live': {'chinese': '\xe6\xad\xa3\xe5\x9c\xa8\xe7\x9b\xb4\xe6\x92\xad', 'english': 'Live'}, 'Date': {'chinese': '\xe6\x97\xa5\xe6\x9c\x9f', 'english': 'Date'}, 'PreviousSessions': {'chinese': '\xe4\xb9\x8b\xe5\x89\x8d\xe5\x9c\xba\xe6\xac\xa1', 'english': 'Previous Sessions'}, 'All': {'chinese': '\xe5\x85\xa8\xe9\x83\xa8', 'english': 'All'}, 'Autoplayvideos': {'chinese': '\xe8\x87\xaa\xe5\x8a\xa8\xe6\x92\xad\xe6\x94\xbe\xe8\xa7\x86\xe9\xa2\x91', 'english': 'Autoplay videos'}, 'YourembedCodeis': {'chinese': '\xe5\xb5\x8c\xe5\x85\xa5\xe4\xbb\xa3\xe7\xa0\x81', 'english': 'Your embed Code is'}, 'ReplayableSoon': {'chinese': '\xe5\x8d\xb3\xe5\xb0\x86\xe5\x8f\xaf\xe7\x82\xb9\xe6\x92\xad', 'english': 'Replayable Soon'}}
+    </script>
+
+    <script>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-37779154-1']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackEvent']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+    
+    <script src="/gadget/includes/v1-6-8-1538383775781.412956740650910432/widget1/js/app.min.js"></script>
+    
+
+  </body>
+</html>

@@ -1,0 +1,1217 @@
+.elementor-11470 .elementor-element.elementor-element-ec6bea4 > .elementor-widget-container{padding:0px 0px 0px 0px;}.elementor-11470 .elementor-element.elementor-element-14e38a6{background-color:#f4f3f2;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 0px 0px 0px;}.elementor-11470 .elementor-element.elementor-element-14e38a6 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-11470 .elementor-element.elementor-element-f0c5a7b > .elementor-widget-container{padding:0px 0px 0px 0px;background-color:#f4f3f2;}.elementor-11470 .elementor-element.elementor-element-cfe7a25 > .elementor-widget-container{padding:0px 0px 0px 0px;}/* Start custom CSS for page-settings */.single-stand_alone_page.postid-11470{
+    overflow-x: hidden;
+}
+
+.single-stand_alone_page.postid-11470 section .container{
+    padding: 0;
+    max-width: 100%;
+}
+
+.single-stand_alone_page.postid-11470 .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 100%;
+}
+
+.single-stand_alone_page.postid-11470 .container-custom{
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.single-stand_alone_page.postid-11470 .container-custom-b{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.single-stand_alone_page.postid-11470  #footer {
+    margin-top: 20px;
+}
+
+.single-stand_alone_page.postid-11470 .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 0;
+}
+
+.single-stand_alone_page.postid-11470 .no-padding{
+    padding: 0;
+}
+
+.single-stand_alone_page.postid-11470 .no-margin{
+    margin: 0;
+}
+
+.single-stand_alone_page.postid-11470 .center{
+    text-align: center;
+}
+
+.single-stand_alone_page.postid-11470 .left{
+    text-align: left;
+}
+
+.single-stand_alone_page.postid-11470 .padding-custom{
+    padding: 5px!important;
+}
+
+/* -------------------------------------------- */
+/* Start of Nav menu */
+
+.postid-11470 .section-page-content{
+    margin-top: 0;
+}
+.postid-11470 #nav-africa .container-fluid{
+    background-color: #ee7d22;
+}
+
+.postid-11470 #nav-africa .navbar-header .collapsed .fa-chevron-down,
+.postid-11470 #nav-africa .navbar-header .fa-chevron-up {
+    display: inline-block;
+    color: #ee7d22;
+    font-size: 25px;
+}
+
+.postid-11470 #nav-africa .navbar-header .collapsed .fa-chevron-up,
+.postid-11470 #nav-africa .navbar-header .fa-chevron-down {
+  display: none;
+}
+
+.postid-11470 #nav-africa i.fa {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.postid-11470 #nav-africa .collapsed ~ .panel-body {
+  padding: 0;
+}
+
+.postid-11470 #nav-africa .navbar{
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.postid-11470 #nav-africa  .navbar-inverse .navbar-nav{
+    width: 100%;
+}
+
+.postid-11470 #nav-africa  .navbar-inverse .navbar-nav>li{
+    width: 16.66%;
+}
+
+.postid-11470 #nav-africa  .navbar-inverse .navbar-nav>li>a{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.postid-11470 #nav-africa .navbar-inverse{
+    background-color: transparent;
+}
+
+.postid-11470 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    border-bottom: #fff 2px solid;
+    background: transparent;
+}
+
+@media screen and (max-width: 1024px){
+    .postid-11470 #nav-africa .container-fluid{
+        background-color: transparent;
+        padding-bottom:10px;
+        border-top: 1px solid #ddd7d1;
+    }
+    
+    .postid-11470 #nav-africa .container-custom{
+        border: 2px solid #ee7d22;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .postid-11470 #nav-africa .navbar-inverse .navbar-toggle {
+        border: none;
+    }
+    
+    .postid-11470 #nav-africa .navbar-inverse .navbar-toggle:focus, 
+    .postid-11470 #nav-africa .navbar-inverse .navbar-toggle:hover{
+        background: transparent;
+        border: none;
+    }
+    
+    .postid-11470 #nav-africa .navbar-header {
+        float: none;
+    }
+    .postid-11470 #nav-africa .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .postid-11470 #nav-africa .navbar-toggle {
+        display: block;
+    }
+    .postid-11470 #nav-africa .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .postid-11470 #nav-africa .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .postid-11470 #nav-africa .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .postid-11470 #nav-africa .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    
+    .postid-11470 #nav-africa .navbar-nav>li {
+        float: none;
+        width: 100%!important;
+        text-align: left!important;
+    }
+    .postid-11470 #nav-africa .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#ee7d22!important;
+        text-align: left!important;
+    }
+    .postid-11470 #nav-africa .collapse.in{
+        display:block !important;
+        border-top: 2px solid #ee7d22;
+    }
+    .postid-11470  #nav-africa .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+    .postid-11470  #nav-africa .navbar-inverse .navbar-nav>.active>a:hover{
+        border-bottom:none;
+        background: transparent;
+    }
+}
+/* -------------------------------------------- */
+/* End of CSS Nav menu */
+
+
+/* -------------------------------------------- */
+/* Start of CSS Banner */
+.postid-11470 .banner-africa{
+    position: relative;    
+}
+
+.postid-11470 .banner-africa .container-fluid{
+    background-image: url('../../2018/05/bg-image-1.jpeg');
+    background-size: cover;
+    height: 713px;
+}
+
+.postid-11470 .banner-africa .content{
+    padding: 60px 0 0;
+}
+
+.postid-11470 .banner-africa .banner-text{
+    margin-top: 190px;
+    z-index: 1;
+}
+
+.postid-11470 .banner-africa .banner-text button{
+    border: none;
+}
+
+.postid-11470 .banner-africa .banner-text h1{
+    font-size: 70px;
+    line-height: 75px;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: normal;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.postid-11470 .banner-africa .banner-text p{
+    font-size: 24px;
+    margin: 20px 0;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 300;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.postid-11470 .banner-africa .contact-us-link{
+    position: absolute;
+    bottom:30px;
+}
+.postid-11470 .banner-africa .contact-us-link a{
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    color: #a9dbda;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.postid-11470 .banner-africa .see-our-facilities{
+    opacity: 0.9;
+    width: 600px;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    background-color: #d95e18;
+    border-top: 5px solid #ee8505;
+    max-width: 100%;
+}
+
+.postid-11470 .banner-africa .see-our-facilities a{
+    background-color: #d95e18;
+    color: #fff;
+    display: block;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Karla', sans-serif;
+}
+
+.postid-11470 .banner-africa .see-our-facilities a:before{
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url(../../../themes/agility/images/video-play-button.png);
+    width: 35px;
+    height: 35px;
+    background-size: 100%;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+}
+
+/* Banner - Media Screen */
+
+@media screen and (max-width:992px){
+    .postid-11470 .banner-africa .container-fluid{
+        height: 575px;
+    }
+    
+    .postid-11470 .banner-africa .banner-text{
+        margin-top: 0px;
+    }
+    
+    .postid-11470 .banner-africa img.map{
+        display:none;
+    }
+    
+    .postid-11470 .banner-africa .banner-text h1{
+        font-size: 56px;
+        line-height: initial;
+        width: initial;
+    }
+    .postid-11470 .banner-africa .banner-text h1 br{
+        display:none;
+    }
+    
+    .postid-11470 .banner-africa .banner-text br{
+        display:none;
+    }
+    
+    .postid-11470 .banner-africa .contact-us-link{
+        width: 100%;
+        padding-bottom: 15px;
+        position: absolute;
+        bottom: 50px;
+    }
+    .postid-11470 .banner-africa .see-our-facilities a{
+        font-size: 28px;
+    }
+    
+    
+    .postid-11470 .banner-africa .see-our-facilities{
+        width: 100%;
+        position: absolute;
+        bottom: -50px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .postid-11470 .banner-africa .container-fluid{
+        height: 475px;
+    }
+
+    .postid-11470 .banner-africa .banner-text h1{
+        font-size: 46px;
+    }
+    
+    .postid-11470 .banner-africa .banner-text h1 br{
+        display: none;
+    }
+    
+    .postid-11470 .banner-africa .contact-us-link a{
+        font-size:18px;
+    }
+    .postid-11470 .banner-africa .see-our-facilities a{
+        font-size: 22px;
+        padding: 10px 25px;
+    }
+    .postid-11470 .banner-africa .banner-text p{
+        font-size: 18px;
+    }
+}
+/* End of CSS Banner */
+/* -------------------------------------------- */
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section-A */
+.postid-11470 .section-a{
+    padding: 100px 0 0;
+}
+
+.postid-11470 .section-a .section-a-title{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+
+/* End of CSS Section-A */
+/* -------------------------------------------- */
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section-A2 */
+.postid-11470 .section-a2{
+    padding: 0 0 100px;
+}
+
+/* End of CSS Section-A */
+/* -------------------------------------------- */
+
+
+
+
+/* Start of CSS Section B */
+/* -------------------------------------------- */
+.postid-11470 .section-b .container-fluid{
+    background-color: #f4f3f2;
+    padding: 100px 0px 0px;
+}
+
+
+.postid-11470 .section-b .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    color: #837970;
+    padding-bottom: 60px;
+    margin-top: 0;
+}
+
+.postid-11470 .section-b .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.postid-11470 .section-b .row-title{
+    max-width: 1600px;
+    margin: 0 auto 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.postid-11470 .section-b .row-title h4{
+    font-size: 22px;
+    padding-top: 25px;
+}
+
+.postid-11470 .section-b .row-title .text {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/* End of CSS Section B */
+/* -------------------------------------------- */
+
+
+/* -------------------------------------------- */
+/* Start of CSS section-b2 - Slider */
+.postid-11470 .section-b2{
+    padding-bottom: 100px;
+    background-color: #f4f3f2;
+}
+
+.postid-11470 .section-b2 .country-block-01 .content,
+.postid-11470 .section-b2 .country-block-02 .content,
+.postid-11470 .section-b2 .country-block-03 .content,
+.postid-11470 .section-b2 .country-block-04 .content{
+    position: absolute;
+    bottom: 5%;
+}
+
+.postid-11470 .section-b2 .country-block-01 .title,
+.postid-11470 .section-b2 .country-block-02 .title,
+.postid-11470 .section-b2 .country-block-03 .title,
+.postid-11470 .section-b2 .country-block-04 .title{
+    font-size: 50px;
+    padding: 0 20px 0 33px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.postid-11470 .section-b2 .country-block-01 ul,
+.postid-11470 .section-b2 .country-block-02 ul,
+.postid-11470 .section-b2 .country-block-03 ul,
+.postid-11470 .section-b2 .country-block-04 ul{
+    margin-left: 7px;
+}
+.postid-11470 .section-b2 .country-block-01 ul li,
+.postid-11470 .section-b2 .country-block-02 ul li,
+.postid-11470 .section-b2 .country-block-03 ul li,
+.postid-11470 .section-b2 .country-block-04 ul li{
+    color: #fff;
+    font-size: 13px;
+    max-width: 100%;
+    line-height: 1.3em;
+}
+
+
+.postid-11470 .section-b2 .country-block-01{
+    background: url('../../2018/05/bg-image-7.jpeg');
+    height: 445px;
+    background-size: cover !important;
+    background-position: right;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.postid-11470 .section-b2 .country-block-02{
+    background: url('../../2018/05/bg-image-8.jpeg');
+    height: 445px;
+    background-size: cover !important;
+    background-position: right;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.postid-11470 .section-b2 .country-block-03{
+    background: url('../../2018/05/bg-image-9.jpeg');
+    height: 445px;
+    background-size: cover !important;
+    background-position: right;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.postid-11470 .section-b2 .country-block-04{
+    background: url('../../2018/05/image-7.jpeg');
+    height: 445px;
+    background-size: cover !important;
+    background-position: right;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+@media screen and (max-width:1440px) and (min-width:992px){
+    .postid-11470 .section-b2 .country-block-01 .title,
+    .postid-11470 .section-b2 .country-block-02 .title,
+    .postid-11470 .section-b2 .country-block-03 .title,
+    .postid-11470 .section-b2 .country-block-04 .title{
+        font-size: 33px;
+    }
+
+}
+
+/* End of CSS section-b2 */
+/* -------------------------------------------- */
+
+
+/* Start of CSS Section C */
+/* -------------------------------------------- */
+.postid-11470 .section-c{
+    padding: 100px 0  40px;
+}
+
+
+.postid-11470 .section-c .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    color: #837970;
+    padding-bottom: 60px;
+    margin-top: 0;
+}
+
+.postid-11470 .section-c .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.postid-11470 .section-c .row-title h4{
+    font-size: 22px;
+}
+
+.postid-11470 .section-c .row-title .text-a{
+    font-size: 18px;
+    word-spacing: 8px;
+    font-weight: 300;
+}
+
+.postid-11470 .section-c .row-title .text-b{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* Map */
+
+.postid-11470 .section-c-2{
+    margin-bottom: 0;
+}
+
+.postid-11470 .section-c-3{
+    padding: 30px 0 30px;
+}
+
+.postid-11470 .section-c-3 span.map-title {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:992px){
+
+}
+
+@media screen and (max-width:550px){
+}
+
+
+/* End of CSS Section C */
+/* -------------------------------------------- */
+
+
+
+/* -------------------------------------------- */
+/* Start of CSS section-d */
+.postid-11470 .section-d .container-fluid{
+    padding: 100px 0 100px;
+}
+
+.postid-11470 .section-d .section-title{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #837970;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.postid-11470 .section-d .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.postid-11470 .section-d .section-sub-title{
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 24px;
+    color:#837970;
+    font-weight: 300;
+}
+
+.postid-11470 .section-d .icon-block{
+    float: left;
+    width: 25%;
+    height: 260px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.postid-11470 .section-d .icon-block img {
+    margin: 20px 0;
+}
+
+.postid-11470 .section-d .icon-block p{
+    text-align: center;
+    color: #837970;
+    max-width: 100%;
+    font-size: 17px;
+    width: 200px;
+    margin: 0 auto;
+    line-height: 1.3;
+}
+
+.postid-11470 .section-d .icon-block:nth-child(5), .section-d .icon-block:nth-child(6), .section-d .icon-block:nth-child(7), .section-d .icon-block:nth-child(8){
+    border-bottom: none;
+}
+
+.postid-11470 .section-d .icon-block:nth-child(4),
+.postid-11470 .section-d .icon-block:nth-child(8){
+    border-right: none;
+}
+
+@media screen and (max-width:992px){
+    .postid-11470 .section-d .icon-block{
+        width: 50%;
+    }
+    
+    .postid-11470 .section-d .icon-block:nth-child(2),
+    .postid-11470 .section-d .icon-block:nth-child(6){
+        border-right:none;
+    }
+    
+    .postid-11470 .section-d .icon-block:nth-child(5),
+    .postid-11470 .section-d .icon-block:nth-child(6) {
+        border-bottom: 1px solid #f1f1f1;
+    }
+}
+
+@media screen and (max-width:550px){
+    .postid-11470 .section-d .icon-block{
+        width: 100%;
+        border-right: none;
+    }
+    .postid-11470 .section-d .icon-block:nth-child(7){
+        border-bottom: 1px solid #f1f1f1;
+    }
+}
+
+/* -------------------------------------------- */
+/* End of CSS section-d */
+
+
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section-E*/
+
+.postid-11470 .section-e{
+    padding: 100px 0px;
+    background-color: #f4f3f2;
+}
+
+.postid-11470 .section-e .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    color: #837970;
+    padding-bottom: 60px;
+    margin-top: 0;
+}
+
+.postid-11470 .section-e .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+.postid-11470 .section-e .content-e{
+    display: table;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.postid-11470 .section-e .content-e  .column-01{
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    position: relative;
+    color: #dbc89e;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.postid-11470 .section-e .content-e  .column-01 h2{
+    font-size: 24px;
+}
+
+.postid-11470 .section-e .content-e  .column-02 h3{
+    font-size:14px;
+    font-weight: 700;
+    color: #837970;
+}
+
+.postid-11470 .section-e .content-e  .column-02 ul li{
+    font-size:14px;
+    color: #837970;
+    font-weight: 300;
+}
+
+@media screen and (min-width:1440px){
+    .postid-11470 .section-e .content-e  .column-02{
+        padding-left: 70px!important;
+    }
+    
+    .postid-11470 .section-e .content-e  .column-02 h3{
+        font-size:22px;
+        font-weight: 700;
+    }
+    
+    .postid-11470 .section-e .content-e  .column-02 ul li{
+        font-size:20px;
+    }
+    
+    .postid-11470 .section-e .content-e  .column-01 h2{
+        font-size:45px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .postid-11470 .section-e .content-e  .column-01{
+        margin: 0;
+        padding: 0;
+        display: table-cell;
+        width: 25%;
+        vertical-align: middle;
+    }
+    
+    .postid-11470 .section-e .content-e  .column-02{
+        padding-left: 30px;
+        border-left: 2px solid #dbc89e;
+    }
+}
+
+@media screen and (max-width:992px){
+    .postid-11470 .section-e .content-e .column-01 h2:before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 40px;
+        height: 2px;
+        background-color: #dbc89e;
+    }
+    .postid-11470 .section-e .content-e .column-02{
+        margin-top: 70px;
+    }
+}
+/* -------------------------------------------- */
+/* End of CSS Section-E */
+
+
+
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section-F */
+.postid-11470 .section-f{
+    padding: 100px 0;
+    background-color: #f4f3f2;
+}
+
+
+.postid-11470 .section-f .section-title{
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #837970;
+    text-align: center;
+    margin-top: 0;
+}
+
+.postid-11470 .section-f .section-title:after{
+    content: '';
+    display: block;
+    width: 62px;
+    height: 2px;
+    background: #dbc89e;
+    margin: 20px auto 0;
+}
+
+
+.postid-11470 .section-f .col-img .img-text{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.postid-11470 .section-f .col-img img{
+    opacity: 0.8;
+    filter: alpha(opacity=40);
+    width: 100%;
+}
+
+.postid-11470 .section-f .col-img h4{
+    font-size: 26px;
+}
+.postid-11470 .section-f .col-img p{
+    font-size: 18px;
+}
+
+
+/* Start of CSS Hover */
+/* -------------------------------------------- */
+.postid-11470 .section-f .hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+    background-color: #fff;
+}
+
+.postid-11470 .section-f .hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.postid-11470 .section-f .hovereffect:hover .overlay {
+  background-color: rgba(238, 125, 34, 0.8);
+}
+
+.postid-11470 .section-f .hovereffect:hover .img-text{
+    display: none;
+}
+
+.postid-11470 .section-f .hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.postid-11470 .section-f .hovereffect .overlay-text {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  margin-top: 10%;
+  width: 80%;
+}
+
+.postid-11470 .section-f .hovereffect .overlay-text .title{
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: left;
+    text-transform: none;
+}
+
+.postid-11470 .section-f .hovereffect .overlay-text ul{
+    text-align: left;
+    padding: 0;
+}
+.postid-11470 .section-f .hovereffect .overlay-text ul li{
+    text-align: left;
+    text-transform: none;
+    font-size: 16px;
+}
+.postid-11470 .section-f .hovereffect:hover .overlay-text {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* End of CSS Hover */
+/* -------------------------------------------- */
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section-H*/
+
+.postid-11470 .section-h{
+    padding: 100px 0px 0;
+}
+
+.postid-11470 .section-h .section-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+.postid-11470 .section-h .content-h{
+    margin-bottom: 0;
+}
+
+.postid-11470 .section-h .content-h .images{
+    
+}
+
+.postid-11470 .section-h .content-h .image1{
+    text-align: center;
+}
+
+.postid-11470 .section-h .content-h .image1 img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.postid-11470 .section-h .content-h .images-content .text-content{
+    margin-top: -20px;
+    background-color: rgba(110, 109, 107, 0.9);
+    padding: 40px 20px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.postid-11470 .section-h .content-h .images-content .text-content h2{
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 24px;
+    color: #dbc89e;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.postid-11470 .section-h .content-h .images-content .text-content h2:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #dbc89e;
+}
+
+.postid-11470 .section-h .content-h .images-content .presentation p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.postid-11470 .section-h .content-h .images-content .presentation p:last-child{
+    margin-bottom: 0;
+}
+
+.postid-11470 .section-h .content-h .images-content .read{
+    display: block;
+    color: #a9dbda;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+    clear: both;
+}
+
+
+@media only screen and (min-width: 1024px){
+    .postid-11470 .section-h .content-h{
+        margin-bottom: 70px;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+    .postid-11470 .section-h .content-h .images{
+        max-width: 66%;
+        float: right;
+    }
+    
+    .postid-11470 .section-h .content-h .images-content{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 45%;
+        max-width: 650px;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    .postid-11470 .section-h .content-h .images-content .text-content{
+        margin-top: 0;
+        padding: 45px 30px;
+    }
+    .postid-11470 .section-h .content-h .images-content .read{
+        padding-left: 30px;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .postid-11470 .section-h .content-h{
+        margin-bottom:100px;
+    }
+    .postid-11470 .section-h .content-h .images-content .text-content{
+        padding: 50px 75px 50px 50px;
+    }
+    .postid-11470 .section-h .content-h .images-content .text-content h2{
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    .postid-11470 .section-h .content-h .images-content .presentation p{
+        font-size:22px;
+    }
+}
+
+/* End of CSS Section-H */
+/* -------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------- */
+/* Start of CSS Section-G  - Footer */
+.postid-11470 .section-g{
+    margin-top: 60px;
+}
+
+.postid-11470 .section-g .container-fluid{
+    background: #e9691e;
+    background: -moz-linear-gradient(left, #e9691e 0%, #b8222e 100%);
+    background: -webkit-linear-gradient(left, #e9691e 0%,#b8222e 100%);
+    background: linear-gradient(to right, #e9691e 0%,#b8222e 100%);
+    color: #fff;
+    padding: 60px 0;
+}
+
+.postid-11470 .section-g .block-02{
+    border-left: 5px solid #fff;
+    padding-left: 50px;
+    height: 385px;
+    padding-bottom: 10px;
+}
+
+.postid-11470 .section-g .block-01 .title{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.postid-11470 .section-g .block-02 .title{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.postid-11470 .section-g .block-01 button.btn {
+    background-color: #fff;
+    color: #ee7d22;
+    padding: 4px 20px;
+}
+
+.postid-11470 .section-g .block-01 img{
+    padding-bottom: 20px;
+}
+
+.postid-11470 .section-g .block-02 p{
+    color: #fff;
+    font-size: 15px;
+    max-width: 100%;
+}
+
+.postid-11470 .section-g .block-02 ul.social{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.postid-11470 .section-g .block-02 .title.social{
+    padding-bottom: 10px;
+}
+.postid-11470 .section-g .block-02 ul.social li{
+    display: inline-block;
+}
+
+.postid-11470 .section-g .block-02 ul.social li a{
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width:992px){
+    .postid-11470 .section-g .block-01,
+    .postid-11470 .section-g .block-02{
+        border-left: none;
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+    
+    .postid-11470 .section-g .block-01{
+        border-bottom: 3px solid #fff;
+    }
+    
+    .postid-11470 .section-g .block-02{
+         margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .postid-11470 .section-g .block-01 .title, .section-g .block-02 .title {
+        font-size: 26px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    
+    .postid-11470 .section-g .block-02 ul.social{
+        text-align: center;
+    }
+}
+
+
+/* End of CSS Section-G */
+/* -------------------------------------------- */
+
+
+
+/* Anchor */
+#services::before,#africa-footprint::before,#africa-sustainability::before {
+    display: block;
+    content: " ";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  #built-to-suit::before{
+    display: block;
+    content: " ";
+    margin-top: 50px;
+    height: 50px;
+    visibility: hidden;
+    pointer-events: none;
+  }/* End custom CSS */

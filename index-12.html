@@ -1,0 +1,593 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	United Projects Co.
+</title><meta name="description" /><link rel="shortcut icon" href="images/favicon.ico" /><meta name="viewport" content="width=device-width" /><meta name="viewport" content="width=1000" /><link rel="stylesheet" href="css/main.css" /><link rel="stylesheet" href="css/flexslider.css" /><link rel="stylesheet" href="css/slicknav.css" />
+     
+    <script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+</head>
+<body>
+
+
+    <form name="aspnetForm" method="post" action="./" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNDc4MTQ2MDIPZBYCZg9kFgICAw9kFghmD2QWBgIFDw8WAh4HVmlzaWJsZWhkZAINDxYCHgVjbGFzcwUGYWN0aXZlZAIVD2QWAgIDDxYCHgtfIUl0ZW1Db3VudAIEFghmD2QWAgIBDw8WAh4LTmF2aWdhdGVVcmwFHi4uL1Byb2plY3REZXRhaWxzLmFzcHg/aWQ9MTAwNmQWAmYPFQEQRGlzY292ZXJ5IENlbnRlcmQCAQ9kFgICAQ8PFgIfAwUeLi4vUHJvamVjdERldGFpbHMuYXNweD9pZD0xMDA0ZBYCZg8VARRTaGVpa2ggU2FhZCBUZXJtaW5hbGQCAg9kFgICAQ8PFgIfAwUeLi4vUHJvamVjdERldGFpbHMuYXNweD9pZD0xMDA1ZBYCZg8VASFBaXJwb3J0IE1hbGwgJiBQYXJraW5nIEZhY2lsaXRpZXNkAgMPZBYCAgEPDxYCHwMFHi4uL1Byb2plY3REZXRhaWxzLmFzcHg/aWQ9MTAwN2QWAmYPFQEJUmVlbSBNYWxsZAIBD2QWAgIBDxYCHwICCBYQZg9kFgRmDxUBCVJlZW0gTWFsbGQCAQ8PFgIeCEltYWdlVXJsBSB+L3VzZXJmaWxlcy9iYW5uZXIvMTAxNm1hbmkyLmpwZ2RkAgEPZBYEZg8VAQlSZWVtIE1hbGxkAgEPDxYCHwQFIH4vdXNlcmZpbGVzL2Jhbm5lci8xMDE1bWFpbjEuanBnZGQCAg9kFgRmDxUBEkFpcnBvcnQgTWFuYWdlbWVudGQCAQ8PFgIfBAUhfi91c2VyZmlsZXMvYmFubmVyLzEwMTQyMTAwNjEuanBnZGQCAw9kFgRmDxUBEkFpcnBvcnQgTWFuYWdlbWVudGQCAQ8PFgIfBAUnfi91c2VyZmlsZXMvYmFubmVyLzEwMTMxMTAwN2FpcnBvcnQuanBnZGQCBA9kFgRmDxUBFFNoZWlraCBTYWFkIFRlcm1pbmFsZAIBDw8WAh8EBRx+L3VzZXJmaWxlcy9iYW5uZXIvMTAxMTMuanBnZGQCBQ9kFgRmDxUBFFNoZWlraCBTYWFkIFRlcm1pbmFsZAIBDw8WAh8EBSF+L3VzZXJmaWxlcy9iYW5uZXIvMTAxMHNoZWlraC5qcGdkZAIGD2QWBGYPFQEQRGlzY292ZXJ5IENlbnRlcmQCAQ8PFgIfBAUkfi91c2VyZmlsZXMvYmFubmVyLzEwMDlkaXNjb3ZlcnkuanBnZGQCBw9kFgRmDxUBEERpc2NvdmVyeSBDZW50ZXJkAgEPDxYCHwQFHH4vdXNlcmZpbGVzL2Jhbm5lci8xMDA4Mi5qcGdkZAICD2QWDAIBD2QWAgIDDxYCHwICBBYIZg9kFgZmDxUBG1Byb2plY3REZXRhaWxzLmFzcHg/aWQ9MTAwNmQCAQ8PFgIfBAUqfi91c2VyZmlsZXMvcHJvamVjdGltYWdlcy9tZWRpdW0vMTM0ODEuanBnZGQCBA8VARBEaXNjb3ZlcnkgQ2VudGVyZAIBD2QWBmYPFQEbUHJvamVjdERldGFpbHMuYXNweD9pZD0xMDA0ZAIBDw8WAh8EBSt+L3VzZXJmaWxlcy9wcm9qZWN0aW1hZ2VzL21lZGl1bS8xMjUxNzEuanBnZGQCBA8VARRTaGVpa2ggU2FhZCBUZXJtaW5hbGQCAg9kFgZmDxUBG1Byb2plY3REZXRhaWxzLmFzcHg/aWQ9MTAwNWQCAQ8PFgIfBAUrfi91c2VyZmlsZXMvcHJvamVjdGltYWdlcy9tZWRpdW0vMTE0NTYxLmpwZ2RkAgQPFQEhQWlycG9ydCBNYWxsICYgUGFya2luZyBGYWNpbGl0aWVzZAIDD2QWBmYPFQEbUHJvamVjdERldGFpbHMuYXNweD9pZD0xMDA3ZAIBDw8WAh8EBSp+L3VzZXJmaWxlcy9wcm9qZWN0aW1hZ2VzL21lZGl1bS8xMzk2MS5qcGdkZAIEDxUBCVJlZW0gTWFsbGQCAw8WAh4EVGV4dAUPQ29tcGFueSBQcm9maWxlZAIFDxYCHwUF+QI8cD4NCglVUEFDIGlzIGEgbGVhZGluZyBwbGF5ZXIgaW4gY29tbWVyY2lhbCBwcm9qZWN0cyB0aGF0IGZvc3RlciBkZXZlbG9wbWVudCBhbmQgZ3Jvd3RoIGluIHRoZSByZWdpb27igJlzIHJlYWwgZXN0YXRlIHNlY3Rvci48L3A+DQo8cD4NCglXZSBvZmZlciBmYXN0IGRlY2lzaW9ucywgbWluaW1hbCBidXJlYXVjcmFjeSBhbmQgbWF4aW11bSBkZXBlbmRhYmlsaXR5IGFuZCB3ZSB1c2Ugb3VyIGV4cGVydGlzZSB0byBwcm92aWRlIEt1d2FpdGkgZ292ZXJubWVudCBhZ2VuY2llcyB0aGUgY29uc3VsdGFuY3kgcmVxdWlyZWQgdG8gYWNoaWV2ZSBsb25nLXRlcm0gcHJvamVjdHMuPC9wPg0KPHAgc3R5bGU9InRleHQtYWxpZ246IGp1c3RpZnk7Ij4NCgnCoDwvcD4NCmQCBw8WAh8FBQxPdXIgU2VydmljZXNkAgkPFgIfBQXRAzxwIHN0eWxlPSJ0ZXh0LWFsaWduOiBqdXN0aWZ5OyI+DQoJT3VyIGV4cGVydGlzZSBpbiBwcm9qZWN0IG1hbmFnZW1lbnQgYWxsb3dzIHVzIHRvIHByb3ZpZGUgY29tbWVyY2lhbCBlbnRlcnByaXNlcyBhIGN1c3RvbWl6ZWQgYW5kIGludGVncmF0ZWQgcmFuZ2Ugb2Ygc2VydmljZXMgdGhhdCBiZXN0IGZpdHMgdGhlaXIgYnVzaW5lc3MgbmVlZHMuIE91ciBjYXBhYmlsaXRpZXMgaW5jbHVkZTo8L3A+DQo8dWwgY2xhc3M9InNlcnZpY2VzLWxpc3QiPg0KCTxsaT4NCgkJUHJvamVjdCBNYW5hZ2VtZW50PC9saT4NCgk8bGk+DQoJCVJlYWwgRXN0YXRlIERldmVsb3BtZW50PC9saT4NCgk8bGk+DQoJCUNvbnN1bHRpbmcgYW5kIFBsYW5uaW5nPC9saT4NCgk8bGk+DQoJCUludmVzdG1lbnQgUGFydG5lcnNoaXBzPC9saT4NCgk8bGk+DQoJCVByb3BlcnR5IGFuZCBGYWNpbGl0aWVzIE1hbmFnZW1lbnQ8L2xpPg0KPC91bD4NCmQCDQ8WAh8CAgIWBGYPZBYCZg8VBQIyMQNPY3QfUHJlc3NSZWxlYXNlc0RldGFpbHMuYXNweD9pZD03M1BSRUVNIE1BTEwgU0hPV0NBU0VTIElORFVTVFJZIEVYQ0VMTEVOQ0UgVEhST1VHSCBORVcgSEVBTFRIIEFORCBTQUZFVFkgSU5JVElBVElWRR9QcmVzc1JlbGVhc2VzRGV0YWlscy5hc3B4P2lkPTczZAIBD2QWAmYPFQUCMDIDU2VwH1ByZXNzUmVsZWFzZXNEZXRhaWxzLmFzcHg/aWQ9NzI4UmVlbSBNYWxsIGRlbW9uc3RyYXRlcyBzaWduaWZpY2FudCBjb25zdHJ1Y3Rpb24gcHJvZ3Jlc3MfUHJlc3NSZWxlYXNlc0RldGFpbHMuYXNweD9pZD03MmQCAw9kFgICFw8WAh8CAgQWCGYPZBYCAgEPDxYCHwMFHi4uL3Byb2plY3RkZXRhaWxzLmFzcHg/aWQ9MTAwNmQWAmYPFQEQRGlzY292ZXJ5IENlbnRlcmQCAQ9kFgICAQ8PFgIfAwUeLi4vcHJvamVjdGRldGFpbHMuYXNweD9pZD0xMDA0ZBYCZg8VARRTaGVpa2ggU2FhZCBUZXJtaW5hbGQCAg9kFgICAQ8PFgIfAwUeLi4vcHJvamVjdGRldGFpbHMuYXNweD9pZD0xMDA1ZBYCZg8VASFBaXJwb3J0IE1hbGwgJiBQYXJraW5nIEZhY2lsaXRpZXNkAgMPZBYCAgEPDxYCHwMFHi4uL3Byb2plY3RkZXRhaWxzLmFzcHg/aWQ9MTAwN2QWAmYPFQEJUmVlbSBNYWxsZGQx0+WcuibaCAdQAfNqxRsNH/8B9252CQUmgZQ3sXOCjw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+        <section id="wrapper">
+            <header>
+
+
+                
+<section class="container">
+    <div class="logo">
+        <a href="Default.aspx"></a>
+    </div>
+    <div class="head-top">
+        <ul>
+            <div class="lang_btn">
+                <a id="ctl00_header1_lnkar" href="javascript:__doPostBack(&#39;ctl00$header1$lnkar&#39;,&#39;&#39;)">العربية</a>
+            </div>
+            <div class="lang_btn">
+                
+            </div>
+            <li id="ctl00_header1_licontact">
+                <a href="ContactUs.aspx">Contact Us</a>
+            </li>
+            <li id="ctl00_header1_lilocation">
+                <a href="LocationMap.aspx">Location Map</a>
+            </li>
+            <li id="ctl00_header1_licareer">
+                <a href="Careers.aspx">Careers</a>
+            </li>
+
+        </ul>
+    </div>
+    <nav>
+        <ul id="menu">
+            <li id="ctl00_header1_lihome" class="active">
+                <a href="Default.aspx">Home</a></li>
+            <li id="ctl00_header1_liabout">
+                <a href="WhoWeAre.aspx">About Us</a>
+                <ul class="subMenu">
+                    <li>
+                        <a href="WhoWeAre.aspx">Who We Are</a></li>
+                    <li>
+                        <a href="MessagesFromCeo.aspx">Message from the CEO</a></li>
+                    <li>
+                        <a id="ctl00_header1_HyperLink13" href="Vision.aspx">Vision Mission and Values</a></li>
+                    <li>
+                        <a href="BoardofDirectors.aspx">Board of Directors</a></li>
+                    <li>
+                        <a id="ctl00_header1_HyperLink8" href="ExecutiveManagement.aspx">Executive Management</a></li>
+
+                   
+                </ul>
+            </li>
+            <li id="ctl00_header1_liservices">
+                <a href="Services.aspx">Services</a>
+            </li>
+            <li id="ctl00_header1_licustomer">
+                <a href="CustomerSolutions.aspx">Customers & Solutions</a></li>
+            <li id="ctl00_header1_liproject">
+                <a href="Projects.aspx">Projects</a>
+                <ul class="subMenu">
+                    
+                            <li>
+                                <a href="ProjectDetails.aspx?id=1006">Discovery Center</a></li>
+                        
+                            <li>
+                                <a href="ProjectDetails.aspx?id=1004">Sheikh Saad Terminal</a></li>
+                        
+                            <li>
+                                <a href="ProjectDetails.aspx?id=1005">Airport Mall & Parking Facilities</a></li>
+                        
+                            <li>
+                                <a href="ProjectDetails.aspx?id=1007">Reem Mall</a></li>
+                        
+                    
+                </ul>
+            </li>
+            <li id="ctl00_header1_liinvestor">
+                <a href="InvestorRelations.aspx">Investor Relations</a>
+                <ul class="subMenu">
+                    <li>
+                        <a id="ctl00_header1_HyperLink9" href="CorporateGovernance.aspx">Corporate Governance</a>
+                        <ul>
+                            <li>
+                                <a id="ctl00_header1_HyperLink15" href="BusinessEthics.aspx">Code of Business Ethics and Conduct</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a id="ctl00_header1_HyperLink12" href="InvestorRelations.aspx">Key Financial Highlights</a></li>
+                    <li>
+                        <a id="ctl00_header1_HyperLink14" href="FinancialReports.aspx">Financial Reports</a></li>
+
+                      <li>
+                        <a id="ctl00_header1_HyperLink20" href="AnnualReports.aspx">Annual Reports</a></li>
+
+                    <li>
+                        <a id="ctl00_header1_HyperLink11" href="DisclosureArchives.aspx">Disclosures</a></li>
+					  <li>
+                        <a id="ctl00_header1_SubscriptionProspect" href="SubscriptionProspectus.aspx">Subscription Prospectus</a></li>
+					
+                </ul>
+
+
+            </li>
+            <li id="ctl00_header1_limedia">
+                <a href="MediaCenter.aspx">Media Center</a>
+                <ul class="subMenu">
+                    <li>
+                        <a href="PressReleases.aspx">Latest News</a></li>
+                    
+                    <li>
+                        <a href="PhotoGallery.aspx">Photo Gallery</a></li>
+                    <li>
+                        <a href="brochure.aspx">Brochures</a></li>
+                    
+                </ul>
+            </li>
+            <li id="ctl00_header1_ligovernance">
+                <a id="ctl00_header1_HyperLink1" href="CorporateSocialResponsibility.aspx">CSR</a>
+                
+            </li>
+        </ul>
+    </nav>
+</section>
+
+
+            </header>
+            <section class="main-wrap">
+                
+<section class="banner">
+    <div class="flexslider">
+        <ul class="slides">
+            
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Reem Mall</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl00_imgbanner" src="userfiles/banner/1016mani2.jpg" border="0" />
+
+                    </li>
+                
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Reem Mall</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl01_imgbanner" src="userfiles/banner/1015main1.jpg" border="0" />
+
+                    </li>
+                
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Airport Management</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl02_imgbanner" src="userfiles/banner/1014210061.jpg" border="0" />
+
+                    </li>
+                
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Airport Management</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl03_imgbanner" src="userfiles/banner/101311007airport.jpg" border="0" />
+
+                    </li>
+                
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Sheikh Saad Terminal</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl04_imgbanner" src="userfiles/banner/10113.jpg" border="0" />
+
+                    </li>
+                
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Sheikh Saad Terminal</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl05_imgbanner" src="userfiles/banner/1010sheikh.jpg" border="0" />
+
+                    </li>
+                
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Discovery Center</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl06_imgbanner" src="userfiles/banner/1009discovery.jpg" border="0" />
+
+                    </li>
+                
+
+                    <li>
+                        <div class="banner-cont">
+                            <div class="container">
+                                <div class="bnr-head">
+                                    <h1>Discovery Center</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <img id="ctl00_banner1_rptbanner_ctl07_imgbanner" src="userfiles/banner/10082.jpg" border="0" />
+
+                    </li>
+                
+ 
+        </ul>
+    </div>
+</section>
+
+                <section class="container">
+                    
+    <section class="row">
+        <section id="ctl00_ContentPlaceHolder1_sectionproject" class="home-project">
+            <article class="col-xs-12">
+                <div class="project-head">
+                    <h1>
+                        Current Projects</h1>
+                </div>
+            </article>
+            
+                    <article class="col-xs-3 ">
+                        <div class="project-col view view-first">
+                            <a href='ProjectDetails.aspx?id=1006'>
+                                <div class="project-image">
+                                    <img id="ctl00_ContentPlaceHolder1_rptproject_ctl00_imgproject" class="img-responsive" maxheight="206px" src="userfiles/projectimages/medium/13481.jpg" border="0" />
+                                    
+                                   
+                                </div>
+                                <div class="mask"><span class="info">
+                                    View Project</span></div>
+                                <div class="sub-head">
+                                    <h1>Discovery Center</h1>
+                                    <span class="add-icon"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="col-xs-3 ">
+                        <div class="project-col view view-first">
+                            <a href='ProjectDetails.aspx?id=1004'>
+                                <div class="project-image">
+                                    <img id="ctl00_ContentPlaceHolder1_rptproject_ctl01_imgproject" class="img-responsive" maxheight="206px" src="userfiles/projectimages/medium/125171.jpg" border="0" />
+                                    
+                                   
+                                </div>
+                                <div class="mask"><span class="info">
+                                    View Project</span></div>
+                                <div class="sub-head">
+                                    <h1>Sheikh Saad Terminal</h1>
+                                    <span class="add-icon"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="col-xs-3 ">
+                        <div class="project-col view view-first">
+                            <a href='ProjectDetails.aspx?id=1005'>
+                                <div class="project-image">
+                                    <img id="ctl00_ContentPlaceHolder1_rptproject_ctl02_imgproject" class="img-responsive" maxheight="206px" src="userfiles/projectimages/medium/114561.jpg" border="0" />
+                                    
+                                   
+                                </div>
+                                <div class="mask"><span class="info">
+                                    View Project</span></div>
+                                <div class="sub-head">
+                                    <h1>Airport Mall & Parking Facilities</h1>
+                                    <span class="add-icon"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                
+                    <article class="col-xs-3 ">
+                        <div class="project-col view view-first">
+                            <a href='ProjectDetails.aspx?id=1007'>
+                                <div class="project-image">
+                                    <img id="ctl00_ContentPlaceHolder1_rptproject_ctl03_imgproject" class="img-responsive" maxheight="206px" src="userfiles/projectimages/medium/13961.jpg" border="0" />
+                                    
+                                   
+                                </div>
+                                <div class="mask"><span class="info">
+                                    View Project</span></div>
+                                <div class="sub-head">
+                                    <h1>Reem Mall</h1>
+                                    <span class="add-icon"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                
+
+        </section>
+        <section class="home-sec">
+            <article class="col-xs-4 features">
+                <div class="ft-head">
+                    <span class="ft-icon">
+                        <img src="images/what_icon.png">
+                    </span>
+                    <h1>
+                        Company Profile</h1>
+                </div>
+                <p>
+	UPAC is a leading player in commercial projects that foster development and growth in the region’s real estate sector.</p>
+<p>
+	We offer fast decisions, minimal bureaucracy and maximum dependability and we use our expertise to provide Kuwaiti government agencies the consultancy required to achieve long-term projects.</p>
+<p style="text-align: justify;">
+	 </p>
+
+            </article>
+            <article class="col-xs-4 features">
+                <div class="ft-head">
+                    <span class="ft-icon">
+                        <img src="images/services_icon.png">
+                    </span>
+                    <h1>
+                        Our Services</h1>
+                </div>
+                <p style="text-align: justify;">
+	Our expertise in project management allows us to provide commercial enterprises a customized and integrated range of services that best fits their business needs. Our capabilities include:</p>
+<ul class="services-list">
+	<li>
+		Project Management</li>
+	<li>
+		Real Estate Development</li>
+	<li>
+		Consulting and Planning</li>
+	<li>
+		Investment Partnerships</li>
+	<li>
+		Property and Facilities Management</li>
+</ul>
+
+
+            </article>
+            <article class="col-xs-4 features">
+                <div class="ft-head">
+                    <span class="ft-icon">
+                        <img src="images/news_icon.png">
+                    </span>
+                    <h1>
+                    Latest News  </h1>
+                </div>
+                
+                        <article class="home-news">
+                           
+                                <div class="date-box">
+                                    <h2>21</h2>
+                                    <span>Oct </span>
+                                </div>
+                                <div class="news-right">
+                                     <a href= 'PressReleasesDetails.aspx?id=73'>
+                                    <h2>REEM MALL SHOWCASES INDUSTRY EXCELLENCE THROUGH NEW HEALTH AND SAFETY INITIATIVE</h2> </a>
+                                     <a href='PressReleasesDetails.aspx?id=73' class="read">  Read More </a>
+                                     </div>
+                           
+                        </article>
+                    
+                        <article class="home-news">
+                           
+                                <div class="date-box">
+                                    <h2>02</h2>
+                                    <span>Sep </span>
+                                </div>
+                                <div class="news-right">
+                                     <a href= 'PressReleasesDetails.aspx?id=72'>
+                                    <h2>Reem Mall demonstrates significant construction progress</h2> </a>
+                                     <a href='PressReleasesDetails.aspx?id=72' class="read">  Read More </a>
+                                     </div>
+                           
+                        </article>
+                    
+              
+            </article>
+        </section>
+    </section>
+
+
+
+                </section>
+            </section>
+        </section>
+
+
+        <footer>
+
+
+
+
+            
+
+<div id="toppanel">
+    <section class="container">
+        <section class="row">
+            <div id="panel">
+                <div class="ft-logo">
+                    <img src="images/ft_logo.png">
+                </div>
+                <div class="ftMenu">
+                    <h2>
+                        About Us</h2>
+                    <ul>
+                        <li><a href="WhoWeAre.aspx">Who We Are</a></li>
+                        <li><a href="MessagesFromCeo.aspx">Message from the CEO</a></li>
+                        <li><a href="BoardofDirectors.aspx">Board of Directors</a></li>
+                    </ul>
+                    <h2><a href="CustomerSolutions.aspx">Customers & Solutions</a></h2>
+                    <h2><a href="InvestorRelations.aspx">Investor Relations</a></h2>
+                    <h2><a href="Careers.aspx">Careers</a></h2>
+                    <h2><a href="ContactUs.aspx">Contact Us</a></h2>
+                </div>
+                <div class="ftMenu full-menu ">
+                    <h2>Services</h2>
+                    <ul>
+                        <li><a>Airport Management</a></li>
+                        <li><a>Real Estate Management</a></li>
+                        <li><a>Car Park Management</a></li>
+                        <li><a>Security and Cleaning Services</a></li>
+                        <li><a>Management of Check in Counters</a></li>
+                        <li><a>Engineering and Custodial Services</a></li>
+                        <li><a>Facility and Maintenance Services</a></li>
+                        <li><a>Exterior Landscaping</a></li>
+                        <li><a>Project Management and Scheduling</a></li>
+                        <li><a>Management of Sub-Contractors and Suppliers</a></li>
+                        <li><a>Project Consulting Services</a></li>
+                        <li><a>Site Development</a></li>
+                        <li><a>Space Design and Planning</a></li>
+                        <li><a>Utilities and Communication Infrastructure</a></li>
+                    </ul>
+                </div>
+                <div class="ftMenu">
+                    <h2> Projects</h2>
+                    <ul>
+                        
+                                <li><a href="projectdetails.aspx?id=1006">Discovery Center</a></li>
+                            
+                                <li><a href="projectdetails.aspx?id=1004">Sheikh Saad Terminal</a></li>
+                            
+                                <li><a href="projectdetails.aspx?id=1005">Airport Mall & Parking Facilities</a></li>
+                            
+                                <li><a href="projectdetails.aspx?id=1007">Reem Mall</a></li>
+                            
+                     
+                    </ul>
+                    <h2 class="menuMrg">  Media Center</h2>
+                    <ul>
+                        <li><a href="PressReleases.aspx">Press Releases</a></li>
+                        <li><a href="PhotoGallery.aspx">Photo Gallery</a></li>
+                        <li><a href="brochure.aspx">Brochures</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div id="toggle"><a id="open" class="open" >Site Map</a><a id="close" style="display: none;" class="close" > Site Map</a></div>
+</div>
+<section class="copyPart">
+    <section class="container">
+        <p>Copyright ©  2018 UPAC. All rights reserved. </p>
+      
+        <div class="socialIcon">
+      <ul>
+       <!-- <li class="twitter"><a href="https://twitter.com/UICKuwait" target="_blank"></a></li>
+        <li class="instagram"><a href="#"  ></a></li>-->
+        <li class="facebook"><a href="https://www.linkedin.com/company/united-projects-for-aviation-services-kscp?trk=company_logo" target="_blank"></a></li>
+      </ul>
+      
+<div class="linkdin_count"><script src="http://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/FollowCompany" data-id="10022198" data-counter="top"></script></div>
+
+    </div> 
+    </section>
+</section>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-60475338-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+        </footer>
+        <script src=" http://www.upac.com.kw/js/jquery.min.js"></script>
+
+
+        <script>window.jQuery || document.write('<script src="http://www.upac.com.kw/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script src="http://www.upac.com.kw/js/main.js"></script>
+        <script>$(document).ready(function () {
+
+    // Expand Panel
+    $("#open").click(function () {
+        $("div#panel").slideDown("slow");
+
+    });
+
+    // Collapse Panel
+    $("#close").click(function () {
+        $("div#panel").slideUp("slow");
+    });
+
+    // Switch buttons from "Log In | Register" to "Close Panel" on click
+    $("#toggle a").click(function () {
+        $("#toggle a").toggle();
+        $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    });
+
+});
+        </script>
+        <script src="http://www.upac.com.kw/js/jquery.slicknav.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#menu').slicknav();
+            });
+
+        </script>
+        <script defer src="http://www.upac.com.kw/js/jquery.flexslider.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                SyntaxHighlighter.all();
+            });
+            $(window).load(function () {
+                $('.flexslider').flexslider({
+                    animation: "fade",
+                    slideshowSpeed: 5000,
+                    start: function (slider) {
+                        $('body').removeClass('loading');
+                    }
+                });
+            });
+        </script>
+    </form>
+</body>
+</html>
